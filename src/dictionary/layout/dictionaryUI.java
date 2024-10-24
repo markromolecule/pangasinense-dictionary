@@ -4,17 +4,9 @@ import dictionary.helper.navLetterHover;
 import dictionary.helper.navBarHover;
 import dictionary.manager.wordManager;
 import dictionary.entities.word;
-import dictionary.layout.showWordDetails;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.AdjustmentEvent;
-import java.awt.event.AdjustmentListener;
-import java.util.Iterator;
-import java.util.Map;
 import java.util.TreeMap;
-import javax.swing.JButton;
 import javax.swing.JFrame;
-
 
 public class dictionaryUI extends javax.swing.JFrame {
 
