@@ -48,13 +48,15 @@
               <Component id="titlePanel" max="32767" attributes="0"/>
               <Component id="navBarPanel" alignment="0" max="32767" attributes="0"/>
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
-                          <Component id="wordsScrollPane" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="wordsScrollPane" min="-2" pref="1018" max="-2" attributes="0"/>
                       </Group>
-                      <Component id="navWordsPanel" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="navWordsPanel" min="-2" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
@@ -69,8 +71,8 @@
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Component id="navWordsPanel" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="wordsScrollPane" pref="486" max="32767" attributes="0"/>
-                  <EmptySpace pref="34" max="32767" attributes="0"/>
+                  <Component id="wordsScrollPane" min="-2" pref="492" max="-2" attributes="0"/>
+                  <EmptySpace pref="27" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -219,6 +221,48 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="searchBarActionPerformed"/>
               </Events>
             </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="wordsScrollPane">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor" postCode="getContentPane().add(wordsScrollPane, java.awt.BorderLayout.CENTER);&#xa;revalidate();&#xa;repaint();&#xa;wordsScrollPane.setViewportView(wordsPanel);">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+            <Property name="verticalScrollBarPolicy" type="int" value="22"/>
+            <Property name="viewportBorder" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                <EtchetBorder/>
+              </Border>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="wordsPanel">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new java.awt.Color(255, 255, 255)" type="code"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Helvetica Neue" size="12" style="1"/>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JPanel()"/>
+                <AuxValue name="JavaCodeGenerator_LayoutCodePre" type="java.lang.String" value="wordsPanel.removeAll();  &#xa;&#xa;wordManager wordMgr = new wordManager();&#xa;TreeMap&lt;String, word&gt; wordsMap = wordMgr.getWordMap();&#xa;for (String key : wordsMap.keySet()) {&#xa;        word wordObj = wordsMap.get(key);&#xa;        javax.swing.JButton wordButton = new javax.swing.JButton(wordObj.getPangasinense());&#xa;        &#xa;        wordButton.setBackground(new java.awt.Color(246, 241, 234)); &#xa;        wordButton.addActionListener(new ActionListener() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                showWordDetails wordDetailsPanel = new showWordDetails(wordObj);&#xa;                javax.swing.JFrame frame = new javax.swing.JFrame();&#xa;                frame.add(wordDetailsPanel);&#xa;                frame.setUndecorated(false);&#xa;                frame.pack();&#xa;                frame.setLocationRelativeTo(null);&#xa;                frame.setVisible(true);&#xa;                &#xa;            }&#xa;        });&#xa;        wordsPanel.add(wordButton);&#xa;    }&#xa;    wordsPanel.revalidate();&#xa;    wordsPanel.repaint();"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+                <Property name="columns" type="int" value="6"/>
+                <Property name="horizontalGap" type="int" value="2"/>
+                <Property name="rows" type="int" value="6"/>
+                <Property name="verticalGap" type="int" value="2"/>
+              </Layout>
+            </Container>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="navWordsPanel">
@@ -846,48 +890,6 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="zButtonActionPerformed"/>
               </Events>
             </Component>
-          </SubComponents>
-        </Container>
-        <Container class="javax.swing.JScrollPane" name="wordsScrollPane">
-          <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor" postCode="getContentPane().add(wordsScrollPane, java.awt.BorderLayout.CENTER);&#xa;revalidate();&#xa;repaint();&#xa;wordsScrollPane.setViewportView(wordsPanel);">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
-            </Property>
-            <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
-            <Property name="verticalScrollBarPolicy" type="int" value="22"/>
-            <Property name="viewportBorder" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-              <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
-                <EtchetBorder/>
-              </Border>
-            </Property>
-            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-              <Color id="Hand Cursor"/>
-            </Property>
-          </Properties>
-
-          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-          <SubComponents>
-            <Container class="javax.swing.JPanel" name="wordsPanel">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-                  <Connection code="new java.awt.Color(255, 255, 255)" type="code"/>
-                </Property>
-                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Helvetica Neue" size="12" style="1"/>
-                </Property>
-              </Properties>
-              <AuxValues>
-                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JPanel()"/>
-                <AuxValue name="JavaCodeGenerator_LayoutCodePre" type="java.lang.String" value="wordsPanel.removeAll();  &#xa;&#xa;wordManager wordMgr = new wordManager();&#xa;TreeMap&lt;String, word&gt; wordsMap = wordMgr.getWordMap();&#xa;for (String key : wordsMap.keySet()) {&#xa;        word wordObj = wordsMap.get(key);&#xa;        javax.swing.JButton wordButton = new javax.swing.JButton(wordObj.getPangasinense());&#xa;        &#xa;        wordButton.setBackground(new java.awt.Color(246, 241, 234)); &#xa;        wordButton.addActionListener(new ActionListener() {&#xa;            @Override&#xa;            public void actionPerformed(ActionEvent e) {&#xa;                showWordDetails wordDetailsPanel = new showWordDetails(wordObj);&#xa;                javax.swing.JFrame frame = new javax.swing.JFrame();&#xa;                frame.add(wordDetailsPanel);&#xa;                frame.setUndecorated(false);&#xa;                frame.pack();&#xa;                frame.setLocationRelativeTo(null);&#xa;                frame.setVisible(true);&#xa;                &#xa;            }&#xa;        });&#xa;        wordsPanel.add(wordButton);&#xa;    }&#xa;    wordsPanel.revalidate();&#xa;    wordsPanel.repaint();"/>
-              </AuxValues>
-
-              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
-                <Property name="columns" type="int" value="6"/>
-                <Property name="horizontalGap" type="int" value="2"/>
-                <Property name="rows" type="int" value="6"/>
-                <Property name="verticalGap" type="int" value="2"/>
-              </Layout>
-            </Container>
           </SubComponents>
         </Container>
       </SubComponents>
