@@ -4,9 +4,17 @@ import dictionary.helper.navLetterHover;
 import dictionary.helper.navBarHover;
 import dictionary.manager.wordManager;
 import dictionary.entities.word;
+import dictionary.layout.showWordDetails;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.AdjustmentEvent;
+import java.awt.event.AdjustmentListener;
+import java.util.Iterator;
+import java.util.Map;
 import java.util.TreeMap;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
 
 public class dictionaryUI extends javax.swing.JFrame {
 
@@ -14,6 +22,7 @@ public class dictionaryUI extends javax.swing.JFrame {
 
     public dictionaryUI() {
         initComponents();
+        loadWords();
         applyHoverEffects();
         setLocationRelativeTo(null);
         currentFrame = this;
@@ -42,8 +51,6 @@ public class dictionaryUI extends javax.swing.JFrame {
         homeButton = new javax.swing.JButton();
         addButton = new javax.swing.JButton();
         searchBar = new javax.swing.JTextField();
-        wordsScrollPane = new javax.swing.JScrollPane();
-        wordsPanel = new javax.swing.JPanel();
         navWordsPanel = new javax.swing.JPanel();
         aButton = new javax.swing.JButton();
         bButton = new javax.swing.JButton();
@@ -71,6 +78,8 @@ public class dictionaryUI extends javax.swing.JFrame {
         xButton = new javax.swing.JButton();
         yButton = new javax.swing.JButton();
         zButton = new javax.swing.JButton();
+        wordsScrollPane = new javax.swing.JScrollPane();
+        wordsPanel = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Dictionary");
@@ -172,47 +181,6 @@ public class dictionaryUI extends javax.swing.JFrame {
                     .addComponent(addButton))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-
-        wordsScrollPane.setBackground(new java.awt.Color(255, 255, 255));
-        getContentPane().add(wordsScrollPane, java.awt.BorderLayout.CENTER);
-        revalidate();
-        repaint();
-        wordsScrollPane.setViewportView(wordsPanel);
-        wordsScrollPane.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
-        wordsScrollPane.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
-        wordsScrollPane.setViewportBorder(javax.swing.BorderFactory.createEtchedBorder());
-        wordsScrollPane.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-
-        wordsPanel.setBackground(new java.awt.Color(255, 255, 255));
-        wordsPanel.setFont(new java.awt.Font("Helvetica Neue", 1, 12)); // NOI18N
-        wordsPanel.setLayout(new java.awt.GridLayout(6, 6, 2, 2));
-        wordsPanel.removeAll();
-
-        wordManager wordMgr = new wordManager();
-        TreeMap<String, word> wordsMap = wordMgr.getWordMap();
-        for (String key : wordsMap.keySet()) {
-            word wordObj = wordsMap.get(key);
-            javax.swing.JButton wordButton = new javax.swing.JButton(wordObj.getPangasinense());
-
-            wordButton.setBackground(new java.awt.Color(246, 241, 234));
-            wordButton.addActionListener(new ActionListener() {
-                @Override
-                public void actionPerformed(ActionEvent e) {
-                    showWordDetails wordDetailsPanel = new showWordDetails(wordObj);
-                    javax.swing.JFrame frame = new javax.swing.JFrame();
-                    frame.add(wordDetailsPanel);
-                    frame.setUndecorated(false);
-                    frame.pack();
-                    frame.setLocationRelativeTo(null);
-                    frame.setVisible(true);
-
-                }
-            });
-            wordsPanel.add(wordButton);
-        }
-        wordsPanel.revalidate();
-        wordsPanel.repaint();
-        wordsScrollPane.setViewportView(wordsPanel);
 
         navWordsPanel.setBackground(new java.awt.Color(246, 241, 234));
 
@@ -595,6 +563,22 @@ public class dictionaryUI extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
+        wordsScrollPane.setBackground(new java.awt.Color(255, 255, 255));
+        wordsScrollPane.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        wordsScrollPane.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+        wordsScrollPane.setViewportBorder(javax.swing.BorderFactory.createEtchedBorder(java.awt.Color.gray, java.awt.Color.white));
+        wordsScrollPane.setColumnHeader(null);
+        wordsScrollPane.setColumnHeaderView(null);
+        wordsScrollPane.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        wordsScrollPane.setDoubleBuffered(true);
+        wordsScrollPane.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
+        wordsScrollPane.setRowHeaderView(null);
+
+        wordsPanel.setBackground(new java.awt.Color(255, 255, 255));
+        wordsPanel.setFont(new java.awt.Font("Helvetica Neue", 1, 12)); // NOI18N
+        wordsPanel.setLayout(new java.awt.GridLayout(0, 5, 2, 2));
+        wordsScrollPane.setViewportView(wordsPanel);
+
         javax.swing.GroupLayout mainPanelLayout = new javax.swing.GroupLayout(mainPanel);
         mainPanel.setLayout(mainPanelLayout);
         mainPanelLayout.setHorizontalGroup(
@@ -621,14 +605,40 @@ public class dictionaryUI extends javax.swing.JFrame {
                 .addComponent(navWordsPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(wordsScrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, 492, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(27, Short.MAX_VALUE))
+                .addContainerGap(28, Short.MAX_VALUE))
         );
 
         getContentPane().add(mainPanel, java.awt.BorderLayout.CENTER);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+    
+    private void loadWords() {
+        wordManager wordMgr = new wordManager();
+        TreeMap<String, word> wordsMap = wordMgr.getWordMap();
+        wordsPanel.removeAll();
 
+        for (String key : wordsMap.keySet()) {
+            word wordObj = wordsMap.get(key);
+            javax.swing.JButton wordButton = new javax.swing.JButton(wordObj.getPangasinense());
+            wordButton.setPreferredSize(new java.awt.Dimension(40, 80));
+            wordButton.addActionListener((ActionEvent e) -> {
+                showWordDetails(wordObj);
+            });
+            wordsPanel.add(wordButton);
+        }
+        wordsPanel.revalidate();
+        wordsPanel.repaint();
+    }
+    private void showWordDetails(word wordObj) {
+        JFrame frame = new JFrame("Word Details");
+        frame.add(new showWordDetails(wordObj));  // Assuming showWordDetails is implemented
+        frame.pack();
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }
+
+    
     private void homeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_homeButtonActionPerformed
 
     }//GEN-LAST:event_homeButtonActionPerformed
@@ -636,7 +646,6 @@ public class dictionaryUI extends javax.swing.JFrame {
     private void addButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addButtonActionPerformed
         addWordsPanel panel = new addWordsPanel();
         javax.swing.JFrame frame = new javax.swing.JFrame();
-
         frame.add(panel);
         frame.setUndecorated(true);
         frame.pack();
@@ -644,7 +653,7 @@ public class dictionaryUI extends javax.swing.JFrame {
         frame.setVisible(true);
 
         if (currentFrame != null) {
-            currentFrame.dispose(); // Closes the current main window
+            currentFrame.dispose(); 
         }
 
         currentFrame = frame;
