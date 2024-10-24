@@ -1,0 +1,416 @@
+{
+  "aak": {
+    "id": 1,
+    "pangasinense": "aak",
+    "definition": "Refers to something that is involved or part of something.",
+    "tagalog": "kasangkot",
+    "synonyms": "kasama, kasali",
+    "antonyms": "wala, hindi kasali",
+    "sentence": "Ang mga estudyante ay aak sa proyekto ng paaralan."
+  },
+  "aalaen": {
+    "id": 2,
+    "pangasinense": "aalaen",
+    "definition": "To remember or to recall.",
+    "tagalog": "alalahanin",
+    "synonyms": "maalala, isipin",
+    "antonyms": "kalimutan",
+    "sentence": "Dapat mo ring aalaen ang mga leksiyon na iyong natutunan."
+  },
+  "aalagaren": {
+    "id": 3,
+    "pangasinense": "aalagaren",
+    "definition": "To nurture or take care of.",
+    "tagalog": "alagaan",
+    "synonyms": "alagaan, ingatan",
+    "antonyms": "pabayaan",
+    "sentence": "Dapat mo siyang aalagaren bilang iyong kapatid."
+  },
+  "aaralen": {
+    "id": 4,
+    "pangasinense": "aaralen",
+    "definition": "To study or learn something.",
+    "tagalog": "aralin",
+    "synonyms": "pag-aralan, matutunan",
+    "antonyms": "kalimutan, huwag pag-aralan",
+    "sentence": "Magandang aaralen ang mga tradisyon ng ating kultura."
+  },
+  "aawaten": {
+    "id": 5,
+    "pangasinense": "aawaten",
+    "definition": "To be affected or touched by something.",
+    "tagalog": "maapektuhan",
+    "synonyms": "maapektuhan, makaramdam",
+    "antonyms": "hindi maapektuhan",
+    "sentence": "Aawaten ng mga balita ang puso ng lahat."
+  },
+  "aba": {
+    "id": 6,
+    "pangasinense": "aba",
+    "definition": "An expression of surprise or admiration.",
+    "tagalog": "aba",
+    "synonyms": "naku, wow",
+    "antonyms": "walang interes",
+    "sentence": "Aba, ang ganda ng iyong suot!"
+  },
+  "ababuak": {
+    "id": 7,
+    "pangasinense": "ababuak",
+    "definition": "To be slightly opened.",
+    "tagalog": "bahagyang bukas",
+    "synonyms": "lumuwag, bumukas",
+    "antonyms": "magsara, isara",
+    "sentence": "Ang pinto ay ababuak nang kaunti."
+  },
+  "ababues": {
+    "id": 8,
+    "pangasinense": "ababues",
+    "definition": "To make a mistake.",
+    "tagalog": "magkamali",
+    "synonyms": "magkamali, magpabaya",
+    "antonyms": "magtagumpay",
+    "sentence": "Nais kong sabihin na lahat tayo ay may pagkakataong ababues."
+  },
+  "abagnek": {
+    "id": 9,
+    "pangasinense": "abagnek",
+    "definition": "May refer to something related to securing or locking.",
+    "tagalog": "talian",
+    "synonyms": "isara, talian",
+    "antonyms": "buksan",
+    "sentence": "Kailangan mong abagnek ang pintuan bago umalis."
+  },
+  "abagtog": {
+    "id": 10,
+    "pangasinense": "abagtog",
+    "definition": "To interfere or meddle.",
+    "tagalog": "makialam",
+    "synonyms": "makialam, manghimasok",
+    "antonyms": "umalis",
+    "sentence": "Huwag kang abagtog sa kanilang usapan."
+  },
+  "abaguey": {
+    "id": 11,
+    "pangasinense": "abaguey",
+    "definition": "May refer to the act of making something clear.",
+    "tagalog": "linawin",
+    "synonyms": "ipaliwanag, linawin",
+    "antonyms": "malabo",
+    "sentence": "Kailangan niyang abaguey ang kanyang mga plano."
+  },
+  "abaingan": {
+    "id": 12,
+    "pangasinense": "abaingan",
+    "definition": "To look forward or expect.",
+    "tagalog": "asahan",
+    "synonyms": "inaasahan, hinihintay",
+    "antonyms": "balewalain",
+    "sentence": "Abaingan ko ang iyong pagdating bukas."
+  },
+  "abak": {
+    "id": 13,
+    "pangasinense": "abak",
+    "definition": "Refers to a type of cloth or fabric.",
+    "tagalog": "tela",
+    "synonyms": "panahi, materyal",
+    "antonyms": "(N/A)",
+    "sentence": "Ang abak na ito ay galing sa Mindanao."
+  },
+  "abaka": {
+    "id": 14,
+    "pangasinense": "abaka",
+    "definition": "Refers to Manila hemp or the fiber from the abaca plant.",
+    "tagalog": "abaka",
+    "synonyms": "hibla, materyal",
+    "antonyms": "(N/A)",
+    "sentence": "Ang abaka ay ginagamit sa paggawa ng mga bags."
+  },
+  "abakada": {
+    "id": 15,
+    "pangasinense": "abakada",
+    "definition": "The Filipino alphabet or a method of teaching it.",
+    "tagalog": "abakada",
+    "synonyms": "alpabeto",
+    "antonyms": "(N/A)",
+    "sentence": "Natutunan ko ang abakada noong ako ay bata pa."
+  },
+  "abala": {
+    "id": 16,
+    "pangasinense": "abala",
+    "definition": "Busy or preoccupied.",
+    "tagalog": "abala",
+    "synonyms": "busy, abala",
+    "antonyms": "walang ginagawa",
+    "sentence": "Abala ako sa mga gawain sa opisina ngayon."
+  },
+  "abalaen": {
+    "id": 17,
+    "pangasinense": "abalaen",
+    "definition": "To make busy.",
+    "tagalog": "abalahin",
+    "synonyms": "gawain, pagkakabuhayan",
+    "antonyms": "kalmahin",
+    "sentence": "Huwag mo akong abalaen habang nag-aaral ako."
+  },
+  "abalang": {
+    "id": 18,
+    "pangasinense": "abalang",
+    "definition": "Being busy or occupied.",
+    "tagalog": "abala",
+    "synonyms": "abala, masikip",
+    "antonyms": "tahimik",
+    "sentence": "Ang mga tao sa pamilihan ay abalang abala."
+  },
+  "abalaten": {
+    "id": 19,
+    "pangasinense": "abalaten",
+    "definition": "To engage in something actively.",
+    "tagalog": "makilahok",
+    "synonyms": "makibahagi, sumali",
+    "antonyms": "iwasan",
+    "sentence": "Dapat kang abalaten sa mga gawain ng barangay."
+  },
+  "abalayan": {
+    "id": 20,
+    "pangasinense": "abalayan",
+    "definition": "A place where people gather or meet.",
+    "tagalog": "lugar",
+    "synonyms": "pagtitipunan, tirahan",
+    "antonyms": "nag-iisa",
+    "sentence": "Ang abalayan ay puno ng tao sa pista."
+  },
+  "abalbaleg": {
+    "id": 21,
+    "pangasinense": "abalbaleg",
+    "definition": "To mess or interfere with something.",
+    "tagalog": "guluhin",
+    "synonyms": "magulo, manggulo",
+    "antonyms": "ayusin",
+    "sentence": "Huwag mong abalbaleng ang aking mga gamit."
+  },
+  "abaldak": {
+    "id": 22,
+    "pangasinense": "abaldak",
+    "definition": "To knock or hit something.",
+    "tagalog": "salpukin",
+    "synonyms": "kalampagin, hampasin",
+    "antonyms": "dahan-dahan",
+    "sentence": "Abaldak mo ang pintuan kapag ikaw ay pumasok."
+  },
+  "abalinsuwek": {
+    "id": 23,
+    "pangasinense": "abalinsuwek",
+    "definition": "Refers to someone who is good at something, particularly in a skilled manner.",
+    "tagalog": "magaling",
+    "synonyms": "mahusay, eksperto",
+    "antonyms": "mahina, walang kaalaman",
+    "sentence": "Siya ay isang abalinsuwek na pintor."
+  },
+  "abalintukar": {
+    "id": 24,
+    "pangasinense": "abalintukar",
+    "definition": "To be distracted or to lose focus.",
+    "tagalog": "ma-distract",
+    "synonyms": "madistract, mawala ang atensyon",
+    "antonyms": "magtuon ng pansin",
+    "sentence": "Madali akong abalintukar kapag maraming tao sa paligid."
+  },
+  "abalitonger": {
+    "id": 25,
+    "pangasinense": "abalitonger",
+    "definition": "A term that could refer to a noise or loud sound, but may not have a specific standard meaning.",
+    "tagalog": "ingay",
+    "synonyms": "tunog, kalabog",
+    "antonyms": "katahimikan",
+    "sentence": "Ang abalitonger ng mga bata sa labas ay nakakagulo."
+  },
+  "abaliw": {
+    "id": 26,
+    "pangasinense": "abaliw",
+    "definition": "Insane or crazy.",
+    "tagalog": "baliw",
+    "synonyms": "ulol, mabaliw",
+    "antonyms": "matino, maayos",
+    "sentence": "Sa sobrang init ng panahon, parang abaliw na ang lahat."
+  },
+  "abalowan": {
+    "id": 27,
+    "pangasinense": "abalowan",
+    "definition": "To make something clear or to clarify.",
+    "tagalog": "linawin",
+    "synonyms": "ipaliwanag, gawing maliwanag",
+    "antonyms": "magduda, malabo",
+    "sentence": "Kailangan mong abalowan ang iyong mga pahayag sa pulong."
+  },
+  "abanaan": {
+    "id": 28,
+    "pangasinense": "abanaan",
+    "definition": "To bring forth or give birth.",
+    "tagalog": "ipanganak",
+    "synonyms": "magluwal, manganak",
+    "antonyms": "",
+    "sentence": "Ang kanyang ina ay abanaan ng kambal."
+  },
+  "abandonado": {
+    "id": 29,
+    "pangasinense": "abandonado",
+    "definition": "Abandoned or neglected.",
+    "tagalog": "abandonado",
+    "synonyms": "inabandona, iniwan",
+    "antonyms": "pinangalagaan",
+    "sentence": "Ang bahay na iyon ay mukhang abandonado na."
+  },
+  "abang": {
+    "id": 30,
+    "pangasinense": "abang",
+    "definition": "To wait or to watch for something.",
+    "tagalog": "maghintay",
+    "synonyms": "magbantay, asahan",
+    "antonyms": "tumakas, umalis",
+    "sentence": "Abang ako sa resulta ng pagsusulit."
+  },
+  "abangan": {
+    "id": 31,
+    "pangasinense": "abangan",
+    "definition": "To watch out for or to anticipate.",
+    "tagalog": "asahan",
+    "synonyms": "magbantay, maghintay",
+    "antonyms": "kalimutan",
+    "sentence": "Abangan mo ang aking mensahe mamaya."
+  },
+  "abangatan": {
+    "id": 32,
+    "pangasinense": "abangatan",
+    "definition": "To be on the lookout or to be vigilant.",
+    "tagalog": "magbantay",
+    "synonyms": "magmatyag, maging alerto",
+    "antonyms": "magpabaya",
+    "sentence": "Dapat tayong abangatan ang ating mga ari-arian."
+  },
+  "abangga": {
+    "id": 33,
+    "pangasinense": "abangga",
+    "definition": "To collide or bump into something.",
+    "tagalog": "banggaan",
+    "synonyms": "salpukin, makabangga",
+    "antonyms": "umiwas",
+    "sentence": "Ingat ka, baka abangga ka sa pader!"
+  },
+  "abangkrap": {
+    "id": 34,
+    "pangasinense": "abangkrap",
+    "definition": "Bankrupt or having financial difficulties.",
+    "tagalog": "nalugmok",
+    "synonyms": "lugmok, walang pera",
+    "antonyms": "mayaman, masagana",
+    "sentence": "Ang kumpanya ay nagdeklara ng abangkrap noong nakaraang taon."
+  },
+  "abangles": {
+    "id": 35,
+    "pangasinense": "abangles",
+    "definition": "May refer to things that are complicated or tangled, but this term is less commonly used.",
+    "tagalog": "magulo",
+    "synonyms": "masalimuot, ligaya",
+    "antonyms": "maayos",
+    "sentence": "Ang mga wires sa likod ng computer ay abangles."
+  },
+  "abangunan": {
+    "id": 36,
+    "pangasinense": "abangunan",
+    "definition": "A place or structure to wait, often referred to as a waiting area.",
+    "tagalog": "hintayan",
+    "synonyms": "lugar ng paghihintay",
+    "antonyms": "",
+    "sentence": "Dumaan kami sa abangunan habang naghihintay ng bus."
+  },
+  "abaniko": {
+    "id": 37,
+    "pangasinense": "abaniko",
+    "definition": "A fan, typically a handheld device used to create a breeze.",
+    "tagalog": "abaniko",
+    "synonyms": "pamaypay",
+    "antonyms": "",
+    "sentence": "Gamitin mo ang abaniko para magpalamig."
+  },
+  "abantag": {
+    "id": 38,
+    "pangasinense": "abantag",
+    "definition": "To signal or indicate something, often related to alerting.",
+    "tagalog": "magpabatid",
+    "synonyms": "ipaalam, magbigay-alam",
+    "antonyms": "itago",
+    "sentence": "Abantag mo siya kung darating na ang bisita."
+  },
+  "abante": {
+    "id": 39,
+    "pangasinense": "abante",
+    "definition": "Forward or advancing.",
+    "tagalog": "abante",
+    "synonyms": "pasulong",
+    "antonyms": "paatras",
+    "sentence": "Abante tayo sa susunod na hakbang ng proyekto."
+  },
+  "abartek": {
+    "id": 40,
+    "pangasinense": "abartek",
+    "definition": "Refers to a technique or method used in doing something.",
+    "tagalog": "teknik",
+    "synonyms": "paraan, estilo",
+    "antonyms": "",
+    "sentence": "Ang abartek na ito ay epektibo sa paglutas ng problema."
+  },
+  "abasto": {
+    "id": 41,
+    "pangasinense": "abasto",
+    "definition": "Supply or provision.",
+    "tagalog": "suplay",
+    "synonyms": "pondo, rekurso",
+    "antonyms": "kakulangan",
+    "sentence": "Dapat nating siguraduhin ang abasto ng pagkain."
+  },
+  "dala": {
+    "id": 42,
+    "pangasinense": "dala",
+    "definition": "Ang dugo ay isang natatanging pluwido biyolohikal na kinalalamnan ng selula ng pulang dugo.",
+    "tagalog": "dugo",
+    "synonyms": "sangkap ng buhay, likido ng katawan, likido ng buhay",
+    "antonyms": "patay na dugo, malinis na tubig",
+    "sentence": "Panon kaimportante parad saray Kristiano so ‘iyarawi ed dala’"
+  },
+  "dengel": {
+    "id": 43,
+    "pangasinense": "dengel",
+    "definition": "ang kakayahang naririnig o malinaw at sapat ang lakas o taas ng tunog upang umabot sa pandinig.",
+    "tagalog": "dinig",
+    "synonyms": "pandinig, pagdinig, pagkarinig, pag-uuri",
+    "antonyms": "bingi, tahimik, walang ingay",
+    "sentence": "Narerengel so boses da ya anggad Jahaz."
+  },
+  "dilaw": {
+    "id": 44,
+    "pangasinense": "dilaw",
+    "definition": "isang uri ng kulay sa pagitan ng orange at berde sa spectrum ng nakikitang liwanag.",
+    "tagalog": "duyaw",
+    "synonyms": "ginto, lemon, mais, ambar",
+    "antonyms": "asul, berde, pula, itim, puti",
+    "sentence": "Nilikud ed de-kolor a trianggulo, kinaukolan iray Judio a priso a mangilatop na sakey nin duyaw a trianggulo ed samay de-kolor a trianggulo ta pian magmaliw a Bitewen nen David ya anemiran suyok."
+  },
+  "labi": {
+    "id": 45,
+    "pangasinense": "labi",
+    "definition": "ang oras sa pagitan ng paglubog at pagsikat ng araw.",
+    "tagalog": "gabi",
+    "synonyms": "paglubog ng araw, kadiliman, hapon",
+    "antonyms": "araw, madaling araw, umaga, tanghali",
+    "sentence": "Sakey a labi et pinmasyar kami ed abung na pamilyan Tasi."
+  },
+  "mauges": {
+    "id": 46,
+    "pangasinense": "mauges",
+    "definition": "tumutukoy sa isang masidhing alitan sa pagitan ng dalawa o higit pang mga estado o bansa.",
+    "tagalog": "digmaan",
+    "synonyms": "labanan, digma, pag-aaway, paglalaban",
+    "antonyms": "kapayapaan, pagkakaisa, pagkakaayos, pagtutulungan",
+    "sentence": "Agaway impanlaban ed tawen, si Satanas tan saray mauges ya anghel to so nibantak ed dalin."
+  }
+}
