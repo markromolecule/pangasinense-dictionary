@@ -1663,5 +1663,545 @@
     "synonyms": "dumaloy, agos",
     "antonyms": "tumigil",
     "sentence": "Dagtos ng tubig mula sa bundok ang pumuno sa ilog."
+  },
+  "dakilaw": {
+    "id": 186,
+    "pangasinense": "dakilaw",
+    "definition": "A heroic or grand gesture or event.",
+    "tagalog": "kabayanihan",
+    "synonyms": "kabayanihan, kadakilaan",
+    "antonyms": "kahinaan, kasamaan",
+    "sentence": "Ang dakilaw ng kanyang ginawa ay hindi malilimutan ng bayan."
+  },
+  "eba": {
+    "id": 187,
+    "pangasinense": "eba",
+    "definition": "A biblical figure, referring to Eve, the first woman in Christian tradition.",
+    "tagalog": "Eba",
+    "synonyms": "unang babae, asawa ni Adan",
+    "antonyms": "Adan",
+    "sentence": "Ayon sa Bibliya, si Eba ang unang babae na nilikha ng Diyos."
+  },
+  "ebanghelyo": {
+    "id": 188,
+    "pangasinense": "ebanghelyo",
+    "definition": "Gospel or the teaching of Christ and the Christian message.",
+    "tagalog": "ebanghelyo",
+    "synonyms": "mensahe ni Kristo, Mabuting Balita",
+    "antonyms": "kasinungalingan",
+    "sentence": "Nagsalita ang pari tungkol sa ebanghelyo ni San Mateo."
+  },
+  "ebas": {
+    "id": 189,
+    "pangasinense": "ebas",
+    "definition": "A colloquial term, often used to refer to something unclear or irrelevant.",
+    "tagalog": "walang tiyak na bagay",
+    "synonyms": "anuman, hindi tiyak",
+    "antonyms": "tiyak, sigurado",
+    "sentence": "Hindi ko maintindihan ang sinasabi niyang ebas."
+  },
+  "ebat": {
+    "id": 190,
+    "pangasinense": "ebat",
+    "definition": "A slang term used for discussing outcomes or situations (similar to 'result').",
+    "tagalog": "resulta",
+    "synonyms": "bunga, resulta",
+    "antonyms": "sanhi, simula",
+    "sentence": "Ebat ng pagsisikap ang pagkapanalo niya sa kompetisyon."
+  },
+  "ebeb": {
+    "id": 191,
+    "pangasinense": "ebeb",
+    "definition": "A diminutive or colloquial expression for a baby or a small child.",
+    "tagalog": "sanggol",
+    "synonyms": "bata, sanggol",
+    "antonyms": "matanda, binata/dalaga",
+    "sentence": "Ang ebeb ng kapitbahay namin ay napakabibo."
+  },
+  "ebeng": {
+    "id": 192,
+    "pangasinense": "ebeng",
+    "definition": "Colloquial or regional term for crying or sobbing.",
+    "tagalog": "iyak",
+    "synonyms": "hagulgol, hikbi",
+    "antonyms": "tawa, saya",
+    "sentence": "Ang batang babae ay hindi mapigilan ang kanyang ebeng matapos mawalan ng laruan."
+  },
+  "ekal": {
+    "id": 193,
+    "pangasinense": "ekal",
+    "definition": "Regional or colloquial term, often referring to a mistake or error.",
+    "tagalog": "pagkakamali",
+    "synonyms": "mali, pagkakamali",
+    "antonyms": "tama, wasto",
+    "sentence": "Huwag mong ulitin ang iyong ekal sa pagsusulit."
+  },
+  "ekalen": {
+    "id": 194,
+    "pangasinense": "ekalen",
+    "definition": "A colloquial term for measuring or evaluating something.",
+    "tagalog": "sukatin",
+    "synonyms": "sukatin, timbangin",
+    "antonyms": "pabayaan, ipagsawalang-bahala",
+    "sentence": "Kailangan mong ekalen ang halaga ng proyekto bago ito simulan."
+  },
+  "ekas": {
+    "id": 195,
+    "pangasinense": "ekas",
+    "definition": "Refers to something very sudden or unexpected.",
+    "tagalog": "biglaan",
+    "synonyms": "agaran, dali-dalian",
+    "antonyms": "dahan-dahan, mabagal",
+    "sentence": "Naging ekas ang pagdating ng bisita kahapon."
+  },
+  "ekat": {
+    "id": 196,
+    "pangasinense": "ekat",
+    "definition": "Colloquial term for exiting or leaving a situation abruptly.",
+    "tagalog": "umalis",
+    "synonyms": "umalis, lumabas",
+    "antonyms": "dumating, pumasok",
+    "sentence": "Nag-ekat siya nang hindi nagpapaalam matapos ang pagtatalo."
+  },
+  "ekban": {
+    "id": 197,
+    "pangasinense": "ekban",
+    "definition": "A local or slang term referring to a division or boundary.",
+    "tagalog": "hati, hangganan",
+    "synonyms": "hati, limitasyon",
+    "antonyms": "walang hangganan, buo",
+    "sentence": "May ekban sa pagitan ng dalawang barangay."
+  },
+  "ekol": {
+    "id": 198,
+    "pangasinense": "ekol",
+    "definition": "A regional or colloquial expression for something tangled or confused.",
+    "tagalog": "buhol",
+    "synonyms": "gulo, buhol",
+    "antonyms": "malinaw, ayos",
+    "sentence": "Naging ekol ang kanyang buhok matapos maglakad sa hangin."
+  },
+  "ekonomiya": {
+    "id": 199,
+    "pangasinense": "ekonomiya",
+    "definition": "Economy, the system of production, consumption, and distribution of goods and services.",
+    "tagalog": "ekonomiya",
+    "synonyms": "kabuhayan, industriya",
+    "antonyms": "kawalan, paghina",
+    "sentence": "Ang ekonomiya ng bansa ay lumago ng 5% nitong nakaraang taon."
+  },
+  "eksakto": {
+    "id": 200,
+    "pangasinense": "eksakto",
+    "definition": "Exact, precise, or accurate.",
+    "tagalog": "eksakto",
+    "synonyms": "tama, wasto",
+    "antonyms": "mali, hindi tama",
+    "sentence": "Eksakto ang sagot niya sa tanong ng guro."
+  },
+  "eksamen": {
+    "id": 201,
+    "pangasinense": "eksamen",
+    "definition": "An examination or test.",
+    "tagalog": "pagsusulit",
+    "synonyms": "pagsusulit, pagsubok",
+    "antonyms": "pahinga, pasyal",
+    "sentence": "Kailangan niyang mag-aral para sa eksamen bukas."
+  },
+  "ekspekta": {
+    "id": 202,
+    "pangasinense": "ekspekta",
+    "definition": "To expect or anticipate.",
+    "tagalog": "asahan",
+    "synonyms": "asahan, ipalagay",
+    "antonyms": "hindi inaasahan, magulat",
+    "sentence": "Ekspekta niya ang magandang resulta sa kanyang pagsusumikap."
+  },
+  "eksperimento": {
+    "id": 203,
+    "pangasinense": "eksperimento",
+    "definition": "An experiment conducted to test a hypothesis or idea.",
+    "tagalog": "eksperimento",
+    "synonyms": "pagsubok, pagsasanay",
+    "antonyms": "katiyakan, resulta",
+    "sentence": "Gumawa sila ng eksperimento upang patunayan ang kanilang teorya."
+  },
+  "eksperto": {
+    "id": 204,
+    "pangasinense": "eksperto",
+    "definition": "An expert, someone highly skilled in a particular field.",
+    "tagalog": "eksperto",
+    "synonyms": "bihasa, dalubhasa",
+    "antonyms": "baguhan, hindi bihasa",
+    "sentence": "Kailangan natin ng eksperto sa engineering para sa proyektong ito."
+  },
+  "ektarya": {
+    "id": 205,
+    "pangasinense": "ektarya",
+    "definition": "A hectare, a unit of area equal to 10,000 square meters.",
+    "tagalog": "ektarya",
+    "synonyms": "sukat ng lupa",
+    "antonyms": "maliit na lote",
+    "sentence": "May limang ektarya ng lupa ang kanilang taniman."
+  },
+  "edad": {
+    "id": 206,
+    "pangasinense": "edad",
+    "definition": "Age or number of years a person has lived.",
+    "tagalog": "edad",
+    "synonyms": "gulang, taon",
+    "antonyms": "wala pang edad, kabataan",
+    "sentence": "Umabot na sa 80 ang edad ng aking lolo."
+  },
+  "edisiyon": {
+    "id": 207,
+    "pangasinense": "edisiyon",
+    "definition": "Edition, a particular version of a published text.",
+    "tagalog": "edisiyon",
+    "synonyms": "bersyon, paglilimbag",
+    "antonyms": "unang paglabas, orihinal",
+    "sentence": "Bumili siya ng pinakabagong edisyon ng kanyang paboritong libro."
+  },
+  "edukado": {
+    "id": 208,
+    "pangasinense": "edukado",
+    "definition": "Educated, someone who has received formal schooling or instruction.",
+    "tagalog": "edukado",
+    "synonyms": "may pinag-aralan, matalino",
+    "antonyms": "mangmang, walang pinag-aralan",
+    "sentence": "Si Jose ay isang edukadong tao na mahilig magbasa ng mga aklat."
+  },
+  "edukasiyon": {
+    "id": 209,
+    "pangasinense": "edukasiyon",
+    "definition": "Education, the process of receiving or giving systematic instruction.",
+    "tagalog": "edukasyon",
+    "synonyms": "kaalaman, pag-aaral",
+    "antonyms": "kamangmangan, kakulangan ng kaalaman",
+    "sentence": "Ang edukasiyon ay mahalaga upang magkaroon ng magandang kinabukasan."
+  },
+  "egab": {
+    "id": 210,
+    "pangasinense": "egab",
+    "definition": "A regional term, often referring to something that is heavy or burdensome.",
+    "tagalog": "bigat, pabigat",
+    "synonyms": "pabigat, pasanin",
+    "antonyms": "gaan, magaan",
+    "sentence": "Ang mga egab ng trabaho ay hindi biro para sa kanya."
+  },
+  "eges": {
+    "id": 211,
+    "pangasinense": "eges",
+    "definition": "A regional term or slang used to describe someone who is eager or overly excited.",
+    "tagalog": "sabik",
+    "synonyms": "sabik, nasasabik",
+    "antonyms": "walang interes, tamad",
+    "sentence": "Siya ay eges na makuha ang kanyang unang sahod."
+  },
+  "egna": {
+    "id": 212,
+    "pangasinense": "egna",
+    "definition": "A colloquial or regional term referring to being upset or frustrated.",
+    "tagalog": "inis",
+    "synonyms": "inis, galit",
+    "antonyms": "kalmado, masaya",
+    "sentence": "Nag-egna siya nang hindi natuloy ang kanilang lakad."
+  },
+  "egpang": {
+    "id": 213,
+    "pangasinense": "egpang",
+    "definition": "A local or slang term, often used to describe something far or out of reach.",
+    "tagalog": "malayo",
+    "synonyms": "malayo, hindi abot",
+    "antonyms": "malapit, abot-kamay",
+    "sentence": "Ang kanyang mga pangarap ay tila egpang, pero hindi siya sumuko."
+  },
+  "ehersesiyo": {
+    "id": 214,
+    "pangasinense": "ehersesiyo",
+    "definition": "Exercise, physical activity to improve health and fitness.",
+    "tagalog": "ehersisyo",
+    "synonyms": "pag-eehersisyo, workout",
+    "antonyms": "pamamahinga, sedentaryo",
+    "sentence": "Mahalaga ang ehersesiyo upang mapanatiling malusog ang katawan."
+  },
+  "elek": {
+    "id": 215,
+    "pangasinense": "elek",
+    "definition": "A slang term referring to something sharp or electric in energy or sensation.",
+    "tagalog": "kuryente",
+    "synonyms": "kuryente, boltahe",
+    "antonyms": "kawalan ng enerhiya, pagkaubos",
+    "sentence": "Nakaramdam siya ng matinding elek nang tamaan siya ng maliit na shock."
+  },
+  "elektrik": {
+    "id": 216,
+    "pangasinense": "elektrik",
+    "definition": "Referring to something electrical or powered by electricity.",
+    "tagalog": "elektrikal",
+    "synonyms": "may kuryente, de-kuryente",
+    "antonyms": "manu-mano, mekanikal",
+    "sentence": "Bumili kami ng bagong elektrik fan para sa kwarto."
+  },
+  "eleksiyon": {
+    "id": 217,
+    "pangasinense": "eleksiyon",
+    "definition": "Election, a process by which individuals choose representatives or leaders through voting.",
+    "tagalog": "halalan",
+    "synonyms": "halalan, botohan",
+    "antonyms": "pagtatalaga, diktadura",
+    "sentence": "Malapit na ang eleksiyon kaya abala na ang mga kandidato sa pangangampanya."
+  },
+  "elektrisidad": {
+    "id": 218,
+    "pangasinense": "elektrisidad",
+    "definition": "Electricity, a form of energy resulting from charged particles.",
+    "tagalog": "elektrisidad",
+    "synonyms": "kuryente, enerhiya",
+    "antonyms": "kawalan ng kuryente, black-out",
+    "sentence": "Nawalan ng elektrisidad sa aming lugar kagabi dahil sa malakas na ulan."
+  },
+  "elektrisista": {
+    "id": 219,
+    "pangasinense": "elektrisista",
+    "definition": "Electrician, a person who installs and maintains electrical systems.",
+    "tagalog": "elektrisista",
+    "synonyms": "manggagawa ng kuryente, technician",
+    "antonyms": "hindi teknikal, baguhan",
+    "sentence": "Kailangan naming tawagan ang isang elektrisista upang ayusin ang sirang ilaw."
+  },
+  "el-el": {
+    "id": 220,
+    "pangasinense": "el-el",
+    "definition": "A regional term, often referring to something lengthy or drawn out.",
+    "tagalog": "matagal",
+    "synonyms": "matagal, mabagal",
+    "antonyms": "mabilis, agaran",
+    "sentence": "Napaka-el-el ng kanilang usapan tungkol sa plano."
+  },
+  "elementarya": {
+    "id": 221,
+    "pangasinense": "elementarya",
+    "definition": "Elementary, referring to the basic level of education.",
+    "tagalog": "elementarya",
+    "synonyms": "pangunahing edukasyon, mababang paaralan",
+    "antonyms": "mataas na edukasyon, sekundaryo",
+    "sentence": "Nagtapos siya ng elementarya sa isang pampublikong paaralan."
+  },
+  "elemento": {
+    "id": 222,
+    "pangasinense": "elemento",
+    "definition": "Element, a fundamental or essential part of something.",
+    "tagalog": "elemento",
+    "synonyms": "bahagi, sangkap",
+    "antonyms": "kabuuan, buo",
+    "sentence": "Ang tubig ay binubuo ng dalawang elemento: hydrogen at oxygen."
+  },
+  "eleng": {
+    "id": 223,
+    "pangasinense": "eleng",
+    "definition": "A colloquial term for sadness or melancholy.",
+    "tagalog": "lungkot",
+    "synonyms": "kalungkutan, pagdadalamhati",
+    "antonyms": "saya, kaligayahan",
+    "sentence": "Nakaramdam siya ng eleng matapos malaman ang balitang masama."
+  },
+  "elepante": {
+    "id": 224,
+    "pangasinense": "elepante",
+    "definition": "Elephant, a large mammal known for its size and trunk.",
+    "tagalog": "elepante",
+    "synonyms": "dambuhala, malaking hayop",
+    "antonyms": "maliit na hayop, insekto",
+    "sentence": "Nakakita kami ng elepante sa zoo noong Linggo."
+  },
+  "elet": {
+    "id": 225,
+    "pangasinense": "elet",
+    "definition": "Colloquial term for something small or minimal.",
+    "tagalog": "maliit",
+    "synonyms": "maliit, konti",
+    "antonyms": "malaki, marami",
+    "sentence": "May elet na tubig lamang sa baso, kailangan mo pang dagdagan."
+  },
+  "elew": {
+    "id": 226,
+    "pangasinense": "elew",
+    "definition": "A regional or slang term for delay or postponement.",
+    "tagalog": "pagkaantala",
+    "synonyms": "antala, tagal",
+    "antonyms": "oras, agaran",
+    "sentence": "Nagkaroon ng elew sa kanilang biyahe dahil sa masamang panahon."
+  },
+  "gaban": {
+    "id": 227,
+    "pangasinense": "gaban",
+    "definition": "A term meaning “to steal” or “theft.”",
+    "tagalog": "pagnanakaw",
+    "synonyms": "pagnanakaw, pagkuha ng hindi iyo",
+    "antonyms": "pagbibigay, kabutihan",
+    "sentence": "Si Juan ay nahuli sa gaban ng pera sa tindahan."
+  },
+  "gabay": {
+    "id": 228,
+    "pangasinense": "gabay",
+    "definition": "A guide or guidance, someone or something that leads or shows the way.",
+    "tagalog": "gabay",
+    "synonyms": "patnubay, lider",
+    "antonyms": "kalituhan, pagkawala",
+    "sentence": "Ang kanyang mga magulang ay nagsisilbing gabay sa kanyang desisyon."
+  },
+  "gabiang": {
+    "id": 229,
+    "pangasinense": "gabiang",
+    "definition": "Referring to being bitten or stung by an insect at night.",
+    "tagalog": "kinagat ng lamok",
+    "synonyms": "kagat, tuklaw",
+    "antonyms": "walang kagat, hindi natuklaw",
+    "sentence": "Si Pedro ay gabiang ng lamok kaya’t namaga ang kanyang balat."
+  },
+  "gabion": {
+    "id": 230,
+    "pangasinense": "gabion",
+    "definition": "A cylindrical wire or mesh filled with rocks or earth, used in construction.",
+    "tagalog": "pader na gawa sa mga bato at lambat",
+    "synonyms": "steel basket, retaining wall",
+    "antonyms": "kahoy na pader, semento",
+    "sentence": "Ang mga gabion ay ginagamit upang pigilan ang pagguho ng lupa."
+  },
+  "gakgak": {
+    "id": 231,
+    "pangasinense": "gakgak",
+    "definition": "A loud, harsh sound, often used to describe laughter or crying.",
+    "tagalog": "malakas na tawa o iyak",
+    "synonyms": "hagikhik, pagtatawa",
+    "antonyms": "tahimik, pigil na tawa",
+    "sentence": "Ang gakgak ng kanilang tawanan ay umabot hanggang kabilang silid."
+  },
+  "gakgakan": {
+    "id": 232,
+    "pangasinense": "gakgakan",
+    "definition": "The act of laughing or cackling loudly.",
+    "tagalog": "tawanan, hagikhikan",
+    "synonyms": "tawanan, halakhak",
+    "antonyms": "katahimikan, pag-iyak",
+    "sentence": "Ang gakgakan ng mga bata ay nagpapasaya sa buong bahay."
+  },
+  "gaem": {
+    "id": 233,
+    "pangasinense": "gaem",
+    "definition": "Strong wind or storm.",
+    "tagalog": "bagyo, malakas na hangin",
+    "synonyms": "unos, bagyo",
+    "antonyms": "tahimik na panahon, kalmado",
+    "sentence": "Naghanda kami dahil paparating ang gaem na sinasabi ng balita."
+  },
+  "gaer": {
+    "id": 234,
+    "pangasinense": "gaer",
+    "definition": "Often refers to smoke or fumes, particularly from cooking.",
+    "tagalog": "usok",
+    "synonyms": "usok, alikabok",
+    "antonyms": "malinaw na hangin",
+    "sentence": "Hindi kami makakita dahil sa makapal na gaer mula sa sunog."
+  },
+  "gaga": {
+    "id": 235,
+    "pangasinense": "gaga",
+    "definition": "A regional or colloquial term for being silly or foolish.",
+    "tagalog": "ulol, tanga",
+    "synonyms": "hangal, mangmang",
+    "antonyms": "matalino, may isip",
+    "sentence": "Tinawanan nila siya dahil sa kanyang gaga na mga tanong."
+  },
+  "gagaem": {
+    "id": 236,
+    "pangasinense": "gagaem",
+    "definition": "An Ilocano term for something tasteless or bland.",
+    "tagalog": "matabang",
+    "synonyms": "walang lasa, matabang",
+    "antonyms": "malasa, masarap",
+    "sentence": "Ang sopas ay gagaem, kaya’t dinagdagan nila ng asin."
+  },
+  "gagal": {
+    "id": 237,
+    "pangasinense": "gagal",
+    "definition": "Movement or motion, often slow.",
+    "tagalog": "galaw, kilos",
+    "synonyms": "paggalaw, kilos",
+    "antonyms": "pagkahinto, pagtigil",
+    "sentence": "Nakita ko ang bahagyang gagal ng kanyang kamay."
+  },
+  "gagala": {
+    "id": 238,
+    "pangasinense": "gagala",
+    "definition": "To wander or roam around aimlessly.",
+    "tagalog": "gala, maglibot",
+    "synonyms": "maglibot, magpagala-gala",
+    "antonyms": "manatili, tumigil",
+    "sentence": "Ang mga bata ay gagala sa kalye nang walang pakay."
+  },
+  "gagalen": {
+    "id": 239,
+    "pangasinense": "gagalen",
+    "definition": "A person who is prone to wandering or always moving around.",
+    "tagalog": "palaboy",
+    "synonyms": "gala, nomad",
+    "antonyms": "taga-lugar, palagiang nandyan",
+    "sentence": "Ang gagalen ay bihirang manatili sa isang lugar nang matagal."
+  },
+  "gaigai": {
+    "id": 240,
+    "pangasinense": "gaigai",
+    "definition": "Itchy or scratchy sensation on the skin.",
+    "tagalog": "kati, pangangati",
+    "synonyms": "pangangati, iritasyon",
+    "antonyms": "hindi makati, komportable",
+    "sentence": "Hindi siya mapakali dahil sa matinding gaigai na nararamdaman niya."
+  },
+  "gala": {
+    "id": 241,
+    "pangasinense": "gala",
+    "definition": "To travel or wander for leisure or without a fixed destination.",
+    "tagalog": "gala, pamamasyal",
+    "synonyms": "pamamasyal, paglilibot",
+    "antonyms": "manatili, tumigil",
+    "sentence": "Mahilig siyang maggala sa mga lugar na hindi pa niya napupuntahan."
+  },
+  "galabigab": {
+    "id": 242,
+    "pangasinense": "galabigab",
+    "definition": "A big, heavy object or something overwhelming.",
+    "tagalog": "mabigat na bagay",
+    "synonyms": "pasanin, bigat",
+    "antonyms": "magaan, gaan",
+    "sentence": "Ang galabigab na dala-dala niya ay mukhang mahirap buhatin."
+  },
+  "galakgak": {
+    "id": 243,
+    "pangasinense": "galakgak",
+    "definition": "Loud laughter or sound of joyous amusement.",
+    "tagalog": "hagikhik",
+    "synonyms": "tawa, hagikhik",
+    "antonyms": "iyak, kalungkutan",
+    "sentence": "Ang galakgak ng mga bata ay nagpuno ng saya sa kanilang tahanan."
+  },
+  "galang": {
+    "id": 244,
+    "pangasinense": "galang",
+    "definition": "Respect or courtesy shown to others.",
+    "tagalog": "galang",
+    "synonyms": "respeto, pagpapahalaga",
+    "antonyms": "kawalang-galang, pambabastos",
+    "sentence": "Ang paggalang sa mga nakatatanda ay isang mahalagang kaugalian."
+  },
+  "galangen": {
+    "id": 245,
+    "pangasinense": "galangen",
+    "definition": "The act of showing respect or deference to someone.",
+    "tagalog": "igalang",
+    "synonyms": "igalang, parangalan",
+    "antonyms": "bastusin, laitin",
+    "sentence": "Dapat mong galangen ang mga guro at mga magulang mo."
   }
 }
