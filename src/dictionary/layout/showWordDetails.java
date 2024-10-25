@@ -120,7 +120,7 @@ public class showWordDetails extends javax.swing.JPanel {
         wordDetailsPanelLayout.setHorizontalGroup(
             wordDetailsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(wordDetailsPanelLayout.createSequentialGroup()
-                .addGap(147, 147, 147)
+                .addGap(136, 136, 136)
                 .addGroup(wordDetailsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(wordDetailsPanelLayout.createSequentialGroup()
                         .addComponent(sentenceText)
@@ -146,7 +146,7 @@ public class showWordDetails extends javax.swing.JPanel {
                         .addComponent(pangasinenseText)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(pangasinenseField, javax.swing.GroupLayout.PREFERRED_SIZE, 397, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(122, 122, 122))
+                .addGap(133, 133, 133))
         );
         wordDetailsPanelLayout.setVerticalGroup(
             wordDetailsPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

@@ -811,6 +811,7 @@ public class dictionaryUI extends javax.swing.JFrame {
         String query = searchBar.getText().trim();
         searchForWord(query);
     }//GEN-LAST:event_searchBarActionPerformed
+    
     private void searchForWord(String query) {
         wordsPanel.removeAll();
 
@@ -837,7 +838,6 @@ public class dictionaryUI extends javax.swing.JFrame {
                     frame.setLocationRelativeTo(null);
                     frame.setVisible(true);
 
-                    searchBar.setText("Search for a word");
                 });
                 wordsPanel.add(wordButton);
             }
