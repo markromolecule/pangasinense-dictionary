@@ -13,7 +13,6 @@ public class addWordsPanel extends javax.swing.JPanel {
     private wordManager wordManager;
 
     public addWordsPanel() {
-
         initComponents();
         applyHoverEffects();
         loadWordsFromFile();

@@ -3661,5 +3661,923 @@
     "synonyms": "malagkit, dumikit",
     "antonyms": "hindi dumikit",
     "sentence": "Ang lagkit ng glue ay nakakatulong sa pagpapanatili ng mga bagay."
+  },
+  "lagiat": {
+    "id": 408,
+    "pangasinense": "lagiat",
+    "definition": "A type of musical sound or tune.",
+    "tagalog": "lagiat",
+    "synonyms": "himig, tunog",
+    "antonyms": "katahimikan",
+    "sentence": "Ang lagiat ng gitara ay umaabot sa puso ng mga tao."
+  },
+  "lagitik": {
+    "id": 409,
+    "pangasinense": "lagitik",
+    "definition": "A clicking or snapping sound.",
+    "tagalog": "lagitik",
+    "synonyms": "tunog, kalabog",
+    "antonyms": "katahimikan",
+    "sentence": "Narinig ang lagitik ng kanyang mga daliri habang nagtatype."
+  },
+  "laglag": {
+    "id": 410,
+    "pangasinense": "laglag",
+    "definition": "To fall or drop something.",
+    "tagalog": "laglag",
+    "synonyms": "mahulog, bumagsak",
+    "antonyms": "hawakan",
+    "sentence": "Laglag ang bola mula sa kanyang mga kamay."
+  },
+  "lagnit": {
+    "id": 411,
+    "pangasinense": "lagnit",
+    "definition": "A type of temperature or warmth, often associated with fever.",
+    "tagalog": "lagnit",
+    "synonyms": "init, temperatura",
+    "antonyms": "lamig",
+    "sentence": "Ang lagnit niya ay nagbigay-diin na kailangan niya ng pahinga."
+  },
+  "lago": {
+    "id": 412,
+    "pangasinense": "lago",
+    "definition": "A lake or body of water surrounded by land.",
+    "tagalog": "lawa",
+    "synonyms": "anyong-tubig, lagoon",
+    "antonyms": "lupa",
+    "sentence": "Ang lago ay puno ng mga isda at iba pang nilalang-dagat."
+  },
+  "lagok": {
+    "id": 413,
+    "pangasinense": "lagok",
+    "definition": "To gulp or swallow.",
+    "tagalog": "lagok",
+    "synonyms": "sumipsip, uminom",
+    "antonyms": "itigil",
+    "sentence": "Lagok siya ng tubig pagkatapos ng matinding ehersisyo."
+  },
+  "lagot": {
+    "id": 414,
+    "pangasinense": "lagot",
+    "definition": "To break or tear apart.",
+    "tagalog": "lagot",
+    "synonyms": "masira, punitin",
+    "antonyms": "ayusin",
+    "sentence": "Lagot ang papel nang hindi ko ito nailagay sa folder."
+  },
+  "lagpaw": {
+    "id": 415,
+    "pangasinense": "lagpaw",
+    "definition": "To splash or scatter water.",
+    "tagalog": "lagpaw",
+    "synonyms": "bumuhos, maglikha ng alon",
+    "antonyms": "tahimik",
+    "sentence": "Lagpaw ang mga bata sa pool sa kanilang paglalaro."
+  },
+  "lagsan": {
+    "id": 416,
+    "pangasinense": "lagsan",
+    "definition": "A thick or heavy layer.",
+    "tagalog": "lagsan",
+    "synonyms": "sapantaha, patong",
+    "antonyms": "manipis",
+    "sentence": "Ang lagsan ng niyebe ay nagbigay ng hamog sa mga bundok."
+  },
+  "lagsoten": {
+    "id": 417,
+    "pangasinense": "lagsoten",
+    "definition": "A gathering or collection of things.",
+    "tagalog": "lagsoten",
+    "synonyms": "salo-salo, pagtipon",
+    "antonyms": "pagkakalat",
+    "sentence": "Ang lagsoten ng mga prutas ay maganda para sa handaan."
+  },
+  "lagui": {
+    "id": 418,
+    "pangasinense": "lagui",
+    "definition": "To wander or roam around.",
+    "tagalog": "lagui",
+    "synonyms": "maglakbay, maglibot",
+    "antonyms": "manatili",
+    "sentence": "Lagui siya sa paligid ng park tuwing weekend."
+  },
+  "lagyat": {
+    "id": 419,
+    "pangasinense": "lagyat",
+    "definition": "A type of dance or movement.",
+    "tagalog": "lagyat",
+    "synonyms": "sayaw, galaw",
+    "antonyms": "huminto",
+    "sentence": "Ang lagyat ng mga tao sa pista ay puno ng saya."
+  },
+  "lah": {
+    "id": 420,
+    "pangasinense": "lah",
+    "definition": "An expression of surprise or disbelief.",
+    "tagalog": "lah",
+    "synonyms": "huwag, talaga",
+    "antonyms": "wala",
+    "sentence": "Lah! Hindi ko akalaing mangyayari ito."
+  },
+  "maangsiut": {
+    "id": 421,
+    "pangasinense": "maangsiut",
+    "definition": "A term used to describe something that is thin or delicate.",
+    "tagalog": "maangsiut",
+    "synonyms": "manipis, marupok",
+    "antonyms": "makapal",
+    "sentence": "Ang tela ng kanyang damit ay maangsiut at madaling mapunit."
+  },
+  "maangtol": {
+    "id": 422,
+    "pangasinense": "maangtol",
+    "definition": "A term for something that is rough or coarse.",
+    "tagalog": "maangtol",
+    "synonyms": "magaspang, hindi makinis",
+    "antonyms": "makinis",
+    "sentence": "Ang ibabaw ng kahoy ay maangtol kaya't kailangan itong sandpaper."
+  },
+  "maaninang": {
+    "id": 423,
+    "pangasinense": "maaninang",
+    "definition": "A godparent, especially in a religious context.",
+    "tagalog": "maaninang",
+    "synonyms": "ninong, ninang",
+    "antonyms": "wala",
+    "sentence": "Si Tita Maria ang aking maaninang at lagi siyang nandiyan para sa akin."
+  },
+  "maanino": {
+    "id": 424,
+    "pangasinense": "maanino",
+    "definition": "To get involved or participate in something.",
+    "tagalog": "maanino",
+    "synonyms": "makisangkot, lumahok",
+    "antonyms": "umalis",
+    "sentence": "Maanino siya sa proyekto ng kanyang paaralan."
+  },
+  "maanlong": {
+    "id": 425,
+    "pangasinense": "maanlong",
+    "definition": "To bring forth or produce something, often related to crops.",
+    "tagalog": "maanlong",
+    "synonyms": "mag-ani, magharvest",
+    "antonyms": "mawala",
+    "sentence": "Maanlong na sila ng mga prutas sa kanilang hardin."
+  },
+  "maanseg": {
+    "id": 426,
+    "pangasinense": "maanseg",
+    "definition": "To have a bitter or sour taste.",
+    "tagalog": "maanseg",
+    "synonyms": "maasim, mapait",
+    "antonyms": "matamis",
+    "sentence": "Ang prutas na ito ay maanseg at hindi masarap kainin."
+  },
+  "maanyani": {
+    "id": 427,
+    "pangasinense": "maanyani",
+    "definition": "To become evident or clear.",
+    "tagalog": "maanyani",
+    "synonyms": "lumabas, umanig",
+    "antonyms": "mawala",
+    "sentence": "Maanyani na ang kanyang talento sa pagkanta sa kanyang pagtatanghal."
+  },
+  "maapora": {
+    "id": 428,
+    "pangasinense": "maapora",
+    "definition": "To be able to accept or endure.",
+    "tagalog": "maapora",
+    "synonyms": "makatiis, makayanan",
+    "antonyms": "sumuko",
+    "sentence": "Kailangan mong maapora ang mga pagsubok sa buhay."
+  },
+  "maarat": {
+    "id": 429,
+    "pangasinense": "maarat",
+    "definition": "To increase or enhance something.",
+    "tagalog": "maarat",
+    "synonyms": "palakasin, itaas",
+    "antonyms": "bawasan",
+    "sentence": "Maingat na maarat ang iyong mga kaalaman sa pamamagitan ng pagbabasa."
+  },
+  "maaro": {
+    "id": 430,
+    "pangasinense": "maaro",
+    "definition": "To achieve or accomplish something.",
+    "tagalog": "maaro",
+    "synonyms": "makamit, matagumpay",
+    "antonyms": "mabigo",
+    "sentence": "Sa tamang pagsisikap, tiyak na maaro mo ang iyong mga pangarap."
+  },
+  "maasewek": {
+    "id": 431,
+    "pangasinense": "maasewek",
+    "definition": "To improve or upgrade something.",
+    "tagalog": "maasewek",
+    "synonyms": "iangat, baguhin",
+    "antonyms": "pabayaan",
+    "sentence": "Maasewek ng proyekto ang sistema ng komunikasyon sa kanilang opisina."
+  },
+  "maasikaso": {
+    "id": 432,
+    "pangasinense": "maasikaso",
+    "definition": "To be attentive and caring.",
+    "tagalog": "maasikaso",
+    "synonyms": "maalaga, mag-asikaso",
+    "antonyms": "pabaya",
+    "sentence": "Siya ay maasikaso sa kanyang mga pasyente bilang isang doktor."
+  },
+  "maasin": {
+    "id": 433,
+    "pangasinense": "maasin",
+    "definition": "Salty or containing salt.",
+    "tagalog": "maasin",
+    "synonyms": "alat, maalat",
+    "antonyms": "matamis",
+    "sentence": "Ang sopas ay maasin dahil nalagyan ng sobrang asin."
+  },
+  "maasingger": {
+    "id": 434,
+    "pangasinense": "maasingger",
+    "definition": "To be able to sing well.",
+    "tagalog": "maasingger",
+    "synonyms": "mahusay kumanta, magaling kumanta",
+    "antonyms": "hindi marunong kumanta",
+    "sentence": "Siya ay isang maasingger na lagi ring nagtatanghal sa mga okasyon."
+  },
+  "maasiot": {
+    "id": 435,
+    "pangasinense": "maasiot",
+    "definition": "To be agile or quick.",
+    "tagalog": "maasiot",
+    "synonyms": "mabilis, alerto",
+    "antonyms": "mabagal",
+    "sentence": "Ang maasiot na atleta ay nakakuha ng gintong medalya."
+  },
+  "maatap": {
+    "id": 436,
+    "pangasinense": "maatap",
+    "definition": "To elevate or lift something.",
+    "tagalog": "maatap",
+    "synonyms": "itaas, umangat",
+    "antonyms": "ibaba",
+    "sentence": "Maatap mo ang libro sa taas ng istante."
+  },
+  "maates": {
+    "id": 437,
+    "pangasinense": "maates",
+    "definition": "To be united or joined together.",
+    "tagalog": "maates",
+    "synonyms": "sama-sama, nagkakaisa",
+    "antonyms": "nagkahiwa-hiwalay",
+    "sentence": "Ang mga tao ay maates sa kanilang layunin na magbigay tulong."
+  },
+  "maatit": {
+    "id": 438,
+    "pangasinense": "maatit",
+    "definition": "To be effective or to produce results.",
+    "tagalog": "maatit",
+    "synonyms": "epektibo, nakikinabang",
+    "antonyms": "hindi epektibo",
+    "sentence": "Ang mga pagbabago ay maatit para sa mas mabuting sistema."
+  },
+  "maatol": {
+    "id": 439,
+    "pangasinense": "maatol",
+    "definition": "To overflow or spill over.",
+    "tagalog": "maatol",
+    "synonyms": "umapaw, magtapon",
+    "antonyms": "huminto",
+    "sentence": "Ang tubig ay maatol mula sa gripo."
+  },
+  "maawang": {
+    "id": 440,
+    "pangasinense": "maawang",
+    "definition": "To be generous or kind-hearted.",
+    "tagalog": "maawang",
+    "synonyms": "mapagbigay, maalalahanin",
+    "antonyms": "mapaghiganti",
+    "sentence": "Siya ay maawang tao na laging handang tumulong."
+  },
+  "maawaran": {
+    "id": 441,
+    "pangasinense": "maawaran",
+    "definition": "To be given or bestowed something.",
+    "tagalog": "maawaran",
+    "synonyms": "mabigyan, mapagkalooban",
+    "antonyms": "mawalan",
+    "sentence": "Maawaran siya ng parangal sa kanyang mga nagawa."
+  },
+  "maayos": {
+    "id": 442,
+    "pangasinense": "maayos",
+    "definition": "To be organized or well-arranged.",
+    "tagalog": "maayos",
+    "synonyms": "sistematiko, malinis",
+    "antonyms": "magulo",
+    "sentence": "Ang kanyang desk ay maayos at walang kalat."
+  },
+  "mabakat": {
+    "id": 443,
+    "pangasinense": "mabakat",
+    "definition": "To be noticeable or prominent.",
+    "tagalog": "mabakat",
+    "synonyms": "kapansin-pansin, malinaw",
+    "antonyms": "hindi halata",
+    "sentence": "Ang kanyang talento sa sining ay mabakat sa kanyang mga obra."
+  },
+  "mabago": {
+    "id": 444,
+    "pangasinense": "mabago",
+    "definition": "To change or modify something.",
+    "tagalog": "mabago",
+    "synonyms": "baguhin, i-update",
+    "antonyms": "panatilihin",
+    "sentence": "Mabago ang mga plano depende sa sitwasyon."
+  },
+  "mabagsik": {
+    "id": 445,
+    "pangasinense": "mabagsik",
+    "definition": "Fierce or intense, often used to describe animals or people.",
+    "tagalog": "mabagsik",
+    "synonyms": "masungit, mabangis",
+    "antonyms": "maamo",
+    "sentence": "Ang mabagsik na asong ito ay nagbabantay sa bahay."
+  },
+  "mabaing": {
+    "id": 446,
+    "pangasinense": "mabaing",
+    "definition": "To be quick-witted or clever.",
+    "tagalog": "mabaing",
+    "synonyms": "matalino, mapanlikha",
+    "antonyms": "bobo",
+    "sentence": "Ang kanyang mabaing isip ay nakatulong sa kanyang tagumpay."
+  },
+  "mabalaw": {
+    "id": 447,
+    "pangasinense": "mabalaw",
+    "definition": "To be weak or feeble.",
+    "tagalog": "mabalaw",
+    "synonyms": "mahina, walang lakas",
+    "antonyms": "malakas",
+    "sentence": "Mabalaw siya mula sa sakit at kailangan ng pahinga."
+  },
+  "mabales": {
+    "id": 448,
+    "pangasinense": "mabales",
+    "definition": "To be light or not heavy.",
+    "tagalog": "mabales",
+    "synonyms": "magaan, madaling dalhin",
+    "antonyms": "mabigat",
+    "sentence": "Ang bag na ito ay mabales kaya't madali itong dalhin."
+  },
+  "mabaliksan": {
+    "id": 449,
+    "pangasinense": "mabaliksan",
+    "definition": "To be able to go back or revert.",
+    "tagalog": "mabaliksan",
+    "synonyms": "makabalik, makapag-uli",
+    "antonyms": "hindi makabalik",
+    "sentence": "Mabaliksan pa ba ang desisyon na iyong ginawa?"
+  },
+  "mabalisa": {
+    "id": 450,
+    "pangasinense": "mabalisa",
+    "definition": "To feel anxious or uneasy.",
+    "tagalog": "mabalisa",
+    "synonyms": "nag-aalala, kinakabahan",
+    "antonyms": "kalmado",
+    "sentence": "Mabalisa siya sa kanyang pagsusulit bukas."
+  },
+  "mabanday": {
+    "id": 451,
+    "pangasinense": "mabanday",
+    "definition": "To gather or assemble together.",
+    "tagalog": "mabanday",
+    "synonyms": "magtipon, magsama-sama",
+    "antonyms": "maghiwalay",
+    "sentence": "Mabanday ang mga estudyante para sa kanilang proyekto."
+  },
+  "mabanos": {
+    "id": 452,
+    "pangasinense": "mabanos",
+    "definition": "To be strong or robust.",
+    "tagalog": "mabanos",
+    "synonyms": "matatag, malakas",
+    "antonyms": "mahina",
+    "sentence": "Ang kanyang katawan ay mabanos dahil sa regular na ehersisyo."
+  },
+  "mabantot": {
+    "id": 453,
+    "pangasinense": "mabantot",
+    "definition": "To be dirty or soiled.",
+    "tagalog": "mabantot",
+    "synonyms": "marumi, hindi malinis",
+    "antonyms": "malinis",
+    "sentence": "Ang sahig ay mabantot at kinakailangan ng masusing paglilinis."
+  },
+  "mabarong": {
+    "id": 454,
+    "pangasinense": "mabarong",
+    "definition": "To be dressed elegantly or in formal attire.",
+    "tagalog": "mabarong",
+    "synonyms": "maganda ang kasuotan, nakaayos",
+    "antonyms": "nakalugay",
+    "sentence": "Mabarong siya sa kasal ng kanyang kaibigan."
+  },
+  "mabasa": {
+    "id": 455,
+    "pangasinense": "mabasa",
+    "definition": "To become wet or damp.",
+    "tagalog": "mabasa",
+    "synonyms": "magbasa, umulan",
+    "antonyms": "matuyo",
+    "sentence": "Mabasa ang lupa dahil sa malakas na ulan."
+  },
+  "mabatik": {
+    "id": 456,
+    "pangasinense": "mabatik",
+    "definition": "To be stained or marked.",
+    "tagalog": "mabatik",
+    "synonyms": "mantsahan, marumihan",
+    "antonyms": "malinis",
+    "sentence": "Mabatik ang kanyang damit matapos ang masayang kainan."
+  },
+  "mabato": {
+    "id": 457,
+    "pangasinense": "mabato",
+    "definition": "To be rocky or stony.",
+    "tagalog": "mabato",
+    "synonyms": "magaspang, mabundok",
+    "antonyms": "patag",
+    "sentence": "Ang daan ay mabato, kaya't mahirap itong daanan."
+  },
+  "mabayag": {
+    "id": 458,
+    "pangasinense": "mabayag",
+    "definition": "To be long or extensive.",
+    "tagalog": "mabayag",
+    "synonyms": "mahaba, malawak",
+    "antonyms": "maikli",
+    "sentence": "Ang paglalakbay ay mabayag ngunit puno ng mga tanawin."
+  },
+  "mabayani": {
+    "id": 459,
+    "pangasinense": "mabayani",
+    "definition": "To exhibit bravery or heroism.",
+    "tagalog": "mabayani",
+    "synonyms": "matapang, bayani",
+    "antonyms": "duwag",
+    "sentence": "Siya ay mabayani sa kanyang mga ginawa para sa bayan."
+  },
+  "mabayesbes": {
+    "id": 460,
+    "pangasinense": "mabayesbes",
+    "definition": "To be watchful or vigilant.",
+    "tagalog": "mabayesbes",
+    "synonyms": "maingat, alerto",
+    "antonyms": "walang pakialam",
+    "sentence": "Mabayesbes siya sa mga bagay na nangyayari sa kanyang paligid."
+  },
+  "mabendito": {
+    "id": 461,
+    "pangasinense": "mabendito",
+    "definition": "To be blessed or consecrated.",
+    "tagalog": "mabendito",
+    "synonyms": "pinagpala, banal",
+    "antonyms": "walang bendisyon",
+    "sentence": "Mabendito ang kanilang bahay ng pari."
+  },
+  "mabeng": {
+    "id": 462,
+    "pangasinense": "mabeng",
+    "definition": "To be overbearing or domineering.",
+    "tagalog": "mabeng",
+    "synonyms": "mapang-api, makapangyarihan",
+    "antonyms": "mapagpakumbaba",
+    "sentence": "Ang kanyang asal ay mabeng, kaya't hindi siya kaaya-ayang kasama."
+  },
+  "mabeleng": {
+    "id": 463,
+    "pangasinense": "mabeleng",
+    "definition": "To be capable or able to perform.",
+    "tagalog": "mabeleng",
+    "synonyms": "kaya, may kakayahan",
+    "antonyms": "walang kakayahan",
+    "sentence": "Mabeleng gawin ni Juan ang kanyang mga takdang-aralin."
+  },
+  "mabelew": {
+    "id": 464,
+    "pangasinense": "mabelew",
+    "definition": "To be proficient or skilled in something.",
+    "tagalog": "mabelew",
+    "synonyms": "mahusay, magaling",
+    "antonyms": "mahirap gawin",
+    "sentence": "Siya ay mabelew sa paglikha ng mga obra."
+  },
+  "mabetbet": {
+    "id": 465,
+    "pangasinense": "mabetbet",
+    "definition": "To be stubborn or hard-headed.",
+    "tagalog": "mabetbet",
+    "synonyms": "matigas ang ulo, pasaway",
+    "antonyms": "sumusunod",
+    "sentence": "Mabetbet siya at hindi nakikinig sa payo ng kanyang mga magulang."
+  },
+  "mabilaybilay": {
+    "id": 466,
+    "pangasinense": "mabilaybilay",
+    "definition": "To be scattered or spread out.",
+    "tagalog": "mabilaybilay",
+    "synonyms": "nagkalat, nagkalat-kalat",
+    "antonyms": "nagtipon",
+    "sentence": "Mabilaybilay ang mga laruan sa sahig ng kwarto."
+  },
+  "mabilay": {
+    "id": 467,
+    "pangasinense": "mabilay",
+    "definition": "To be swift or fast.",
+    "tagalog": "mabilay",
+    "synonyms": "mabilis, mabilis na paggalaw",
+    "antonyms": "mabagal",
+    "sentence": "Ang kanyang mga galaw ay mabilay habang naglalaro."
+  },
+  "mabilis": {
+    "id": 468,
+    "pangasinense": "mabilis",
+    "definition": "To be quick or rapid.",
+    "tagalog": "mabilis",
+    "synonyms": "mabilis, matulin",
+    "antonyms": "mabagal",
+    "sentence": "Mabilis siyang tumakbo sa takbuhan."
+  },
+  "mabinta": {
+    "id": 469,
+    "pangasinense": "mabinta",
+    "definition": "To be marketable or in demand.",
+    "tagalog": "mabinta",
+    "synonyms": "mabenta, may halaga",
+    "antonyms": "hindi mabenta",
+    "sentence": "Ang produktong ito ay mabinta sa merkado."
+  },
+  "mabiskeg": {
+    "id": 470,
+    "pangasinense": "mabiskeg",
+    "definition": "To be busy or occupied.",
+    "tagalog": "mabiskeg",
+    "synonyms": "abala, may ginagawa",
+    "antonyms": "walang ginagawa",
+    "sentence": "Mabiskeg siya sa kanyang trabaho ngayong araw."
+  },
+  "mablak": {
+    "id": 471,
+    "pangasinense": "mablak",
+    "definition": "To be blurry or unclear.",
+    "tagalog": "mablak",
+    "synonyms": "malabo, hindi malinaw",
+    "antonyms": "malinaw",
+    "sentence": "Mablak ang mga imahe sa kanyang cellphone."
+  },
+  "mabli": {
+    "id": 472,
+    "pangasinense": "mabli",
+    "definition": "To be flexible or adaptable.",
+    "tagalog": "mabli",
+    "synonyms": "nababago, nag-aangkop",
+    "antonyms": "hindi nababago",
+    "sentence": "Mabli siya sa kanyang mga desisyon, depende sa sitwasyon."
+  },
+  "mabolbolos": {
+    "id": 473,
+    "pangasinense": "mabolbolos",
+    "definition": "To be insistent or persistent.",
+    "tagalog": "mabolbolos",
+    "synonyms": "matiyaga, walang tigil",
+    "antonyms": "sumuko",
+    "sentence": "Mabolbolos siya sa kanyang mga layunin."
+  },
+  "mabolo": {
+    "id": 474,
+    "pangasinense": "mabolo",
+    "definition": "To be full or complete.",
+    "tagalog": "mabolo",
+    "synonyms": "puno, kumpleto",
+    "antonyms": "wala",
+    "sentence": "Ang kanyang ulat ay mabolo at nasaklaw ang lahat ng aspeto."
+  },
+  "mabolos": {
+    "id": 475,
+    "pangasinense": "mabolos",
+    "definition": "To be heavy or burdensome.",
+    "tagalog": "mabolos",
+    "synonyms": "mabigat, pasanin",
+    "antonyms": "magaan",
+    "sentence": "Mabolos ang kanyang dala-dalang bag kaya't nahirapan siyang maglakad."
+  },
+  "mabona": {
+    "id": 476,
+    "pangasinense": "mabona",
+    "definition": "To be glorious or splendid.",
+    "tagalog": "mabona",
+    "synonyms": "kahanga-hanga, maganda",
+    "antonyms": "pangit",
+    "sentence": "Ang palabas ay mabona at puno ng saya."
+  },
+  "mabonga": {
+    "id": 477,
+    "pangasinense": "mabonga",
+    "definition": "To be noisy or boisterous.",
+    "tagalog": "mabonga",
+    "synonyms": "maingay, magulo",
+    "antonyms": "tahimik",
+    "sentence": "Mabonga ang mga bata sa kanilang paglalaro."
+  },
+  "mabongabonga": {
+    "id": 478,
+    "pangasinense": "mabongabonga",
+    "definition": "To be excessively noisy.",
+    "tagalog": "mabongabonga",
+    "synonyms": "labis na maingay, masalita",
+    "antonyms": "tahimik",
+    "sentence": "Ang kanilang salu-salo ay naging mabongabonga at puno ng tawanan."
+  },
+  "maboni": {
+    "id": 479,
+    "pangasinense": "maboni",
+    "definition": "To be cheerful or lively.",
+    "tagalog": "maboni",
+    "synonyms": "masigla, masaya",
+    "antonyms": "malumbay",
+    "sentence": "Maboni siya kahit sa gitna ng mga pagsubok."
+  },
+  "mabonikew": {
+    "id": 480,
+    "pangasinense": "mabonikew",
+    "definition": "To be charming or delightful.",
+    "tagalog": "mabonikew",
+    "synonyms": "kaakit-akit, nakakaaliw",
+    "antonyms": "nakakapagod",
+    "sentence": "Ang kanyang ngiti ay mabonikew at nagpapasaya sa iba."
+  },
+  "mabonigas": {
+    "id": 481,
+    "pangasinense": "mabonigas",
+    "definition": "To be foolish or silly.",
+    "tagalog": "mabonigas",
+    "synonyms": "bobo, hangal",
+    "antonyms": "matalino",
+    "sentence": "Mabonigas ang kanyang ginawa nang hindi siya nag-isip bago kumilos."
+  },
+  "mabonlok": {
+    "id": 482,
+    "pangasinense": "mabonlok",
+    "definition": "To be slippery or difficult to hold onto.",
+    "tagalog": "mabonlok",
+    "synonyms": "madulas, hindi matibay",
+    "antonyms": "matibay",
+    "sentence": "Ang sahig ay mabonlok matapos umulan."
+  },
+  "maboragas": {
+    "id": 483,
+    "pangasinense": "maboragas",
+    "definition": "To be rough or jagged.",
+    "tagalog": "maboragas",
+    "synonyms": "magaspang, mabato",
+    "antonyms": "makinis",
+    "sentence": "Ang mga bato sa dalampasigan ay maboragas at mahirap lapitan."
+  },
+  "mabotingting": {
+    "id": 484,
+    "pangasinense": "mabotingting",
+    "definition": "To be gleaming or shining brightly.",
+    "tagalog": "mabotingting",
+    "synonyms": "nagniningning, nakakasilaw",
+    "antonyms": "madilim",
+    "sentence": "Ang mga bituin sa gabi ay mabotingting at maganda."
+  },
+  "mabuanges": {
+    "id": 485,
+    "pangasinense": "mabuanges",
+    "definition": "To be delicate or fragile.",
+    "tagalog": "mabuanges",
+    "synonyms": "marupok, malambot",
+    "antonyms": "matibay",
+    "sentence": "Mabuanges ang bulaklak na ito, kaya't kailangan itong ingatan."
+  },
+  "mabuer": {
+    "id": 486,
+    "pangasinense": "mabuer",
+    "definition": "To be careful or cautious.",
+    "tagalog": "mabuer",
+    "synonyms": "maingat, mag-ingat",
+    "antonyms": "pabaya",
+    "sentence": "Kailangan mong mabuer sa pagmamaneho, lalo na sa masisikip na kalsada."
+  },
+  "mabuhay": {
+    "id": 487,
+    "pangasinense": "mabuhay",
+    "definition": "To live or thrive.",
+    "tagalog": "mabuhay",
+    "synonyms": "mabuhay, umiral",
+    "antonyms": "mamatay",
+    "sentence": "Nais kong mabuhay nang masaya at puno ng pag-asa."
+  },
+  "mabulong": {
+    "id": 488,
+    "pangasinense": "mabulong",
+    "definition": "To whisper or speak softly.",
+    "tagalog": "mabulong",
+    "synonyms": "bumulong, magsalita ng tahimik",
+    "antonyms": "sumigaw",
+    "sentence": "Mabulong siya ng lihim sa kanyang kaibigan."
+  },
+  "mabunga": {
+    "id": 489,
+    "pangasinense": "mabunga",
+    "definition": "To bear fruit or produce offspring.",
+    "tagalog": "mabunga",
+    "synonyms": "magbunga, mang-anak",
+    "antonyms": "walang bunga",
+    "sentence": "Ang punong ito ay mabunga tuwing tag-init."
+  },
+  "mabunlok": {
+    "id": 490,
+    "pangasinense": "mabunlok",
+    "definition": "To be soft or tender.",
+    "tagalog": "mabunlok",
+    "synonyms": "malambot, pino",
+    "antonyms": "matigas",
+    "sentence": "Mabunlok ang tinapay na ito, kaya't masarap kainin."
+  },
+  "mabusol": {
+    "id": 491,
+    "pangasinense": "mabusol",
+    "definition": "To become muddled or confused.",
+    "tagalog": "mabusol",
+    "synonyms": "malito, maguluhan",
+    "antonyms": "maliwanag",
+    "sentence": "Mabusol siya sa maraming impormasyon na ibinigay sa kanya."
+  },
+  "makaalis": {
+    "id": 492,
+    "pangasinense": "makaalis",
+    "definition": "To be able to leave or depart.",
+    "tagalog": "makaalis",
+    "synonyms": "makaalis, umalis",
+    "antonyms": "manatili",
+    "sentence": "Makakaalis ka na pagkatapos ng iyong trabaho."
+  },
+  "makaaro": {
+    "id": 493,
+    "pangasinense": "makaaro",
+    "definition": "To be able to think or reason.",
+    "tagalog": "makaaro",
+    "synonyms": "mag-isip, mangatuwiran",
+    "antonyms": "bobo",
+    "sentence": "Makaaro siya nang mabuti bago gumawa ng desisyon."
+  },
+  "makayayat": {
+    "id": 494,
+    "pangasinense": "makayayat",
+    "definition": "To become thin or slim.",
+    "tagalog": "makayayat",
+    "synonyms": "pumayat, magpayat",
+    "antonyms": "tumaba",
+    "sentence": "Makayayat siya sa kanyang diyeta at ehersisyo."
+  },
+  "makabalani": {
+    "id": 495,
+    "pangasinense": "makabalani",
+    "definition": "To be charming or captivating.",
+    "tagalog": "makabalani",
+    "synonyms": "kaakit-akit, mapansin",
+    "antonyms": "walang kaakit-akit",
+    "sentence": "Ang kanyang ngiti ay makabalani at nakakatawag-pansin."
+  },
+  "makabat": {
+    "id": 496,
+    "pangasinense": "makabat",
+    "definition": "To be able to catch or grasp.",
+    "tagalog": "makabat",
+    "synonyms": "mahuli, makuha",
+    "antonyms": "mawala",
+    "sentence": "Makabat siya ng bola sa kanyang laro."
+  },
+  "makabkabat": {
+    "id": 497,
+    "pangasinense": "makabkabat",
+    "definition": "To gather strength or gather resources.",
+    "tagalog": "makabkabat",
+    "synonyms": "magtipon, mag-imbak",
+    "antonyms": "mawala",
+    "sentence": "Kailangan mong makabkabat ng lakas bago ang laban."
+  },
+  "makabaliksan": {
+    "id": 498,
+    "pangasinense": "makabaliksan",
+    "definition": "To return or revert back to a previous state.",
+    "tagalog": "makabaliksan",
+    "synonyms": "makabalik, muling dumating",
+    "antonyms": "umalis nang tuluyan",
+    "sentence": "Makabaliksan siya sa kanyang dating bahay."
+  },
+  "makabansa": {
+    "id": 499,
+    "pangasinense": "makabansa",
+    "definition": "To have a nationalistic spirit or to be patriotic.",
+    "tagalog": "makabansa",
+    "synonyms": "makabayan, nagmamalaki sa bansa",
+    "antonyms": "hindi makabansa",
+    "sentence": "Dapat tayong maging makabansa at mahalin ang ating sariling bayan."
+  },
+  "makabinari": {
+    "id": 500,
+    "pangasinense": "makabinari",
+    "definition": "To divide or partition something.",
+    "tagalog": "makabinari",
+    "synonyms": "hatiin, paghiwalayin",
+    "antonyms": "pagsamahin",
+    "sentence": "Makabinari ang lupa sa dalawang bahagi para sa mga proyekto."
+  },
+  "makabos": {
+    "id": 501,
+    "pangasinense": "makabos",
+    "definition": "To cause trouble or create problems.",
+    "tagalog": "makabos",
+    "synonyms": "magdulot ng gulo, maging sagabal",
+    "antonyms": "maging mabuti",
+    "sentence": "Ang kanyang ugali ay makabos sa kanyang mga kaibigan."
+  },
+  "makakainagem": {
+    "id": 502,
+    "pangasinense": "makakainagem",
+    "definition": "To be able to eat something.",
+    "tagalog": "makakainagem",
+    "synonyms": "makakain, kaya kumain",
+    "antonyms": "hindi makakain",
+    "sentence": "Makakainagem ka ng masarap na pagkain sa party."
+  },
+  "makakainom": {
+    "id": 503,
+    "pangasinense": "makakainom",
+    "definition": "To be able to drink something.",
+    "tagalog": "makakainom",
+    "synonyms": "makainom, kaya uminom",
+    "antonyms": "hindi makainom",
+    "sentence": "Makakainom ako ng malamig na tubig matapos mag-ehersisyo."
+  },
+  "makakaogip": {
+    "id": 504,
+    "pangasinense": "makakaogip",
+    "definition": "To be able to catch or trap something.",
+    "tagalog": "makakaogip",
+    "synonyms": "mahuli, makuha",
+    "antonyms": "mawala",
+    "sentence": "Makakaogip siya ng isda sa lawa."
+  },
+  "makakewkew": {
+    "id": 505,
+    "pangasinense": "makakewkew",
+    "definition": "To be overly concerned or anxious.",
+    "tagalog": "makakewkew",
+    "synonyms": "nag-aalala, nababahala",
+    "antonyms": "kalmado",
+    "sentence": "Makakewkew siya sa kanyang mga responsibilidad."
+  },
+  "makakebiew": {
+    "id": 506,
+    "pangasinense": "makakebiew",
+    "definition": "To be able to endure or withstand.",
+    "tagalog": "makakebiew",
+    "synonyms": "makatiis, makayanan",
+    "antonyms": "sumuko",
+    "sentence": "Makakebiew siya sa mga hamon ng buhay."
+  },
+  "makadalin": {
+    "id": 507,
+    "pangasinense": "makadalin",
+    "definition": "To lead or guide someone.",
+    "tagalog": "makadalin",
+    "synonyms": "manguha, magturo",
+    "antonyms": "maligaw",
+    "sentence": "Makadalin siya sa mga bagong estudyante sa paaralan."
+  },
+  "makadiyos": {
+    "id": 508,
+    "pangasinense": "makadiyos",
+    "definition": "To be godly or divine; having qualities associated with God.",
+    "tagalog": "makadiyos",
+    "synonyms": "makalangit, banal",
+    "antonyms": "makasalanan",
+    "sentence": "Ang kanyang mga gawa at asal ay tunay na makadiyos."
+  },
+  "makakabayo": {
+    "id": 509,
+    "pangasinense": "makakabayo",
+    "definition": "To ride or mount a horse.",
+    "tagalog": "makakabayo",
+    "synonyms": "sumakay ng kabayo",
+    "antonyms": "bumaba sa kabayo",
+    "sentence": "Makakabayo siya sa kanyang paboritong kabayo bukas."
   }
 }

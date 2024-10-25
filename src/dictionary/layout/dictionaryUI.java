@@ -4,7 +4,6 @@ import dictionary.helper.navLetterHover;
 import dictionary.helper.navBarHover;
 import dictionary.manager.wordManager;
 import dictionary.entities.word;
-import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.util.TreeMap;
 import javax.swing.JFrame;
@@ -680,7 +679,7 @@ public class dictionaryUI extends javax.swing.JFrame {
         addWordsPanel panel = new addWordsPanel();
         javax.swing.JFrame frame = new javax.swing.JFrame();
         frame.add(panel);
-        frame.setUndecorated(false);
+        frame.setUndecorated(true);
         frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
