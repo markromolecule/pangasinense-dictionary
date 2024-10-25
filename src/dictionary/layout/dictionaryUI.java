@@ -604,7 +604,7 @@ public class dictionaryUI extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-    
+
     private void loadWords() {
         wordManager wordMgr = new wordManager();
         TreeMap<String, word> wordsMap = wordMgr.getWordMap();
@@ -622,6 +622,7 @@ public class dictionaryUI extends javax.swing.JFrame {
         wordsPanel.revalidate();
         wordsPanel.repaint();
     }
+
     private void showWordDetails(word wordObj) {
         JFrame frame = new JFrame("Word Details");
         frame.add(new showWordDetails(wordObj));  // Assuming showWordDetails is implemented
@@ -630,7 +631,7 @@ public class dictionaryUI extends javax.swing.JFrame {
         frame.setVisible(true);
     }
 
-    
+
     private void homeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_homeButtonActionPerformed
 
     }//GEN-LAST:event_homeButtonActionPerformed
@@ -639,13 +640,13 @@ public class dictionaryUI extends javax.swing.JFrame {
         addWordsPanel panel = new addWordsPanel();
         javax.swing.JFrame frame = new javax.swing.JFrame();
         frame.add(panel);
-        frame.setUndecorated(true);
+        frame.setUndecorated(false);
         frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
 
         if (currentFrame != null) {
-            currentFrame.dispose(); 
+            currentFrame.dispose();
         }
 
         currentFrame = frame;

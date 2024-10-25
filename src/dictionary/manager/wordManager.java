@@ -22,7 +22,7 @@ public class wordManager {
         
         if (wordMap.containsKey(pangasinenseWord)) {
             System.out.println("Duplicate word found: " + pangasinenseWord);
-            return;  // Do not add duplicate
+            return; 
         }
         
         int newId = wordMap.size() + 1;
