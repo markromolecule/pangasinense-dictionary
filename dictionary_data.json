@@ -389,7 +389,7 @@
   "abeba": {
     "id": 44,
     "pangasinense": "abeba",
-    "definition": "An informal term often used in conversation, meaning 'small' or 'little.'",
+    "definition": "An informal term often used in conversation, meaning \u0027small\u0027 or \u0027little.\u0027",
     "tagalog": "Abeba",
     "synonyms": "maliit, kaunti",
     "antonyms": "malaki",
@@ -627,7 +627,7 @@
     "tagalog": "baba",
     "synonyms": "panga",
     "antonyms": "noo",
-    "sentence": "Tumama ang bola sa kanyang baba kaya't nagdugo ito."
+    "sentence": "Tumama ang bola sa kanyang baba kaya\u0027t nagdugo ito."
   },
   "babag": {
     "id": 71,
@@ -674,17 +674,8 @@
     "antonyms": "libre",
     "sentence": "May babayaran akong kuryente ngayong araw."
   },
-  "babuwak": {
-    "id": 76,
-    "pangasinense": "babuwak",
-    "definition": "To collapse or fall down.",
-    "tagalog": "bumagsak",
-    "synonyms": "gumuho, wasak",
-    "antonyms": "tumayo",
-    "sentence": "Babuwak ang matandang puno dahil sa bagyo."
-  },
   "baboy": {
-    "id": 77,
+    "id": 76,
     "pangasinense": "baboy",
     "definition": "A pig, a domesticated animal raised for its meat.",
     "tagalog": "baboy",
@@ -693,7 +684,7 @@
     "sentence": "Ang baboy ay isa sa mga pangunahing inaalagaang hayop sa bukid."
   },
   "baboy damo": {
-    "id": 78,
+    "id": 77,
     "pangasinense": "baboy damo",
     "definition": "A wild pig or boar.",
     "tagalog": "baboy-ramo",
@@ -702,13 +693,22 @@
     "sentence": "May nakita silang baboy damo sa gubat."
   },
   "baboyan": {
-    "id": 79,
+    "id": 78,
     "pangasinense": "baboyan",
     "definition": "A pigpen or a place where pigs are raised.",
     "tagalog": "kulungan ng baboy",
     "synonyms": "kulungan",
     "antonyms": "N/A",
     "sentence": "Maingay ang baboyan tuwing oras ng pakain."
+  },
+  "babuwak": {
+    "id": 79,
+    "pangasinense": "babuwak",
+    "definition": "To collapse or fall down.",
+    "tagalog": "bumagsak",
+    "synonyms": "gumuho, wasak",
+    "antonyms": "tumayo",
+    "sentence": "Babuwak ang matandang puno dahil sa bagyo."
   },
   "baka": {
     "id": 80,
@@ -731,7 +731,7 @@
   "bakalan": {
     "id": 82,
     "pangasinense": "bakalan",
-    "definition": "A term that may refer to a blacksmith's shop or a place where iron or steel is worked on.",
+    "definition": "A term that may refer to a blacksmith\u0027s shop or a place where iron or steel is worked on.",
     "tagalog": "pagawaan ng bakal",
     "synonyms": "pandayan",
     "antonyms": "N/A",
@@ -911,7 +911,7 @@
   "baktad": {
     "id": 102,
     "pangasinense": "baktad",
-    "definition": "To turn one's back or to retreat.",
+    "definition": "To turn one\u0027s back or to retreat.",
     "tagalog": "tumalikod",
     "synonyms": "lumayo, umalis",
     "antonyms": "humarap",
@@ -989,23 +989,23 @@
     "antonyms": "mag-isa",
     "sentence": "Siya ang kaagwan ko sa pagluluto ng hapunan."
   },
-  "kaamsing": {
-    "id": 111,
-    "pangasinense": "kaamsing",
-    "definition": "The quality of being diligent or hardworking.",
-    "tagalog": "kasipagan",
-    "synonyms": "tiyaga, sipag",
-    "antonyms": "tamad",
-    "sentence": "Ang kanyang kaamsing sa trabaho ang dahilan ng kanyang tagumpay."
-  },
   "kaamotan": {
-    "id": 112,
+    "id": 111,
     "pangasinense": "kaamotan",
     "definition": "Someone or something that is lovable or adorable.",
     "tagalog": "kaibig-ibig",
     "synonyms": "kahanga-hanga",
     "antonyms": "kasuklam-suklam",
     "sentence": "Ang bata ay may kaamotan kaya’t mahal na mahal siya ng lahat."
+  },
+  "kaamsing": {
+    "id": 112,
+    "pangasinense": "kaamsing",
+    "definition": "The quality of being diligent or hardworking.",
+    "tagalog": "kasipagan",
+    "synonyms": "tiyaga, sipag",
+    "antonyms": "tamad",
+    "sentence": "Ang kanyang kaamsing sa trabaho ang dahilan ng kanyang tagumpay."
   },
   "kaanakn": {
     "id": 113,
@@ -1124,17 +1124,8 @@
     "antonyms": "pangit",
     "sentence": "Kaayayat ang tanawin mula sa bundok."
   },
-  "kabakab": {
-    "id": 126,
-    "pangasinense": "kabakab",
-    "definition": "Refers to a fluttering feeling, often due to nervousness or excitement.",
-    "tagalog": "kaba",
-    "synonyms": "takot, nerbiyos",
-    "antonyms": "kalmado",
-    "sentence": "Nararamdaman ko ang kabakab habang hinihintay ang resulta ng eksamin."
-  },
   "kabado": {
-    "id": 127,
+    "id": 126,
     "pangasinense": "kabado",
     "definition": "Nervous or uneasy.",
     "tagalog": "kabado",
@@ -1143,7 +1134,7 @@
     "sentence": "Kabado siya bago magsalita sa harap ng maraming tao."
   },
   "kabagalen": {
-    "id": 128,
+    "id": 127,
     "pangasinense": "kabagalen",
     "definition": "Fellow townmate or someone from the same place.",
     "tagalog": "kababayan",
@@ -1152,13 +1143,22 @@
     "sentence": "Masaya ako na nakilala ko ang isang kabagalen ko sa ibang bansa."
   },
   "kabagtan": {
-    "id": 129,
+    "id": 128,
     "pangasinense": "kabagtan",
     "definition": "The tie or connection between people, often familial or communal.",
     "tagalog": "ugnayan",
     "synonyms": "relasyon, koneksyon",
     "antonyms": "paghihiwalay",
     "sentence": "Mahalaga ang kabagtan ng pamilya sa panahon ng pangangailangan."
+  },
+  "kabakab": {
+    "id": 129,
+    "pangasinense": "kabakab",
+    "definition": "Refers to a fluttering feeling, often due to nervousness or excitement.",
+    "tagalog": "kaba",
+    "synonyms": "takot, nerbiyos",
+    "antonyms": "kalmado",
+    "sentence": "Nararamdaman ko ang kabakab habang hinihintay ang resulta ng eksamin."
   },
   "kabaleg": {
     "id": 130,

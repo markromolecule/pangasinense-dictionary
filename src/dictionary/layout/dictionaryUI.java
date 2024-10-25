@@ -625,7 +625,7 @@ public class dictionaryUI extends javax.swing.JFrame {
 
     private void showWordDetails(word wordObj) {
         JFrame frame = new JFrame("Word Details");
-        frame.add(new showWordDetails(wordObj));  // Assuming showWordDetails is implemented
+        frame.add(new showWordDetails(wordObj)); 
         frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);

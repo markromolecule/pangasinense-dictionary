@@ -27,19 +27,28 @@ public class updateButton extends wordAction {
             String antonyms = antonymField.getText();
             String sentence = sentenceField.getText();
 
+            // Update the values in the model
             model.setValueAt(pangasinense, selectedRow, 1);
             model.setValueAt(definition, selectedRow, 2);
             model.setValueAt(tagalog, selectedRow, 3);
-            model.setValueAt(synonymField.getText(), selectedRow, 4);
-            model.setValueAt(antonymField.getText(), selectedRow, 5);
-            model.setValueAt(sentenceField.getText(), selectedRow, 6);
+            model.setValueAt(synonyms, selectedRow, 4);
+            model.setValueAt(antonyms, selectedRow, 5);
+            model.setValueAt(sentence, selectedRow, 6);
 
-            word updatedWord = new word(selectedRow + 1, pangasinense, definition, tagalog, synonyms, antonyms, sentence);
-            wordManager.addWord(updatedWord);
-
-            // Optional: If the pangasinense key changes, you may need to remove the old entry from the HashMap
-            if (!pangasinense.equals(originalPangasinense)) {
-                wordManager.removeWord(originalPangasinense);  // Remove the old key from the HashMap
+            // Check if the original word exists
+            word existingWord = wordManager.getWord(originalPangasinense);
+            if (existingWord != null) {
+                // Update the existing word instead of adding a new one
+                existingWord.setPangasinense(pangasinense);
+                existingWord.setDefinition(definition);
+                existingWord.setTagalog(tagalog);
+                existingWord.setSynonyms(synonyms);
+                existingWord.setAntonyms(antonyms);
+                existingWord.setSentence(sentence);
+            } else {
+                // If the original word was removed or doesn't exist, create a new one
+                word updatedWord = new word(selectedRow + 1, pangasinense, definition, tagalog, synonyms, antonyms, sentence);
+                wordManager.addWord(updatedWord);
             }
             clearFields();
         }
