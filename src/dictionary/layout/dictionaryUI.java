@@ -4,6 +4,7 @@ import dictionary.helper.navLetterHover;
 import dictionary.helper.navBarHover;
 import dictionary.manager.wordManager;
 import dictionary.entities.word;
+import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.util.TreeMap;
 import javax.swing.JFrame;
@@ -630,10 +631,49 @@ public class dictionaryUI extends javax.swing.JFrame {
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
+    
+    // Method for navWordsPanel
+    private void goToNearestLetter(char letter) {
+        wordManager wordMgr = new wordManager();
+        TreeMap<String, word> wordsMap = wordMgr.getWordMap();
+        wordsPanel.removeAll();
 
+        boolean wordFound = false;
+
+        for (String key : wordsMap.keySet()) {
+            if (key.toUpperCase().charAt(0) == Character.toUpperCase(letter)) {
+                word wordObj = wordsMap.get(key);
+                javax.swing.JButton wordButton = new javax.swing.JButton(wordObj.getPangasinense());
+                wordButton.setPreferredSize(new java.awt.Dimension(40, 80));
+
+                wordButton.addActionListener((ActionEvent e) -> {
+                    showWordDetails(wordObj);
+                });
+                wordsPanel.add(wordButton);
+                wordFound = true;
+            }
+        }
+        if (!wordFound) {
+            javax.swing.JLabel noWordsLabel = new javax.swing.JLabel("No words found for letter: " + letter);
+            wordsPanel.add(noWordsLabel);
+        }
+
+        wordsPanel.revalidate();
+        wordsPanel.repaint();
+    }
 
     private void homeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_homeButtonActionPerformed
+        loadWords();
+        javax.swing.JButton[] alphabetButtons = {
+            aButton, bButton, cButton, dButton, eButton, fButton, gButton,
+            hButton, iButton, jButton, kButton, lButton, mButton, nButton,
+            oButton, pButton, qButton, rButton, sButton, tButton, uButton,
+            vButton, wButton, xButton, yButton, zButton
+        };
 
+        // Call the resetAlphabetButtons method from the navLetterHover class
+        navLetterHover.resetAlphabetButtons(alphabetButtons, addButton);
+        navLetterHover.addHoverEffect(aButton, true);
     }//GEN-LAST:event_homeButtonActionPerformed
 
     private void addButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addButtonActionPerformed
@@ -651,109 +691,109 @@ public class dictionaryUI extends javax.swing.JFrame {
 
         currentFrame = frame;
     }//GEN-LAST:event_addButtonActionPerformed
-
+   
     private void aButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('A');
     }//GEN-LAST:event_aButtonActionPerformed
 
     private void bButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('B');
     }//GEN-LAST:event_bButtonActionPerformed
 
     private void cButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('C');
     }//GEN-LAST:event_cButtonActionPerformed
 
     private void dButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('D');
     }//GEN-LAST:event_dButtonActionPerformed
 
     private void eButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_eButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('E');
     }//GEN-LAST:event_eButtonActionPerformed
 
     private void fButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('F');
     }//GEN-LAST:event_fButtonActionPerformed
 
     private void gButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('G');
     }//GEN-LAST:event_gButtonActionPerformed
 
     private void hButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('H');
     }//GEN-LAST:event_hButtonActionPerformed
 
     private void iButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_iButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('I');
     }//GEN-LAST:event_iButtonActionPerformed
 
     private void jButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('J');
     }//GEN-LAST:event_jButtonActionPerformed
 
     private void kButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_kButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('K');
     }//GEN-LAST:event_kButtonActionPerformed
 
     private void lButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('L');
     }//GEN-LAST:event_lButtonActionPerformed
 
     private void mButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('M');
     }//GEN-LAST:event_mButtonActionPerformed
 
     private void nButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('N');
     }//GEN-LAST:event_nButtonActionPerformed
 
     private void oButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_oButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('O');
     }//GEN-LAST:event_oButtonActionPerformed
 
     private void pButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('P');
     }//GEN-LAST:event_pButtonActionPerformed
 
     private void qButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_qButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('Q');
     }//GEN-LAST:event_qButtonActionPerformed
 
     private void rButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('R');
     }//GEN-LAST:event_rButtonActionPerformed
 
     private void sButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('S');
     }//GEN-LAST:event_sButtonActionPerformed
 
     private void tButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('T');
     }//GEN-LAST:event_tButtonActionPerformed
 
     private void uButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_uButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('U');
     }//GEN-LAST:event_uButtonActionPerformed
 
     private void vButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_vButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('V');
     }//GEN-LAST:event_vButtonActionPerformed
 
     private void wButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_wButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('W');
     }//GEN-LAST:event_wButtonActionPerformed
 
     private void xButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_xButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('X');
     }//GEN-LAST:event_xButtonActionPerformed
 
     private void yButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_yButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('Y');
     }//GEN-LAST:event_yButtonActionPerformed
 
     private void zButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_zButtonActionPerformed
-        // TODO add your handling code here:
+        goToNearestLetter('Z');
     }//GEN-LAST:event_zButtonActionPerformed
 
     private void focus(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_focus

@@ -9,9 +9,22 @@ public class navLetterHover {
 
     private static JButton currentlySelectedAlphabetButton; 
     private static final Color CUSTOM_GRAY = new Color(204, 204, 204);
-    
-    public static void addHoverEffect(JButton button, boolean isSelected) {
 
+    // Adding the resetAlphabetButtons method
+    public static void resetAlphabetButtons(JButton[] alphabetButtons, JButton addButton) {
+        for (JButton button : alphabetButtons) {
+            button.setForeground(CUSTOM_GRAY);  // Default color (not selected)
+            button.putClientProperty("isSelected", false);  // Reset selection state
+        }
+
+        // Optionally reset other buttons like Add Words, if needed:
+        if (addButton != null) {
+            addButton.setForeground(CUSTOM_GRAY);
+            addButton.putClientProperty("isSelected", false);
+        }
+    }
+
+    public static void addHoverEffect(JButton button, boolean isSelected) {
         Color originalColor = button.getForeground();
 
         if (isSelected) {
