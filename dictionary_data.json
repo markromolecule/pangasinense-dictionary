@@ -1154,7 +1154,7 @@
   "kabakab": {
     "id": 129,
     "pangasinense": "kabakab",
-    "definition": "Refers to a fluttering feeling, often due to nervousness or excitement.",
+    "definition": "It refers to a fluttering feeling, often due to nervousness or excitement.",
     "tagalog": "kaba",
     "synonyms": "takot, nerbiyos",
     "antonyms": "kalmado",
@@ -1163,10 +1163,505 @@
   "kabaleg": {
     "id": 130,
     "pangasinense": "kabaleg",
-    "definition": "Refers to something significant or large in size or importance.",
+    "definition": "It refers to something significant or large in size or importance.",
     "tagalog": "malaki",
     "synonyms": "malaki, makabuluhan",
     "antonyms": "maliit",
     "sentence": "Kabaleg ang kontribusyon ng aking ama sa komunidad."
+  },
+  "kabaleyan": {
+    "id": 131,
+    "pangasinense": "kabaleyan",
+    "definition": "Someone from the same hometown or province.",
+    "tagalog": "kababayan",
+    "synonyms": "kabagalen, kalugar",
+    "antonyms": "dayuhan",
+    "sentence": "Ang aming kabaleyan ay magkakasama sa isang komunidad."
+  },
+  "kabaliksan": {
+    "id": 132,
+    "pangasinense": "kabaliksan",
+    "definition": "The state of being reversed or opposite.",
+    "tagalog": "kabaligtaran",
+    "synonyms": "kabaliktaran, kasalungat",
+    "antonyms": "kapareho",
+    "sentence": "Ang kabaliksan ng sinabi niya ang tunay na nangyari."
+  },
+  "kabalgan": {
+    "id": 133,
+    "pangasinense": "kabalgan",
+    "definition": "Partner or someone involved in a shared activity or relationship.",
+    "tagalog": "kapareha",
+    "synonyms": "kasosyo, katuwang",
+    "antonyms": "kalaban, kaaway",
+    "sentence": "Siya ang aking kabalgan sa proyekto kaya’t magtutulungan kami."
+  },
+  "kabalyeria": {
+    "id": 134,
+    "pangasinense": "kabalyeria",
+    "definition": "Refers to a cavalry or a group of mounted soldiers.",
+    "tagalog": "kabalyerya",
+    "synonyms": "hukbo, sundalo",
+    "antonyms": "sibilyan",
+    "sentence": "Ang kabalyeria ng mga sundalo ay dumating upang tulungan ang mga sibilyan."
+  },
+  "kabalyerio": {
+    "id": 135,
+    "pangasinense": "kabalyerio",
+    "definition": "A member of the cavalry or a horse rider.",
+    "tagalog": "kabalyero",
+    "synonyms": "mangangabayo, sundalo",
+    "antonyms": "N/A",
+    "sentence": "Ang kabalyerio ay bihasa sa pakikidigma gamit ang kabayo."
+  },
+  "kabalyo": {
+    "id": 136,
+    "pangasinense": "kabalyo",
+    "definition": "A horse.",
+    "tagalog": "kabayo",
+    "synonyms": "hayop na pandigma, alaga",
+    "antonyms": "N/A",
+    "sentence": "Sumakay siya sa kabalyo upang mabilis na makarating sa kanyang pupuntahan."
+  },
+  "kaban": {
+    "id": 137,
+    "pangasinense": "kaban",
+    "definition": "Chest or container used to store valuables.",
+    "tagalog": "baul",
+    "synonyms": "kahon, imbakan",
+    "antonyms": "N/A",
+    "sentence": "Ang mga alahas ng pamilya ay nakatago sa isang kaban."
+  },
+  "kabanaan": {
+    "id": 138,
+    "pangasinense": "kabanaan",
+    "definition": "Refers to one’s homeland or country.",
+    "tagalog": "bayan",
+    "synonyms": "lugar ng kapanganakan, pinagmulan",
+    "antonyms": "banyaga",
+    "sentence": "Ang kanyang kabanaan ay ang probinsya ng Ilocos."
+  },
+  "kabandayan": {
+    "id": 139,
+    "pangasinense": "kabandayan",
+    "definition": "Refers to the state of being lazy or inactive.",
+    "tagalog": "katamaran",
+    "synonyms": "katamaran, pagkahiga-higa",
+    "antonyms": "kasipagan, pagkamasipag",
+    "sentence": "Ang kabandayan ang dahilan kung bakit hindi siya natapos sa kanyang trabaho."
+  },
+  "kabang": {
+    "id": 140,
+    "pangasinense": "kabang",
+    "definition": "A sense of fear or dread.",
+    "tagalog": "takot",
+    "synonyms": "kaba, nerbiyos",
+    "antonyms": "tapang, lakas ng loob",
+    "sentence": "Nararamdaman niya ang kabang habang naghihintay ng resulta ng eksaminasyon."
+  },
+  "kabangsaan": {
+    "id": 141,
+    "pangasinense": "kabangsaan",
+    "definition": "Refers to nationality or the concept of nationhood.",
+    "tagalog": "nasyonalismo",
+    "synonyms": "bayan, nasyonalidad",
+    "antonyms": "N/A",
+    "sentence": "Ipinagmamalaki niya ang kanyang kabangsaan at pagiging Pilipino."
+  },
+  "kabarit": {
+    "id": 142,
+    "pangasinense": "kabarit",
+    "definition": "A counterpart or someone with a similar role.",
+    "tagalog": "kapareha",
+    "synonyms": "kasingtungkulin, katulad",
+    "antonyms": "kakaiba, magkaibang papel",
+    "sentence": "Ang kanyang kabarit sa ibang bansa ay tinawagan para sa pagpupulong."
+  },
+  "kabastosan": {
+    "id": 143,
+    "pangasinense": "kabastosan",
+    "definition": "Rudeness or the act of being impolite.",
+    "tagalog": "kabastusan",
+    "synonyms": "kawalang-galang, kalapastanganan",
+    "antonyms": "magalang, marespeto",
+    "sentence": "Hindi ko nagustuhan ang kabastosan ng kanyang asal sa harap ng maraming tao."
+  },
+  "kabat": {
+    "id": 144,
+    "pangasinense": "kabat",
+    "definition": "Refers to the act of knowing or being aware.",
+    "tagalog": "kaalaman",
+    "synonyms": "pag-unawa, pagkaalam",
+    "antonyms": "kamangmangan",
+    "sentence": "Wala siyang kabat sa mga nangyayari dahil malayo siya sa lugar ng insidente."
+  },
+  "kabaten": {
+    "id": 145,
+    "pangasinense": "kabaten",
+    "definition": "Refers to someone’s age, particularly those in the same age group.",
+    "tagalog": "kaedad",
+    "synonyms": "kasing-edad, kapanahon",
+    "antonyms": "mas bata, mas matanda",
+    "sentence": "Ang aking kabaten ay kasabay kong nag-aral noong bata pa kami."
+  },
+  "daak": {
+    "id": 146,
+    "pangasinense": "daak",
+    "definition": "A large or wide opening.",
+    "tagalog": "maluwang",
+    "synonyms": "lawak, bukas",
+    "antonyms": "makipot",
+    "sentence": "Ang daak ng pintuan ay sapat para makadaan ang mga tao."
+  },
+  "daakan": {
+    "id": 147,
+    "pangasinense": "daakan",
+    "definition": "A place or entry point for large objects or wide spaces.",
+    "tagalog": "pasukan",
+    "synonyms": "pintuan, pasilyo",
+    "antonyms": "labasan",
+    "sentence": "Ginawa nila ang daakan ng warehouse na mas maluwang."
+  },
+  "daan": {
+    "id": 148,
+    "pangasinense": "daan",
+    "definition": "Path or road that people use for traveling.",
+    "tagalog": "kalsada",
+    "synonyms": "daan, landas",
+    "antonyms": "bakod, harang",
+    "sentence": "Maraming mga sasakyan ang dumadaan sa daang ito tuwing umaga."
+  },
+  "dabog": {
+    "id": 149,
+    "pangasinense": "dabog",
+    "definition": "A loud noise made by stomping feet, usually to express frustration.",
+    "tagalog": "yabag",
+    "synonyms": "kalampag, pagtapak",
+    "antonyms": "tahimik",
+    "sentence": "Narinig ko ang dabog ni Juan dahil siya ay galit na galit."
+  },
+  "dabuk": {
+    "id": 150,
+    "pangasinense": "dabuk",
+    "definition": "Sound or action of hitting or slapping.",
+    "tagalog": "hampas",
+    "synonyms": "palo, sapok",
+    "antonyms": "haplos",
+    "sentence": "Umalingawngaw ang dabuk ng pinto nang ito ay isinara ng malakas."
+  },
+  "dakangdakang": {
+    "id": 151,
+    "pangasinense": "dakangdakang",
+    "definition": "A repetitive motion or sound caused by heavy steps.",
+    "tagalog": "yabag-yabag",
+    "synonyms": "dagundong, pagtapak",
+    "antonyms": "mahinang yabag",
+    "sentence": "Naririnig ko ang dakangdakang ng mga sundalo sa kanilang parada."
+  },
+  "dakat": {
+    "id": 152,
+    "pangasinense": "dakat",
+    "definition": "A big, firm hold or grip.",
+    "tagalog": "hawak",
+    "synonyms": "kapit, sakmal",
+    "antonyms": "bitaw, kalas",
+    "sentence": "Mahigpit ang dakat ni Lola sa kanyang tungkod habang naglalakad."
+  },
+  "dakayan": {
+    "id": 153,
+    "pangasinense": "dakayan",
+    "definition": "A resting place or position.",
+    "tagalog": "pahingahan",
+    "synonyms": "himlayan, upuan",
+    "antonyms": "trabaho, kilos",
+    "sentence": "Sa ilalim ng puno, naroon ang kanyang dakayan tuwing hapon."
+  },
+  "dakel": {
+    "id": 154,
+    "pangasinense": "dakel",
+    "definition": "Large in size or number.",
+    "tagalog": "malaki",
+    "synonyms": "malawak, marami",
+    "antonyms": "maliit, kaunti",
+    "sentence": "Dakel ang mga tao sa pagtitipon noong pista ng barangay."
+  },
+  "dakep": {
+    "id": 155,
+    "pangasinense": "dakep",
+    "definition": "To catch or apprehend.",
+    "tagalog": "dakip",
+    "synonyms": "hulihin, arestuhin",
+    "antonyms": "pakawalan, palayain",
+    "sentence": "Ang magnanakaw ay agad na dakep ng mga pulis matapos ang habulan."
+  },
+  "dakepen": {
+    "id": 156,
+    "pangasinense": "dakepen",
+    "definition": "Refers to the action of capturing or seizing someone or something.",
+    "tagalog": "hulihin",
+    "synonyms": "dakpin, sakmalin",
+    "antonyms": "pakawalan",
+    "sentence": "Pinilit niyang dakepen ang ibon ngunit ito ay nakalipad."
+  },
+  "dakerakel": {
+    "id": 157,
+    "pangasinense": "dakerakel",
+    "definition": "Extremely large or of great size.",
+    "tagalog": "napakalaki",
+    "synonyms": "dambuhala, higante",
+    "antonyms": "maliit, kaunti",
+    "sentence": "Ang dakerakel ng gusali ay kahanga-hanga para sa mga turista."
+  },
+  "dakila": {
+    "id": 158,
+    "pangasinense": "dakila",
+    "definition": "Noble, great, or honorable in character or deed.",
+    "tagalog": "dakila",
+    "synonyms": "marangal, magiting",
+    "antonyms": "mababa, masama",
+    "sentence": "Dakila ang ginawa niyang sakripisyo para sa bayan."
+  },
+  "dakma": {
+    "id": 159,
+    "pangasinense": "dakma",
+    "definition": "The act of grabbing or seizing suddenly.",
+    "tagalog": "kuha",
+    "synonyms": "sunggab, sakmal",
+    "antonyms": "bitaw",
+    "sentence": "Dinakma ng bata ang laruan bago ito makuha ng iba."
+  },
+  "dakmomo": {
+    "id": 160,
+    "pangasinense": "dakmomo",
+    "definition": "Holding something tightly with both hands.",
+    "tagalog": "kapit",
+    "synonyms": "hawak, sakmal",
+    "antonyms": "bitaw",
+    "sentence": "Dakmomo niya ang manibela habang bumabagtas sa delikadong kalsada."
+  },
+  "dakob": {
+    "id": 161,
+    "pangasinense": "dakob",
+    "definition": "A wide or encompassing grip or embrace.",
+    "tagalog": "yakap",
+    "synonyms": "sapo, sakmal",
+    "antonyms": "bitaw",
+    "sentence": "Sa kanyang dakob, naramdaman ng bata ang init ng pagmamahal ng ina."
+  },
+  "dakomo": {
+    "id": 162,
+    "pangasinense": "dakomo",
+    "definition": "Tight or forceful gripping.",
+    "tagalog": "sakmal",
+    "synonyms": "dakma, sunggab",
+    "antonyms": "bitawan",
+    "sentence": "Malakas ang dakomo niya sa bola habang nakikipaglaban para sa puntos."
+  },
+  "dakongdakong": {
+    "id": 163,
+    "pangasinense": "dakongdakong",
+    "definition": "Grabbing or holding something with one’s entire hand.",
+    "tagalog": "sapo",
+    "synonyms": "hawak, sakmal",
+    "antonyms": "bitawan",
+    "sentence": "Dakongdakong niya ang malaking prutas upang hindi ito malaglag."
+  },
+  "dakosoy": {
+    "id": 164,
+    "pangasinense": "dakosoy",
+    "definition": "A swift or forceful movement towards something.",
+    "tagalog": "biglang paglapit",
+    "synonyms": "sugod, hablot",
+    "antonyms": "layuan",
+    "sentence": "Biglang dakosoy ng aso sa pagkain nang ito ay makita."
+  },
+  "dakot": {
+    "id": 165,
+    "pangasinense": "dakot",
+    "definition": "The act of taking a handful of something.",
+    "tagalog": "dakot",
+    "synonyms": "kurot, kuha",
+    "antonyms": "bitaw",
+    "sentence": "Dakot ng bigas ang ibinigay ng magtitinda sa kanyang suki."
+  },
+  "dakotkot": {
+    "id": 166,
+    "pangasinense": "dakotkot",
+    "definition": "To scratch or claw at something vigorously.",
+    "tagalog": "kamot",
+    "synonyms": "kalmot, kuskos",
+    "antonyms": "himas",
+    "sentence": "Hindi mapigilan ng pusa ang dakotkot sa kanyang tenga."
+  },
+  "dakpen": {
+    "id": 167,
+    "pangasinense": "dakpen",
+    "definition": "To catch or seize.",
+    "tagalog": "hulihin",
+    "synonyms": "dakip, sakmalin",
+    "antonyms": "bitawan",
+    "sentence": "Ang aso ay mabilis na dakpen ang bola na itinapon sa kanya."
+  },
+  "dakulap": {
+    "id": 168,
+    "pangasinense": "dakulap",
+    "definition": "Refers to a large quantity or amount of something.",
+    "tagalog": "marami",
+    "synonyms": "dami, tambak",
+    "antonyms": "kaunti",
+    "sentence": "Dakulap ng tao ang dumalo sa kasal ng artista."
+  },
+  "dakumo": {
+    "id": 169,
+    "pangasinense": "dakumo",
+    "definition": "Tight or forceful closing of the fist or hand.",
+    "tagalog": "sakal",
+    "synonyms": "hawak, dakma",
+    "antonyms": "bitaw",
+    "sentence": "Ang dakumo niya sa rope ang nagbigay ng tagumpay sa tug-of-war."
+  },
+  "dadakmomoen": {
+    "id": 170,
+    "pangasinense": "dadakmomoen",
+    "definition": "Future tense of grabbing something with force.",
+    "tagalog": "kukunin ng buo",
+    "synonyms": "aagawin, sasakmalin",
+    "antonyms": "bibitawan",
+    "sentence": "Dadakmomoen niya ang pagkakataon upang maging matagumpay sa negosyo."
+  },
+  "daedaeg": {
+    "id": 171,
+    "pangasinense": "daedaeg",
+    "definition": "To repeatedly move or shift.",
+    "tagalog": "galaw",
+    "synonyms": "yugyog, alog",
+    "antonyms": "manatili",
+    "sentence": "Laging daedaeg ang silya niya kapag hindi siya mapakali."
+  },
+  "daeg": {
+    "id": 172,
+    "pangasinense": "daeg",
+    "definition": "To move suddenly or with force.",
+    "tagalog": "biglang galaw",
+    "synonyms": "liko, liksi",
+    "antonyms": "dahan-dahan",
+    "sentence": "Nasa daeg ang kamay niya nang magulat siya sa tunog ng pinto."
+  },
+  "daing": {
+    "id": 173,
+    "pangasinense": "daing",
+    "definition": "A sound or cry of pain or distress.",
+    "tagalog": "daing",
+    "synonyms": "hikbi, ungol",
+    "antonyms": "katahimikan",
+    "sentence": "Narinig ko ang daing ng bata matapos madapa."
+  },
+  "dait": {
+    "id": 174,
+    "pangasinense": "dait",
+    "definition": "To piece things together or connect.",
+    "tagalog": "dugtungan",
+    "synonyms": "isama, ikabit",
+    "antonyms": "hiwalay",
+    "sentence": "Dait mo ang dalawang parte ng kahoy para makabuo ng upuan."
+  },
+  "daiset": {
+    "id": 175,
+    "pangasinense": "daiset",
+    "definition": "A woven mat or sheet made from indigenous materials.",
+    "tagalog": "banig",
+    "synonyms": "sapin, higaan",
+    "antonyms": "kama, foam",
+    "sentence": "Nakatulog siya nang mahimbing sa kanyang daiset sa ilalim ng puno."
+  },
+  "daiset-daiset": {
+    "id": 176,
+    "pangasinense": "daiset-daiset",
+    "definition": "Multiple woven mats or layers of mats.",
+    "tagalog": "mga banig",
+    "synonyms": "sapin-sapin, patong-patong",
+    "antonyms": "isa, manipis",
+    "sentence": "Ginamit nila ang daiset-daiset para gawing mas komportable ang higaan."
+  },
+  "dagdag": {
+    "id": 177,
+    "pangasinense": "dagdag",
+    "definition": "An additional or extra amount of something.",
+    "tagalog": "dagdag",
+    "synonyms": "karagdagan, pandagdag",
+    "antonyms": "bawas, alis",
+    "sentence": "Dagdag na sahod ang hinihingi ng mga manggagawa ngayong taon."
+  },
+  "dagdaiset": {
+    "id": 178,
+    "pangasinense": "dagdaiset",
+    "definition": "The act of adding more woven mats or layers.",
+    "tagalog": "dagdagan ng banig",
+    "synonyms": "patungan, sapinan",
+    "antonyms": "bawasan",
+    "sentence": "Dapat nating dagdaiset para mas komportable ang higaan."
+  },
+  "dagdawit": {
+    "id": 179,
+    "pangasinense": "dagdawit",
+    "definition": "To add something quickly or suddenly.",
+    "tagalog": "biglang idinagdag",
+    "synonyms": "isinama, inambag",
+    "antonyms": "inalis, binawasan",
+    "sentence": "Dagdawit niya ang ilang damit sa kanyang bagahe bago umalis."
+  },
+  "dagem": {
+    "id": 180,
+    "pangasinense": "dagem",
+    "definition": "Wind or breeze.",
+    "tagalog": "hangin",
+    "synonyms": "simoy, ihip",
+    "antonyms": "init, galaw",
+    "sentence": "Malamig ang dagem sa umaga sa tabi ng dagat."
+  },
+  "dageyem": {
+    "id": 181,
+    "pangasinense": "dageyem",
+    "definition": "Strong gust of wind.",
+    "tagalog": "malakas na hangin",
+    "synonyms": "unos, buhawi",
+    "antonyms": "mahina, banayad",
+    "sentence": "Nabuwal ang puno dahil sa malakas na dageyem."
+  },
+  "dagi": {
+    "id": 182,
+    "pangasinense": "dagi",
+    "definition": "To delay or hinder something.",
+    "tagalog": "antala",
+    "synonyms": "pigil, ipit",
+    "antonyms": "tuloy, patuloy",
+    "sentence": "Huwag mong dagi ang trabaho, kailangan itong matapos agad."
+  },
+  "dago": {
+    "id": 183,
+    "pangasinense": "dago",
+    "definition": "To approach or come near.",
+    "tagalog": "lapit",
+    "synonyms": "hila, dalhin",
+    "antonyms": "layuan, iwas",
+    "sentence": "Dago siya sa akin upang ibigay ang liham na iyon."
+  },
+  "dagop": {
+    "id": 184,
+    "pangasinense": "dagop",
+    "definition": "To gather or collect together.",
+    "tagalog": "pulutin",
+    "synonyms": "tipunin, ipunin",
+    "antonyms": "ikalat, ihiwalay",
+    "sentence": "Nagdagop siya ng mga bagay na naiwan sa sahig pagkatapos ng pagtitipon."
+  },
+  "dagtos": {
+    "id": 185,
+    "pangasinense": "dagtos",
+    "definition": "Something that flows or moves in a stream, usually referring to liquid.",
+    "tagalog": "agos",
+    "synonyms": "dumaloy, agos",
+    "antonyms": "tumigil",
+    "sentence": "Dagtos ng tubig mula sa bundok ang pumuno sa ilog."
   }
 }
