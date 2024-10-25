@@ -6,7 +6,7 @@ import dictionary.entities.word;
 public class updateButton extends wordAction {
 
     private wordManager wordManager;
-
+    
     public updateButton(DefaultTableModel model, javax.swing.JTable wordListTable, javax.swing.JTextField pangasinenseField,
             javax.swing.JTextField definitionField, javax.swing.JTextField tagalogField, javax.swing.JTextField synonymField,
             javax.swing.JTextField antonymField, javax.swing.JTextField sentenceField, wordManager wordManager) {
@@ -26,7 +26,7 @@ public class updateButton extends wordAction {
             String synonyms = synonymField.getText();
             String antonyms = antonymField.getText();
             String sentence = sentenceField.getText();
-
+            
             // Update the values in the model
             model.setValueAt(pangasinense, selectedRow, 1);
             model.setValueAt(definition, selectedRow, 2);
