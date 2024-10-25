@@ -2203,5 +2203,1463 @@
     "synonyms": "igalang, parangalan",
     "antonyms": "bastusin, laitin",
     "sentence": "Dapat mong galangen ang mga guro at mga magulang mo."
+  },
+  "galaragad": {
+    "id": 246,
+    "pangasinense": "galaragad",
+    "definition": "A state of being exhausted or weary from work.",
+    "tagalog": "pagod na pagod",
+    "synonyms": "pagkapagod, pagkapuyat",
+    "antonyms": "maginhawa, nakapahinga",
+    "sentence": "Si Pedro ay galaragad na matapos ang maghapong trabaho."
+  },
+  "galargad": {
+    "id": 247,
+    "pangasinense": "galargad",
+    "definition": "To wear down or tire out.",
+    "tagalog": "mapagod",
+    "synonyms": "mapagod, mapuyat",
+    "antonyms": "magpahinga, manumbalik",
+    "sentence": "Ang pagtatrabaho ng sobrang oras ay nagagalargad sa kanya."
+  },
+  "galasugos": {
+    "id": 248,
+    "pangasinense": "galasugos",
+    "definition": "To suck or absorb something with great intensity.",
+    "tagalog": "sumipsip",
+    "synonyms": "higop, sipsip",
+    "antonyms": "dahan-dahan, patak-patak",
+    "sentence": "Sinugos niya ang kanyang inumin dahil sa matinding uhaw."
+  },
+  "galaw": {
+    "id": 249,
+    "pangasinense": "galaw",
+    "definition": "Movement or motion.",
+    "tagalog": "galaw",
+    "synonyms": "kilos, paggalaw",
+    "antonyms": "pagkatigil, pagkaantala",
+    "sentence": "Ang kanyang galaw ay mabilis at maliksi."
+  },
+  "galawan": {
+    "id": 250,
+    "pangasinense": "galawan",
+    "definition": "Referring to one’s actions or movements.",
+    "tagalog": "kilos, pagkilos",
+    "synonyms": "aksiyon, pagkilos",
+    "antonyms": "hindi kumikilos, nakatigil",
+    "sentence": "Ang galawan ng mga sayaw ay nagpakitang gilas ng mga mananayaw."
+  },
+  "galawgaw": {
+    "id": 251,
+    "pangasinense": "galawgaw",
+    "definition": "A term that implies disorderly movement or restlessness.",
+    "tagalog": "magulo, balisa",
+    "synonyms": "gulo, kalituhan",
+    "antonyms": "katahimikan, kaayusan",
+    "sentence": "Ang mga bata ay galawgaw sa loob ng bahay habang naglalaro."
+  },
+  "galdi": {
+    "id": 252,
+    "pangasinense": "galdi",
+    "definition": "A term used to describe a messy or tangled situation.",
+    "tagalog": "gulo",
+    "synonyms": "kalat, gulo",
+    "antonyms": "kaayusan, kaunlaran",
+    "sentence": "Ang kanyang kwarto ay puno ng galdi matapos ang kanyang party."
+  },
+  "galeway": {
+    "id": 253,
+    "pangasinense": "galeway",
+    "definition": "A path or way that is easily accessible.",
+    "tagalog": "daan",
+    "synonyms": "landas, ruta",
+    "antonyms": "hadlang, sagabal",
+    "sentence": "Ang galeway sa likod ng bahay ay puno ng mga bulaklak."
+  },
+  "galgalangen": {
+    "id": 254,
+    "pangasinense": "galgalangen",
+    "definition": "The act of wobbling or shaking unsteadily.",
+    "tagalog": "ugong",
+    "synonyms": "pag-alog, pagyanig",
+    "antonyms": "matatag, hindi kumikilos",
+    "sentence": "Ang galgalangen ng kanyang mga tuhod ay dulot ng takot."
+  },
+  "galgalaw": {
+    "id": 255,
+    "pangasinense": "galgalaw",
+    "definition": "To move around restlessly or to fidget.",
+    "tagalog": "mag-galaw-galaw",
+    "synonyms": "paggalaw, pagkilos",
+    "antonyms": "manatili, huwag gumalaw",
+    "sentence": "Napansin ko ang galgalaw ni Maria habang hinihintay ang kanyang turn."
+  },
+  "galikgik": {
+    "id": 256,
+    "pangasinense": "galikgik",
+    "definition": "A sound or noise that is annoying or irritating.",
+    "tagalog": "nakakainis na tunog",
+    "synonyms": "ingay, tunog",
+    "antonyms": "katahimikan",
+    "sentence": "Ang galikgik ng mga ibon sa umaga ay nagbigay saya sa akin."
+  },
+  "galing": {
+    "id": 257,
+    "pangasinense": "galing",
+    "definition": "Skill or talent in performing a task.",
+    "tagalog": "galing",
+    "synonyms": "husay, kakayahan",
+    "antonyms": "kawalang-kakayahan",
+    "sentence": "Ipinakita ni Mark ang kanyang galing sa pagtugtog ng gitara."
+  },
+  "galip": {
+    "id": 258,
+    "pangasinense": "galip",
+    "definition": "A term referring to the ability to move smoothly or easily.",
+    "tagalog": "kasanayan",
+    "synonyms": "liksi, galing",
+    "antonyms": "panghihina, pagkatigagal",
+    "sentence": "Ang kanyang galip sa pagsayaw ay talagang kahanga-hanga."
+  },
+  "galongogong": {
+    "id": 259,
+    "pangasinense": "galongogong",
+    "definition": "A term describing a loud, echoing sound.",
+    "tagalog": "malalakas na tunog",
+    "synonyms": "ingay, alingawngaw",
+    "antonyms": "tahimik",
+    "sentence": "Ang galongogong ng kanyang boses ay umabot sa buong bulwagan."
+  },
+  "galor": {
+    "id": 260,
+    "pangasinense": "galor",
+    "definition": "A state of being or having abundance or wealth.",
+    "tagalog": "kasaganaan",
+    "synonyms": "yaman, kasaganahan",
+    "antonyms": "kakulangan, hirap",
+    "sentence": "Ang galor ng kanyang buhay ay bunga ng kanyang sipag at tiyaga."
+  },
+  "galos": {
+    "id": 261,
+    "pangasinense": "galos",
+    "definition": "A mark or scar left on the skin from a wound.",
+    "tagalog": "peklat",
+    "synonyms": "pasa, sugat",
+    "antonyms": "walang peklat",
+    "sentence": "Ang galos sa kanyang braso ay tanda ng kanyang pagkakaaksidente."
+  },
+  "galosa": {
+    "id": 262,
+    "pangasinense": "galosa",
+    "definition": "Referring to a mixture or combination of different items or substances.",
+    "tagalog": "halo-halo",
+    "synonyms": "pinaghalong, magkakahalo",
+    "antonyms": "iisa, hiwalay",
+    "sentence": "Ang galosa ng mga prutas sa kanyang salad ay talagang masarap."
+  },
+  "galosgos": {
+    "id": 263,
+    "pangasinense": "galosgos",
+    "definition": "The act of tripping or stumbling.",
+    "tagalog": "natapilok",
+    "synonyms": "tanggi, talsik",
+    "antonyms": "makaalis ng maayos",
+    "sentence": "Siya ay nahulog dahil sa kanyang galosgos habang naglalakad."
+  },
+  "galot": {
+    "id": 264,
+    "pangasinense": "galot",
+    "definition": "A term for being bound or tied down.",
+    "tagalog": "nakatali",
+    "synonyms": "nakabigti, nakagapos",
+    "antonyms": "malaya",
+    "sentence": "Ang mga hayop ay galot sa kanilang mga kulungan."
+  },
+  "galpong": {
+    "id": 265,
+    "pangasinense": "galpong",
+    "definition": "An informal term used to describe a funny or lighthearted situation.",
+    "tagalog": "nakakatawang sitwasyon",
+    "synonyms": "nakakatawa, masaya",
+    "antonyms": "seryoso",
+    "sentence": "Ang galpong nangyari sa party ay umabot hanggang madaling araw."
+  },
+  "galsiman": {
+    "id": 266,
+    "pangasinense": "galsiman",
+    "definition": "Referring to someone who is very active or lively.",
+    "tagalog": "masigla",
+    "synonyms": "aktibo, masigasig",
+    "antonyms": "tamad, walang gana",
+    "sentence": "Si Liza ay galsiman sa kanyang mga gawain, palaging may enerhiya."
+  },
+  "galunggong": {
+    "id": 267,
+    "pangasinense": "galunggong",
+    "definition": "A type of fish commonly found in the Philippines.",
+    "tagalog": "galunggong",
+    "synonyms": "isdang galunggong, ikan",
+    "antonyms": "walang kahalintulad",
+    "sentence": "Ang galunggong ay isa sa mga paborito ng mga Pilipino sa hapag-kainan."
+  },
+  "haplos": {
+    "id": 268,
+    "pangasinense": "haplos",
+    "definition": "A gentle touch or stroke.",
+    "tagalog": "haplos",
+    "synonyms": "himas, dampi",
+    "antonyms": "hampas, palo",
+    "sentence": "Ang haplos ng kanyang kamay ay nagbigay ng aliw sa bata."
+  },
+  "hapon": {
+    "id": 269,
+    "pangasinense": "hapon",
+    "definition": "Afternoon; the period from midday to evening.",
+    "tagalog": "hapon",
+    "synonyms": "hatingabi",
+    "antonyms": "umaga, gabi",
+    "sentence": "Nag-aaral ako sa hapon pagkatapos ng klase."
+  },
+  "hapones": {
+    "id": 270,
+    "pangasinense": "hapones",
+    "definition": "A person from Japan; Japanese.",
+    "tagalog": "Hapones",
+    "synonyms": "Wika ng Hapon",
+    "antonyms": "Walang katumbas",
+    "sentence": "Maraming Hapones ang bumisita sa bansa upang mag-aral ng kultura."
+  },
+  "haponesa": {
+    "id": 271,
+    "pangasinense": "haponesa",
+    "definition": "A female person from Japan; Japanese woman.",
+    "tagalog": "Haponesa",
+    "synonyms": "Wika ng Hapon (babae)",
+    "antonyms": "Walang katumbas",
+    "sentence": "Ang haponesa na iyon ay may magandang kasuotan."
+  },
+  "harpa": {
+    "id": 272,
+    "pangasinense": "harpa",
+    "definition": "A musical instrument with strings, played by plucking.",
+    "tagalog": "harpa",
+    "synonyms": "instrumentong pangmusika",
+    "antonyms": "walang katumbas",
+    "sentence": "Ang harpa ay isa sa mga pinakamagandang instrumentong pangmusika."
+  },
+  "harpista": {
+    "id": 273,
+    "pangasinense": "harpista",
+    "definition": "A harp player.",
+    "tagalog": "harpista",
+    "synonyms": "musikero",
+    "antonyms": "walang katumbas",
+    "sentence": "Ang harpista ay tumugtog ng isang magandang melodiya."
+  },
+  "hello": {
+    "id": 274,
+    "pangasinense": "hello",
+    "definition": "A greeting used to acknowledge someone.",
+    "tagalog": "hello",
+    "synonyms": "kumusta, hi",
+    "antonyms": "paalam",
+    "sentence": "Nag-hi siya sa akin at nagtanong kung anong balita."
+  },
+  "heneral": {
+    "id": 275,
+    "pangasinense": "heneral",
+    "definition": "A high-ranking officer in the military.",
+    "tagalog": "heneral",
+    "synonyms": "opisyal, general",
+    "antonyms": "sundalo",
+    "sentence": "Ang heneral ay nagbigay ng utos sa kanyang mga tauhan."
+  },
+  "hinang": {
+    "id": 276,
+    "pangasinense": "hinang",
+    "definition": "A joining or welding of materials.",
+    "tagalog": "hinang",
+    "synonyms": "pagtutukoy, koneksyon",
+    "antonyms": "pagkahiwalay",
+    "sentence": "Mahalaga ang hinang sa paggawa ng mga metal na estruktura."
+  },
+  "hipnotismo": {
+    "id": 277,
+    "pangasinense": "hipnotismo",
+    "definition": "The practice of inducing a trance-like state in someone.",
+    "tagalog": "hipnotismo",
+    "synonyms": "hipnosis",
+    "antonyms": "gising",
+    "sentence": "Ang hipnotismo ay ginagamit bilang paraan ng therapy sa ilang tao."
+  },
+  "historya": {
+    "id": 278,
+    "pangasinense": "historya",
+    "definition": "The study or account of past events.",
+    "tagalog": "kasaysayan",
+    "synonyms": "nakaraan, kwento",
+    "antonyms": "hinaharap",
+    "sentence": "Ang historya ng Pilipinas ay puno ng makasaysayang pangyayari."
+  },
+  "hokus-pokus": {
+    "id": 279,
+    "pangasinense": "hokus-pokus",
+    "definition": "A phrase used to imply trickery or magic.",
+    "tagalog": "hocus pocus",
+    "synonyms": "mahika, sorcery",
+    "antonyms": "katotohanan",
+    "sentence": "Ang mga magician ay gumagamit ng hokus-pokus sa kanilang mga palabas."
+  },
+  "holdap": {
+    "id": 280,
+    "pangasinense": "holdap",
+    "definition": "A robbery, particularly one that occurs unexpectedly.",
+    "tagalog": "holdap",
+    "synonyms": "nakawan, pagnanakaw",
+    "antonyms": "pagbabayad",
+    "sentence": "Nagkaroon ng holdap sa tindahan noong madaling araw."
+  },
+  "holin": {
+    "id": 281,
+    "pangasinense": "holin",
+    "definition": "A type of traditional Philippine dish.",
+    "tagalog": "holin",
+    "synonyms": "ulam",
+    "antonyms": "walang katumbas",
+    "sentence": "Masarap ang holin na niluto ng kanyang lola."
+  },
+  "hukom": {
+    "id": 282,
+    "pangasinense": "hukom",
+    "definition": "A judge or magistrate in a court of law.",
+    "tagalog": "hukom",
+    "synonyms": "tagahatol, manggagawa ng batas",
+    "antonyms": "akusado",
+    "sentence": "Ang hukom ay nagbigay ng makatarungang desisyon sa kaso."
+  },
+  "hudyo": {
+    "id": 283,
+    "pangasinense": "hudyo",
+    "definition": "A person of Jewish descent or religion.",
+    "tagalog": "Hudyo",
+    "synonyms": "wala",
+    "antonyms": "wala",
+    "sentence": "Ang kulturang Hudyo ay mayaman sa mga tradisyon at kasaysayan."
+  },
+  "hulyo": {
+    "id": 284,
+    "pangasinense": "hulyo",
+    "definition": "The seventh month of the year.",
+    "tagalog": "Hulyo",
+    "synonyms": "buwan ng Hulyo",
+    "antonyms": "wala",
+    "sentence": "Ang Hulyo ay karaniwang mainit na buwan sa Pilipinas."
+  },
+  "hunyo": {
+    "id": 285,
+    "pangasinense": "hunyo",
+    "definition": "The sixth month of the year.",
+    "tagalog": "Hunyo",
+    "synonyms": "buwan ng Hunyo",
+    "antonyms": "wala",
+    "sentence": "Nagpapaulan ang Hunyo sa mga bahagi ng bansa."
+  },
+  "hupiter": {
+    "id": 286,
+    "pangasinense": "hupiter",
+    "definition": "The planet Jupiter.",
+    "tagalog": "Hupiter",
+    "synonyms": "planeta",
+    "antonyms": "wala",
+    "sentence": "Ang Hupiter ay ang pinakamalaking planeta sa ating solar system."
+  },
+  "husto": {
+    "id": 287,
+    "pangasinense": "husto",
+    "definition": "Right or correct; also means just enough.",
+    "tagalog": "tama, sapat",
+    "synonyms": "eksakto, akma",
+    "antonyms": "mali, labis",
+    "sentence": "Husto ang iyong desisyon sa pagbili ng bagong kotse."
+  },
+  "hydroheno": {
+    "id": 288,
+    "pangasinense": "hydroheno",
+    "definition": "The chemical element hydrogen, represented by the symbol H.",
+    "tagalog": "hidroheno",
+    "synonyms": "wala",
+    "antonyms": "wala",
+    "sentence": "Ang hidroheno ay isang mahalagang elemento sa komposisyon ng tubig."
+  },
+  "iba": {
+    "id": 289,
+    "pangasinense": "iba",
+    "definition": "Different or another.",
+    "tagalog": "iba",
+    "synonyms": "kaiba, salungat",
+    "antonyms": "pareho, katulad",
+    "sentence": "Iba ang pananaw niya sa isyung ito kumpara sa akin."
+  },
+  "ibaan": {
+    "id": 290,
+    "pangasinense": "ibaan",
+    "definition": "To leave or to set aside.",
+    "tagalog": "ibaan",
+    "synonyms": "iwan, talikuran",
+    "antonyms": "panatilihin",
+    "sentence": "Dapat mong ibaan ang mga hindi mahalagang bagay sa iyong buhay."
+  },
+  "ibabaga": {
+    "id": 291,
+    "pangasinense": "ibabaga",
+    "definition": "To bury something; often used in a cultural context.",
+    "tagalog": "ibabaga",
+    "synonyms": "ilibing, itago",
+    "antonyms": "ilabas",
+    "sentence": "Ibabaga natin ang mga alaala ng ating mga ninuno."
+  },
+  "ibabasil": {
+    "id": 292,
+    "pangasinense": "ibabasil",
+    "definition": "To sprinkle or scatter.",
+    "tagalog": "ibabasil",
+    "synonyms": "ikalat, ikabog",
+    "antonyms": "itago",
+    "sentence": "Ibabasil mo ang mga buto sa lupa bago magtanim."
+  },
+  "ibaki": {
+    "id": 293,
+    "pangasinense": "ibaki",
+    "definition": "To set aside or to spare.",
+    "tagalog": "ibaki",
+    "synonyms": "itabi, ilaan",
+    "antonyms": "isama",
+    "sentence": "Ibaki mo ang ilang bahagi ng kita para sa mga pangangailangan."
+  },
+  "ibakuwit": {
+    "id": 294,
+    "pangasinense": "ibakuwit",
+    "definition": "To tie or bind.",
+    "tagalog": "ibakuwit",
+    "synonyms": "iugnay, itali",
+    "antonyms": "pakawalan",
+    "sentence": "Ibakuwit mo ang mga kahoy upang hindi ito matumba."
+  },
+  "ibaga": {
+    "id": 295,
+    "pangasinense": "ibaga",
+    "definition": "To tell or to convey a message.",
+    "tagalog": "ibaga",
+    "synonyms": "ipahayag, sabihin",
+    "antonyms": "itago",
+    "sentence": "Ibaga mo sa kanya ang iyong nararamdaman."
+  },
+  "ibagat": {
+    "id": 296,
+    "pangasinense": "ibagat",
+    "definition": "To raise or to elevate.",
+    "tagalog": "ibagat",
+    "synonyms": "itaas, iangat",
+    "antonyms": "ibaba",
+    "sentence": "Ibagat mo ang iyong boses upang marinig ka."
+  },
+  "ibagay": {
+    "id": 297,
+    "pangasinense": "ibagay",
+    "definition": "To match or to suit.",
+    "tagalog": "ibagay",
+    "synonyms": "umangkop, maging akma",
+    "antonyms": "hindi tugma",
+    "sentence": "Ang kulay ng damit na ito ay ibagay sa iyong balat."
+  },
+  "ibalaybay": {
+    "id": 298,
+    "pangasinense": "ibalaybay",
+    "definition": "To spell out.",
+    "tagalog": "ibalaybay",
+    "synonyms": "isulat, ipaliwanag",
+    "antonyms": "hindi itala",
+    "sentence": "Ibalaybay mo ang iyong pangalan nang tama."
+  },
+  "ibaleg": {
+    "id": 299,
+    "pangasinense": "ibaleg",
+    "definition": "To place or to set.",
+    "tagalog": "ibaleg",
+    "synonyms": "ilagay, itayo",
+    "antonyms": "alisin",
+    "sentence": "Ibaleg mo ang libro sa mesa."
+  },
+  "ibales": {
+    "id": 300,
+    "pangasinense": "ibales",
+    "definition": "To remove or to take out.",
+    "tagalog": "ibales",
+    "synonyms": "alisin, itanggal",
+    "antonyms": "ipasok",
+    "sentence": "Ibales mo ang mga sirang gamit sa bahay."
+  },
+  "ibali": {
+    "id": 301,
+    "pangasinense": "ibali",
+    "definition": "To transfer or to move.",
+    "tagalog": "ibali",
+    "synonyms": "ilipat, iwasan",
+    "antonyms": "iwanan",
+    "sentence": "Ibali mo ang mga gamit sa bagong tahanan."
+  },
+  "ibalintuag": {
+    "id": 302,
+    "pangasinense": "ibalintuag",
+    "definition": "To reverse or to turn around.",
+    "tagalog": "ibalintuag",
+    "synonyms": "baligtarin, ipihit",
+    "antonyms": "ituwid",
+    "sentence": "Ibalintuag mo ang mga salita kung kinakailangan."
+  },
+  "ibalita": {
+    "id": 303,
+    "pangasinense": "ibalita",
+    "definition": "To inform or report.",
+    "tagalog": "ibalita",
+    "synonyms": "ipaalam, isiwalat",
+    "antonyms": "itago",
+    "sentence": "Ibalita mo sa akin kung ano ang nangyari."
+  },
+  "ibangat": {
+    "id": 304,
+    "pangasinense": "ibangat",
+    "definition": "To lift or to raise.",
+    "tagalog": "ibangat",
+    "synonyms": "iangat, itaas",
+    "antonyms": "ibaba",
+    "sentence": "Ibangat mo ang bandila sa flagpole."
+  },
+  "ibano": {
+    "id": 305,
+    "pangasinense": "ibano",
+    "definition": "To lessen or reduce.",
+    "tagalog": "ibano",
+    "synonyms": "bawasan, humina",
+    "antonyms": "dagdagan",
+    "sentence": "Ibano mo ang ingay kapag natutulog ang bata."
+  },
+  "ibanoan": {
+    "id": 306,
+    "pangasinense": "ibanoan",
+    "definition": "A place or area for reducing or lessening something.",
+    "tagalog": "ibanoan",
+    "synonyms": "tahanan, lugar",
+    "antonyms": "lugar ng pagdami",
+    "sentence": "Ang ibanoan ng ingay ay isang tahimik na kwarto."
+  },
+  "ibantak": {
+    "id": 307,
+    "pangasinense": "ibantak",
+    "definition": "To show or display.",
+    "tagalog": "ibantak",
+    "synonyms": "ipakita, ilantad",
+    "antonyms": "itago",
+    "sentence": "Ibantak mo ang iyong talento sa entablado."
+  },
+  "ibas": {
+    "id": 308,
+    "pangasinense": "ibas",
+    "definition": "To clarify or to explain further.",
+    "tagalog": "ibas",
+    "synonyms": "ipaliwanag, isiwalat",
+    "antonyms": "itago",
+    "sentence": "Ibas mo ang mga detalye ng iyong proyekto."
+  },
+  "ibasiyo": {
+    "id": 309,
+    "pangasinense": "ibasiyo",
+    "definition": "To separate or to set apart.",
+    "tagalog": "ibasiyo",
+    "synonyms": "ihiwalay, paghiwalayin",
+    "antonyms": "pagsamahin",
+    "sentence": "Ibasiyo ang mga maling sagot sa pagsusulit."
+  },
+  "ibatik": {
+    "id": 310,
+    "pangasinense": "ibatik",
+    "definition": "To create a design using wax and dye.",
+    "tagalog": "ibatik",
+    "synonyms": "tinipon, disenyo",
+    "antonyms": "walang disenyo",
+    "sentence": "Ang ibatik ay isang sining na mayaman sa kultura."
+  },
+  "ibay": {
+    "id": 311,
+    "pangasinense": "ibay",
+    "definition": "To exchange or trade.",
+    "tagalog": "ibay",
+    "synonyms": "palitan, ipagpalit",
+    "antonyms": "itago",
+    "sentence": "Ibabay ko ang aking lumang telepono sa bagong modelo."
+  },
+  "ibayes": {
+    "id": 312,
+    "pangasinense": "ibayes",
+    "definition": "To emphasize or highlight.",
+    "tagalog": "ibayes",
+    "synonyms": "bigyang-diin, itampok",
+    "antonyms": "kalimutan",
+    "sentence": "Ibayes mo ang mga mahalagang punto sa iyong presentasyon."
+  },
+  "ibeg": {
+    "id": 313,
+    "pangasinense": "ibeg",
+    "definition": "To hold or to grasp.",
+    "tagalog": "ibeg",
+    "synonyms": "hawakan, yakapin",
+    "antonyms": "bitawan",
+    "sentence": "Ibeg mo ang mga bagay na mahalaga sa iyo."
+  },
+  "ibeneg": {
+    "id": 314,
+    "pangasinense": "ibeneg",
+    "definition": "To weave or to knit.",
+    "tagalog": "ibeneg",
+    "synonyms": "manghabi, maghabi",
+    "antonyms": "huwag manghabi",
+    "sentence": "Ibeneg niya ang magandang tela para sa kanyang damit."
+  },
+  "iberber": {
+    "id": 315,
+    "pangasinense": "iberber",
+    "definition": "A traditional practice in certain cultures, often related to weaving or fabric.",
+    "tagalog": "iberber",
+    "synonyms": "habi, disenyo",
+    "antonyms": "walang disenyo",
+    "sentence": "Ang iberber ay isang sining na nagpapakita ng kasaysayan ng mga tao."
+  },
+  "ibiang": {
+    "id": 316,
+    "pangasinense": "ibiang",
+    "definition": "To send or dispatch.",
+    "tagalog": "ibiang",
+    "synonyms": "ipadala, ipasa",
+    "antonyms": "itago",
+    "sentence": "Ibiang mo ang mga dokumento sa tamang tao."
+  },
+  "ibiba": {
+    "id": 317,
+    "pangasinense": "ibiba",
+    "definition": "To elevate or to uplift.",
+    "tagalog": "ibiba",
+    "synonyms": "itaas, iangat",
+    "antonyms": "ibaba",
+    "sentence": "Ibiba mo ang iyong boses kapag nagpapahayag ng opinyon."
+  },
+  "ibiek": {
+    "id": 318,
+    "pangasinense": "ibiek",
+    "definition": "To cry or weep.",
+    "tagalog": "ibiek",
+    "synonyms": "umiiyak, magpahayag ng damdamin",
+    "antonyms": "tumawa",
+    "sentence": "Ibiiek niya ang kanyang mga alaala sa pag-uwi."
+  },
+  "ibiig": {
+    "id": 319,
+    "pangasinense": "ibiig",
+    "definition": "To help or assist.",
+    "tagalog": "ibiig",
+    "synonyms": "tulungan, supportahan",
+    "antonyms": "iwanan",
+    "sentence": "Ibiig mo ang mga nangangailangan sa iyong komunidad."
+  },
+  "ibit": {
+    "id": 320,
+    "pangasinense": "ibit",
+    "definition": "To suspend or hang.",
+    "tagalog": "ibit",
+    "synonyms": "iangat, ikabit",
+    "antonyms": "ibaba",
+    "sentence": "Ibitin mo ang bandila sa itaas ng poste."
+  },
+  "iboki": {
+    "id": 321,
+    "pangasinense": "iboki",
+    "definition": "To burn or to scorch.",
+    "tagalog": "iboki",
+    "synonyms": "sunugin, igisa",
+    "antonyms": "palamigin",
+    "sentence": "Iboki mo ang karne upang maging malasa ito."
+  },
+  "ibolos": {
+    "id": 322,
+    "pangasinense": "ibolos",
+    "definition": "To plant or to sow.",
+    "tagalog": "ibolos",
+    "synonyms": "itanim, ipunla",
+    "antonyms": "bunutin",
+    "sentence": "Ibobos mo ang mga buto sa lupa upang magtanim ng gulay."
+  },
+  "ibondayak": {
+    "id": 323,
+    "pangasinense": "ibondayak",
+    "definition": "To gather or collect.",
+    "tagalog": "ibondayak",
+    "synonyms": "ipunin, saluhin",
+    "antonyms": "ipagsawalang-bahala",
+    "sentence": "Ibondayak mo ang mga bata upang maglaro sa parke."
+  },
+  "ibonog": {
+    "id": 324,
+    "pangasinense": "ibonog",
+    "definition": "To clean or to wash.",
+    "tagalog": "ibonog",
+    "synonyms": "linisin, hugasan",
+    "antonyms": "dumumi",
+    "sentence": "Ibonog mo ang mga pinggan pagkatapos kumain."
+  },
+  "ibotaw": {
+    "id": 325,
+    "pangasinense": "ibotaw",
+    "definition": "To hold back or restrain.",
+    "tagalog": "ibotaw",
+    "synonyms": "pigilin, hadlangan",
+    "antonyms": "payagan",
+    "sentence": "Ibotaw mo ang iyong emosyon sa harap ng mga tao."
+  },
+  "iboyak": {
+    "id": 326,
+    "pangasinense": "iboyak",
+    "definition": "To shake or to tremble.",
+    "tagalog": "iboyak",
+    "synonyms": "yumanig, umuuga",
+    "antonyms": "tumigil",
+    "sentence": "Iboyak mo ang kahon nang maayos upang hindi ito masira."
+  },
+  "ibubulang": {
+    "id": 327,
+    "pangasinense": "ibubulang",
+    "definition": "To release or let go.",
+    "tagalog": "ibubulang",
+    "synonyms": "pakawalan, iwanan",
+    "antonyms": "hawakan",
+    "sentence": "Ibubulang mo na ang iyong takot at sumubok sa bagong bagay."
+  },
+  "ibulos": {
+    "id": 328,
+    "pangasinense": "ibulos",
+    "definition": "To advance or to push forward.",
+    "tagalog": "ibulos",
+    "synonyms": "itulak, isulong",
+    "antonyms": "huminto",
+    "sentence": "Ibulos mo ang iyong sarili upang makamit ang iyong mga pangarap."
+  },
+  "ibunog": {
+    "id": 329,
+    "pangasinense": "ibunog",
+    "definition": "To shout or yell.",
+    "tagalog": "ibunog",
+    "synonyms": "sumigaw, umangal",
+    "antonyms": "tahimik",
+    "sentence": "Ibunog mo ang iyong saloobin nang may lakas ng loob."
+  },
+  "iburi": {
+    "id": 330,
+    "pangasinense": "iburi",
+    "definition": "To bury something or someone.",
+    "tagalog": "iburi",
+    "synonyms": "ilibing, itago",
+    "antonyms": "ilabas",
+    "sentence": "Iburi natin ang mga alaala ng ating mga mahal sa buhay."
+  },
+  "ibutones": {
+    "id": 331,
+    "pangasinense": "ibutones",
+    "definition": "To button or fasten.",
+    "tagalog": "ibutones",
+    "synonyms": "isara, ikabit",
+    "antonyms": "buksan",
+    "sentence": "Ibutos mo ang iyong damit upang hindi ito bumukas."
+  },
+  "ikabat": {
+    "id": 332,
+    "pangasinense": "ikabat",
+    "definition": "To join or to connect.",
+    "tagalog": "ikabat",
+    "synonyms": "ikonekta, pagsamahin",
+    "antonyms": "ihiwalay",
+    "sentence": "Ikabat mo ang mga wire upang makapag-function ng maayos."
+  },
+  "ikabit": {
+    "id": 333,
+    "pangasinense": "ikabit",
+    "definition": "To attach or to affix.",
+    "tagalog": "ikabit",
+    "synonyms": "ikabit, idikit",
+    "antonyms": "tanggalin",
+    "sentence": "Ikabit mo ang larawan sa dingding ng silid."
+  },
+  "ikagkabilangan": {
+    "id": 334,
+    "pangasinense": "ikagkabilangan",
+    "definition": "To belong or to be part of.",
+    "tagalog": "ikagkabilangan",
+    "synonyms": "maging kasapi, sumali",
+    "antonyms": "ihiwalay",
+    "sentence": "Ikagkabilangan mo ang iyong sarili sa mga organisasyon sa paaralan."
+  },
+  "ikaindan": {
+    "id": 335,
+    "pangasinense": "ikaindan",
+    "definition": "To arrive or to come.",
+    "tagalog": "ikaindan",
+    "synonyms": "dumating, umabot",
+    "antonyms": "umalis",
+    "sentence": "Ikaindan mo na ang mga bisita sa iyong kaarawan."
+  },
+  "ikalot": {
+    "id": 336,
+    "pangasinense": "ikalot",
+    "definition": "To dig or to excavate.",
+    "tagalog": "ikalot",
+    "synonyms": "maghukay, mag-ukit",
+    "antonyms": "takpan",
+    "sentence": "Ikalot mo ang lupa upang magtanim ng mga bulaklak."
+  },
+  "ikamayat": {
+    "id": 337,
+    "pangasinense": "ikamayat",
+    "definition": "To extend or reach out.",
+    "tagalog": "ikamayat",
+    "synonyms": "abutin, itaas",
+    "antonyms": "ibaba",
+    "sentence": "Ikamayat mo ang iyong kamay upang tulungan siya."
+  },
+  "laaklaak": {
+    "id": 338,
+    "pangasinense": "laaklaak",
+    "definition": "To flutter or flap (like wings).",
+    "tagalog": "laaklaak",
+    "synonyms": "paliparin, magpalipad",
+    "antonyms": "huminto",
+    "sentence": "Laaklaak ang mga ibon sa langit sa panahon ng tag-init."
+  },
+  "labab": {
+    "id": 339,
+    "pangasinense": "labab",
+    "definition": "A form of greeting, often used in the context of expressing affection.",
+    "tagalog": "labab",
+    "synonyms": "yakap, halik",
+    "antonyms": "layuan",
+    "sentence": "Ang kanyang labab ay puno ng pagmamahal at pag-asa."
+  },
+  "lababo": {
+    "id": 340,
+    "pangasinense": "lababo",
+    "definition": "A sink or washbasin.",
+    "tagalog": "lababo",
+    "synonyms": "labahan, gripo",
+    "antonyms": "wala",
+    "sentence": "Ang lababo sa kusina ay may magandang disenyo."
+  },
+  "labaha": {
+    "id": 341,
+    "pangasinense": "labaha",
+    "definition": "A razor or a blade used for shaving.",
+    "tagalog": "labaha",
+    "synonyms": "pang-ahit, talim",
+    "antonyms": "wala",
+    "sentence": "Kailangan ko ng labaha para sa aking bagong gupit."
+  },
+  "labahita": {
+    "id": 342,
+    "pangasinense": "labahita",
+    "definition": "A small razor or a shaver, often used for delicate tasks.",
+    "tagalog": "labahita",
+    "synonyms": "pang-ahit, maliit na talim",
+    "antonyms": "wala",
+    "sentence": "Gumamit siya ng labahita para sa mga maliliit na detalye sa kanyang gupit."
+  },
+  "laban": {
+    "id": 343,
+    "pangasinense": "laban",
+    "definition": "To fight or oppose.",
+    "tagalog": "laban",
+    "synonyms": "makipaglaban, tumindig",
+    "antonyms": "sumuko",
+    "sentence": "Labanan mo ang iyong mga takot at ipakita ang iyong lakas."
+  },
+  "labanan": {
+    "id": 344,
+    "pangasinense": "labanan",
+    "definition": "A battle or a place where a fight occurs.",
+    "tagalog": "labanan",
+    "synonyms": "labanan, digmaan",
+    "antonyms": "pagkakasundo",
+    "sentence": "Ang labanan ay naganap sa gitna ng bayan."
+  },
+  "labang": {
+    "id": 345,
+    "pangasinense": "labang",
+    "definition": "A sign of disagreement or opposition.",
+    "tagalog": "labang",
+    "synonyms": "salungat, pagtutol",
+    "antonyms": "pagsang-ayon",
+    "sentence": "Ipinakita niya ang kanyang labang sa desisyon ng komite."
+  },
+  "labanos": {
+    "id": 346,
+    "pangasinense": "labanos",
+    "definition": "A radish, a type of vegetable.",
+    "tagalog": "labanos",
+    "synonyms": "ugat na gulay, puting labanos",
+    "antonyms": "wala",
+    "sentence": "Madalas akong maglagay ng labanos sa aking salad."
+  },
+  "labas": {
+    "id": 347,
+    "pangasinense": "labas",
+    "definition": "Outside or exterior.",
+    "tagalog": "labas",
+    "synonyms": "labas, panlabas",
+    "antonyms": "loob",
+    "sentence": "Magandang maglakad sa labas kapag maaraw."
+  },
+  "labasan": {
+    "id": 348,
+    "pangasinense": "labasan",
+    "definition": "An exit or place to go outside.",
+    "tagalog": "labasan",
+    "synonyms": "pintuan, daanan",
+    "antonyms": "pasukan",
+    "sentence": "Ang labasan ay nasa likuran ng bahay."
+  },
+  "labat": {
+    "id": 349,
+    "pangasinense": "labat",
+    "definition": "A verb meaning to take off or remove.",
+    "tagalog": "labat",
+    "synonyms": "tanggalin, alisin",
+    "antonyms": "ilagay",
+    "sentence": "Labat ang iyong sapatos bago pumasok sa bahay."
+  },
+  "labatiba": {
+    "id": 350,
+    "pangasinense": "labatiba",
+    "definition": "An enema or a medical procedure to cleanse the bowels.",
+    "tagalog": "labatiba",
+    "synonyms": "paglilinis, pag-inom ng gamot",
+    "antonyms": "wala",
+    "sentence": "Kailangan ng labatiba para sa mga pasyenteng may problema sa tiyan."
+  },
+  "labay": {
+    "id": 351,
+    "pangasinense": "labay",
+    "definition": "To flow or run, often used in reference to liquids.",
+    "tagalog": "labay",
+    "synonyms": "agos, daloy",
+    "antonyms": "huminto",
+    "sentence": "Ang tubig ay labay mula sa gripo sa lababo."
+  },
+  "labayen": {
+    "id": 352,
+    "pangasinense": "labayen",
+    "definition": "The act of flowing or moving forward.",
+    "tagalog": "labayen",
+    "synonyms": "daloy, agos",
+    "antonyms": "pigilin",
+    "sentence": "Ang labayen ng ilog ay napaka-uyon sa panahon ng tag-ulan."
+  },
+  "labi": {
+    "id": 353,
+    "pangasinense": "labi",
+    "definition": "Lips or the edge of something.",
+    "tagalog": "labi",
+    "synonyms": "labi, gilid",
+    "antonyms": "wala",
+    "sentence": "Ang labi ng kanyang mga labi ay mapula at makinis."
+  },
+  "labid": {
+    "id": 354,
+    "pangasinense": "labid",
+    "definition": "To have or possess something.",
+    "tagalog": "labid",
+    "synonyms": "may, taglay",
+    "antonyms": "wala",
+    "sentence": "Labid niya ang talento sa pagkanta."
+  },
+  "labindua": {
+    "id": 355,
+    "pangasinense": "labindua",
+    "definition": "Twelve (the number).",
+    "tagalog": "labindua",
+    "synonyms": "labindalawa",
+    "antonyms": "wala",
+    "sentence": "Labindua ang kanilang mga bisita sa kaarawan."
+  },
+  "labintarol": {
+    "id": 356,
+    "pangasinense": "labintarol",
+    "definition": "A dozen and a half (eighteen).",
+    "tagalog": "labintarol",
+    "synonyms": "labinwalo",
+    "antonyms": "wala",
+    "sentence": "Labintarol ang mga prutas na kanyang nakuha sa pamilihan."
+  },
+  "labir": {
+    "id": 357,
+    "pangasinense": "labir",
+    "definition": "To wander or get lost, often used in a metaphorical sense.",
+    "tagalog": "labir",
+    "synonyms": "maligaw, maglakbay",
+    "antonyms": "mahanap",
+    "sentence": "Labir siya sa kanyang mga iniisip at hindi makapagdesisyon."
+  },
+  "labirot": {
+    "id": 358,
+    "pangasinense": "labirot",
+    "definition": "A twist or a turn.",
+    "tagalog": "labirot",
+    "synonyms": "liko, baluktot",
+    "antonyms": "tuwid",
+    "sentence": "Ang labirot ng daan ay nagdudulot ng pagkalito."
+  },
+  "labimsyam": {
+    "id": 359,
+    "pangasinense": "labimsyam",
+    "definition": "Nineteen (the number).",
+    "tagalog": "labimsyam",
+    "synonyms": "wala",
+    "antonyms": "wala",
+    "sentence": "Labimsyam ang kanilang nakuha sa pagsusulit."
+  },
+  "labit": {
+    "id": 360,
+    "pangasinense": "labit",
+    "definition": "To hold on to something tightly.",
+    "tagalog": "labit",
+    "synonyms": "hawakan, kapitan",
+    "antonyms": "bitawan",
+    "sentence": "Labit niya ang kanyang bola habang naglalaro."
+  },
+  "lablab": {
+    "id": 361,
+    "pangasinense": "lablab",
+    "definition": "To pounce or leap.",
+    "tagalog": "lablab",
+    "synonyms": "talon, saluhin",
+    "antonyms": "magpahinga",
+    "sentence": "Lablab siya sa kanyang kaklase sa tuwa."
+  },
+  "lablabbayen": {
+    "id": 362,
+    "pangasinense": "lablabbayen",
+    "definition": "To flutter like a bird.",
+    "tagalog": "lablabbayen",
+    "synonyms": "paliparin, sumayaw",
+    "antonyms": "huminto",
+    "sentence": "Ang mga paruparo ay lablabbayen sa hardin."
+  },
+  "labnak": {
+    "id": 363,
+    "pangasinense": "labnak",
+    "definition": "To be influenced or affected by something.",
+    "tagalog": "labnak",
+    "synonyms": "maapektuhan, malason",
+    "antonyms": "walang epekto",
+    "sentence": "Ang mga bata ay labnak sa kanyang magandang tinig."
+  },
+  "labo": {
+    "id": 364,
+    "pangasinense": "labo",
+    "definition": "A mistake or error.",
+    "tagalog": "labo",
+    "synonyms": "kamalian, kalituhan",
+    "antonyms": "katotohanan",
+    "sentence": "Nakagawa ako ng labo sa aking proyekto."
+  },
+  "laboan": {
+    "id": 365,
+    "pangasinense": "laboan",
+    "definition": "To confuse or mix up.",
+    "tagalog": "laboan",
+    "synonyms": "lituhin, salungat",
+    "antonyms": "linawin",
+    "sentence": "Ang mga impormasyon ay laboan sa kanyang isipan."
+  },
+  "labog": {
+    "id": 366,
+    "pangasinense": "labog",
+    "definition": "A heavy or thick liquid.",
+    "tagalog": "labog",
+    "synonyms": "malapot, siksik",
+    "antonyms": "manipis",
+    "sentence": "Ang labog ng tsokolate ay tamang-tama para sa kanyang inumin."
+  },
+  "laboglabog": {
+    "id": 367,
+    "pangasinense": "laboglabog",
+    "definition": "A bubbling or boiling liquid.",
+    "tagalog": "laboglabog",
+    "synonyms": "umuusok, nag-aalab",
+    "antonyms": "malamig",
+    "sentence": "Ang laboglabog ng sabaw ay nangangahulugang luto na ito."
+  },
+  "labong": {
+    "id": 368,
+    "pangasinense": "labong",
+    "definition": "To trip or stumble.",
+    "tagalog": "labong",
+    "synonyms": "matalisod, magkapagpahinga",
+    "antonyms": "tumayo ng tuwid",
+    "sentence": "Nahulog siya sa labong habang naglalakad sa madulas na sahig."
+  },
+  "labos": {
+    "id": 369,
+    "pangasinense": "labos",
+    "definition": "To expand or swell, often used in the context of water.",
+    "tagalog": "labos",
+    "synonyms": "lumobo, umagos",
+    "antonyms": "lumiliit",
+    "sentence": "Ang labos ng ilog ay nagdala ng maraming debris sa baybayin."
+  },
+  "labosan": {
+    "id": 370,
+    "pangasinense": "labosan",
+    "definition": "To overflow or spill over.",
+    "tagalog": "labosan",
+    "synonyms": "umapaw, lumampas",
+    "antonyms": "magkalat",
+    "sentence": "Ang labosan ng tubig mula sa gripo ay nagdulot ng baha sa kalsada."
+  },
+  "labot": {
+    "id": 371,
+    "pangasinense": "labot",
+    "definition": "To intertwine or entangle.",
+    "tagalog": "labot",
+    "synonyms": "magtali, magkalapit",
+    "antonyms": "hiwalay",
+    "sentence": "Ang mga ugat ng puno ay labot sa lupa."
+  },
+  "laboy": {
+    "id": 372,
+    "pangasinense": "laboy",
+    "definition": "To crawl or move slowly.",
+    "tagalog": "laboy",
+    "synonyms": "gumagapang, sumisikat",
+    "antonyms": "tumatakbo",
+    "sentence": "Ang bata ay laboy sa sahig habang naglalaro."
+  },
+  "laka": {
+    "id": 373,
+    "pangasinense": "laka",
+    "definition": "A term of endearment, often used to refer to a child or loved one.",
+    "tagalog": "laka",
+    "synonyms": "mahal, anak",
+    "antonyms": "wala",
+    "sentence": "Laka, halika rito at tulungan mo ako sa aking aralin."
+  },
+  "lakamas": {
+    "id": 374,
+    "pangasinense": "lakamas",
+    "definition": "A type of plant or herb.",
+    "tagalog": "lakamas",
+    "synonyms": "halamang-gamot",
+    "antonyms": "wala",
+    "sentence": "Ang lakamas ay mabango at ginagamit sa mga tradisyunal na gamot."
+  },
+  "lakap": {
+    "id": 375,
+    "pangasinense": "lakap",
+    "definition": "To grasp or hold something tightly.",
+    "tagalog": "lakap",
+    "synonyms": "hawakan, kapitan",
+    "antonyms": "bitawan",
+    "sentence": "Lakap mo ang libro habang nagbabasa ka."
+  },
+  "lakas": {
+    "id": 376,
+    "pangasinense": "lakas",
+    "definition": "Strength or power.",
+    "tagalog": "lakas",
+    "synonyms": "tibay, lakas ng katawan",
+    "antonyms": "hina",
+    "sentence": "Kailangan mo ng lakas upang makamit ang iyong mga pangarap."
+  },
+  "lakatan": {
+    "id": 377,
+    "pangasinense": "lakatan",
+    "definition": "A type of banana known for its sweet taste.",
+    "tagalog": "lakatan",
+    "synonyms": "saging",
+    "antonyms": "wala",
+    "sentence": "Ang lakatan ay masarap kainin sa agahan."
+  },
+  "lakay": {
+    "id": 378,
+    "pangasinense": "lakay",
+    "definition": "An old man or elder.",
+    "tagalog": "lakay",
+    "synonyms": "matanda, ninong",
+    "antonyms": "bata",
+    "sentence": "Ang lakay ay may maraming kwento tungkol sa kanyang kabataan."
+  },
+  "lakbang": {
+    "id": 379,
+    "pangasinense": "lakbang",
+    "definition": "A step or a pace.",
+    "tagalog": "lakbang",
+    "synonyms": "hakbang, sulong",
+    "antonyms": "huminto",
+    "sentence": "Isang lakbang ang kailangan upang makarating sa tuktok ng bundok."
+  },
+  "lakbay": {
+    "id": 380,
+    "pangasinense": "lakbay",
+    "definition": "To travel or journey.",
+    "tagalog": "lakbay",
+    "synonyms": "maglakbay, magtungo",
+    "antonyms": "manatili",
+    "sentence": "Lakbay tayo sa mga magagandang tanawin ng bansa."
+  },
+  "lakboot": {
+    "id": 381,
+    "pangasinense": "lakboot",
+    "definition": "A type of traditional footwear.",
+    "tagalog": "lakboot",
+    "synonyms": "sapatos, bota",
+    "antonyms": "wala",
+    "sentence": "Ang kanyang lakboot ay gawa sa lokal na materyales."
+  },
+  "lakes": {
+    "id": 382,
+    "pangasinense": "lakes",
+    "definition": "Refers to the plural of a body of water surrounded by land.",
+    "tagalog": "lawa",
+    "synonyms": "lawa, anyong-tubig",
+    "antonyms": "lupa",
+    "sentence": "Ang mga lakes sa aming bayan ay kilala sa kanilang kagandahan."
+  },
+  "laki": {
+    "id": 383,
+    "pangasinense": "laki",
+    "definition": "Size or size dimension.",
+    "tagalog": "laki",
+    "synonyms": "sukat, dimensyon",
+    "antonyms": "liit",
+    "sentence": "Anong laki ng sapatos na iyong kailangan?"
+  },
+  "laklak": {
+    "id": 384,
+    "pangasinense": "laklak",
+    "definition": "To drink, often used in a casual context.",
+    "tagalog": "laklak",
+    "synonyms": "uminom, sumipsip",
+    "antonyms": "itigil",
+    "sentence": "Laklak tayo ng tubig pagkatapos ng mahabang lakad."
+  },
+  "laktip": {
+    "id": 385,
+    "pangasinense": "laktip",
+    "definition": "A short or quick movement.",
+    "tagalog": "laktip",
+    "synonyms": "mabilis na galaw",
+    "antonyms": "mabagal",
+    "sentence": "Ang kanyang laktip ay nagbigay-diin sa kanyang determinasyon."
+  },
+  "laknab": {
+    "id": 386,
+    "pangasinense": "laknab",
+    "definition": "To cover or enclose something.",
+    "tagalog": "laknab",
+    "synonyms": "takpan, balutan",
+    "antonyms": "hayaan",
+    "sentence": "Laknab mo ang pagkain upang hindi ito mapanis."
+  },
+  "laknaban": {
+    "id": 387,
+    "pangasinense": "laknaban",
+    "definition": "An enclosure or a barrier.",
+    "tagalog": "laknaban",
+    "synonyms": "harang, hadlang",
+    "antonyms": "buksan",
+    "sentence": "Ang laknaban sa paligid ng parke ay upang mapanatiling ligtas ang mga bata."
+  },
+  "laknat": {
+    "id": 388,
+    "pangasinense": "laknat",
+    "definition": "To lead or guide.",
+    "tagalog": "laknat",
+    "synonyms": "magturo, manguna",
+    "antonyms": "sundin",
+    "sentence": "Laknat mo ako sa tamang direksyon patungo sa simbahan."
+  },
+  "lako": {
+    "id": 389,
+    "pangasinense": "lako",
+    "definition": "To sell or market.",
+    "tagalog": "lako",
+    "synonyms": "ibenta, magbenta",
+    "antonyms": "bilhin",
+    "sentence": "Nais kong lako ang mga produktong ito sa pamilihan."
+  },
+  "lakob": {
+    "id": 390,
+    "pangasinense": "lakob",
+    "definition": "To twist or turn.",
+    "tagalog": "lakob",
+    "synonyms": "liko, baluktot",
+    "antonyms": "tuwid",
+    "sentence": "Lakob mo ang kable upang hindi ito masira."
+  },
+  "lakowan": {
+    "id": 391,
+    "pangasinense": "lakowan",
+    "definition": "A person who leads or guides others.",
+    "tagalog": "lakowan",
+    "synonyms": "lider, guro",
+    "antonyms": "sundin",
+    "sentence": "Ang lakowan ng grupo ay may mahusay na pananaw."
+  },
+  "laksa": {
+    "id": 392,
+    "pangasinense": "laksa",
+    "definition": "A type of spicy noodle soup.",
+    "tagalog": "laksa",
+    "synonyms": "sabaw ng pansit",
+    "antonyms": "wala",
+    "sentence": "Ang laksa ay paborito kong pagkain sa mga malamig na araw."
+  },
+  "lakseb": {
+    "id": 393,
+    "pangasinense": "lakseb",
+    "definition": "A type of drum used in traditional music.",
+    "tagalog": "lakseb",
+    "synonyms": "tambol",
+    "antonyms": "wala",
+    "sentence": "Ang lakseb ay nagbibigay ng magandang ritmo sa kanilang sayaw."
+  },
+  "lakseban": {
+    "id": 394,
+    "pangasinense": "lakseban",
+    "definition": "A gathering or assembly.",
+    "tagalog": "lakseban",
+    "synonyms": "pagtitipon, salu-salo",
+    "antonyms": "hiwalay",
+    "sentence": "Ang lakseban ay ginanap sa plaza tuwing Huwebes."
+  },
+  "laktaw": {
+    "id": 395,
+    "pangasinense": "laktaw",
+    "definition": "To skip or jump over.",
+    "tagalog": "laktaw",
+    "synonyms": "talon, lumaktaw",
+    "antonyms": "bumaba",
+    "sentence": "Laktaw siya sa bakod upang makapasok sa hardin."
+  },
+  "ladiyo": {
+    "id": 396,
+    "pangasinense": "ladiyo",
+    "definition": "A type of radio or broadcasting device.",
+    "tagalog": "ladiyo",
+    "synonyms": "radyo",
+    "antonyms": "wala",
+    "sentence": "Nakikinig ako sa balita sa ladiyo tuwing umaga."
+  },
+  "ladlar": {
+    "id": 397,
+    "pangasinense": "ladlar",
+    "definition": "A tree or plant with thick foliage.",
+    "tagalog": "ladlar",
+    "synonyms": "puno",
+    "antonyms": "wala",
+    "sentence": "Ang ladlar sa aming bakuran ay nagbibigay ng lilim."
+  },
+  "ladrilyo": {
+    "id": 398,
+    "pangasinense": "ladrilyo",
+    "definition": "A brick used in construction.",
+    "tagalog": "ladrilyo",
+    "synonyms": "bloke, materyales",
+    "antonyms": "wala",
+    "sentence": "Gumagamit kami ng ladrilyo sa pagpapatayo ng bahay."
+  },
+  "laem": {
+    "id": 399,
+    "pangasinense": "laem",
+    "definition": "A type of fish or seafood.",
+    "tagalog": "laem",
+    "synonyms": "isda, lamang-dagat",
+    "antonyms": "wala",
+    "sentence": "Ang laem na nahuli ng mangingisda ay sariwa at masarap."
+  },
+  "laen": {
+    "id": 400,
+    "pangasinense": "laen",
+    "definition": "A mixture or blend of different things.",
+    "tagalog": "laen",
+    "synonyms": "halo, samahan",
+    "antonyms": "hiwalay",
+    "sentence": "Ang laen ng mga kultura ay nagdadala ng bagong pananaw."
+  },
+  "laes": {
+    "id": 401,
+    "pangasinense": "laes",
+    "definition": "To split or divide.",
+    "tagalog": "laes",
+    "synonyms": "hatiin, paghiwalayin",
+    "antonyms": "pagsamahin",
+    "sentence": "Laes mo ang papel sa dalawa para sa proyekto."
+  },
+  "laet": {
+    "id": 402,
+    "pangasinense": "laet",
+    "definition": "To bring or carry.",
+    "tagalog": "laet",
+    "synonyms": "dalhin, maghatid",
+    "antonyms": "iwan",
+    "sentence": "Laet mo ang mga gamit mo sa paaralan."
+  },
+  "laga": {
+    "id": 403,
+    "pangasinense": "laga",
+    "definition": "To boil or cook in water.",
+    "tagalog": "laga",
+    "synonyms": "pakuluin, maglaga",
+    "antonyms": "lamig",
+    "sentence": "Laga ang sabaw hanggang sa maging malasa."
+  },
+  "lagablab": {
+    "id": 404,
+    "pangasinense": "lagablab",
+    "definition": "A blaze or a roaring fire.",
+    "tagalog": "lagablab",
+    "synonyms": "apoy, alab",
+    "antonyms": "usok",
+    "sentence": "Ang lagablab ng apoy ay nagbigay ng liwanag sa dilim."
+  },
+  "lagak": {
+    "id": 405,
+    "pangasinense": "lagak",
+    "definition": "To place or set down something.",
+    "tagalog": "lagak",
+    "synonyms": "ilagay, itayo",
+    "antonyms": "alisin",
+    "sentence": "Lagak mo ang iyong bag sa tabi ng pinto."
+  },
+  "lagas": {
+    "id": 406,
+    "pangasinense": "lagas",
+    "definition": "To fall off or shed (often used for leaves or hair).",
+    "tagalog": "lagas",
+    "synonyms": "mahulog, mawalan",
+    "antonyms": "tumubo",
+    "sentence": "Ang mga dahon ay lagas tuwing tag-lagas."
+  },
+  "lagkit": {
+    "id": 407,
+    "pangasinense": "lagkit",
+    "definition": "Stickiness or adhesive quality.",
+    "tagalog": "lagkit",
+    "synonyms": "malagkit, dumikit",
+    "antonyms": "hindi dumikit",
+    "sentence": "Ang lagkit ng glue ay nakakatulong sa pagpapanatili ng mga bagay."
   }
 }
