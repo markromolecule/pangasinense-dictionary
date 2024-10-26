@@ -4579,6 +4579,878 @@
     "synonyms": "sumakay ng kabayo",
     "antonyms": "bumaba sa kabayo",
     "sentence": "Makakabayo siya sa kanyang paboritong kabayo bukas."
+  },
+  "obar": {
+    "id": 510,
+    "pangasinense": "Obar",
+    "definition": "Malaking bagay o sukat.",
+    "tagalog": "Malaki",
+    "synonyms": "Dakkel",
+    "antonyms": "Bawasin",
+    "sentence": "Obar lay balay na saray mayaman diad barangay ed manukso tan mangalaset."
+  },
+  "oblay": {
+    "id": 511,
+    "pangasinense": "Oblay",
+    "definition": "Magtago o mag-imbak ng bagay para sa hinaharap.",
+    "tagalog": "Mag-imbak o Magtago",
+    "synonyms": "Imbak",
+    "antonyms": "Ilabas",
+    "sentence": "Kinablay na lay inapoy ta aliwanan ed agko panganan."
+  },
+  "obra": {
+    "id": 512,
+    "pangasinense": "Obra",
+    "definition": "Isang bagay na ginawa o trabaho.",
+    "tagalog": "Gawa o Trabaho",
+    "synonyms": "Trabaho",
+    "antonyms": "Walang ginagawa",
+    "sentence": "Obra na lay duan ra ya makem ad siyudad tan agpalya."
+  },
+  "ogtong": {
+    "id": 513,
+    "pangasinense": "Ogtong",
+    "definition": "Ang importansya o halaga ng isang bagay.",
+    "tagalog": "Halaga o Kahalagahan",
+    "synonyms": "Kabilian",
+    "antonyms": "Wala kapakanan",
+    "sentence": "Ogtong lay edukasyon diad buay ya magliwaliw ed salikniban."
+  },
+  "okat": {
+    "id": 514,
+    "pangasinense": "Okat",
+    "definition": "Isang yunit ng panahon na tumutukoy sa isang taon.",
+    "tagalog": "Taon",
+    "synonyms": "Taon",
+    "antonyms": "Araw",
+    "sentence": "Duar lay okat ya liwawa na diad ibang lugar ta agko la tanbal na."
+  },
+  "okatok": {
+    "id": 515,
+    "pangasinense": "Okatok",
+    "definition": "Malakas na ulan na sinasabayan ng malakas na hangin.",
+    "tagalog": "Ulan na may hangin",
+    "synonyms": "Bagyo",
+    "antonyms": "Maaraw",
+    "sentence": "Okotok lay panahon tan nagngaran lay arakup na ed balay."
+  },
+  "okin": {
+    "id": 516,
+    "pangasinense": "Okin",
+    "definition": "Wika o Salita.",
+    "tagalog": "Wika o Salita",
+    "synonyms": "Salita",
+    "antonyms": "Tahimik",
+    "sentence": "Okin lay Pangasinense ya manlaylayyad anggad diad aliwanan."
+  },
+  "okit": {
+    "id": 517,
+    "pangasinense": "Okit",
+    "definition": "Isang posisyon kung saan ang isang tao o bagay ay tuwid at hindi nakaupo o nakahiga.",
+    "tagalog": "Nakatayo",
+    "synonyms": "Tindig",
+    "antonyms": "Nakaupo, Nakahiga",
+    "sentence": "Okit lay anak koen ed mangga ya nanengneng ko."
+  },
+  "olab": {
+    "id": 518,
+    "pangasinense": "Olab",
+    "definition": "Kultura o tradisyon.",
+    "tagalog": "Kultura o Tradisyon",
+    "synonyms": "Tradisyon",
+    "antonyms": "Wala",
+    "sentence": "Olab lay kultura ya manlaylayyad ed salinlahi."
+  },
+  "olaboy": {
+    "id": 519,
+    "pangasinense": "Olaboy",
+    "definition": "Lokasyong nasa layong distansya.",
+    "tagalog": "Malayo",
+    "synonyms": "Adok",
+    "antonyms": "Malapit",
+    "sentence": "Olaboy lay balay na, aliwan lay makaay dalem ya agkoreansanda."
+  },
+  "olanan": {
+    "id": 520,
+    "pangasinense": "Olanan",
+    "definition": "Pagiging madilim at puno ng ulan na tila paparating.",
+    "tagalog": "Puno ng ulan",
+    "synonyms": "Maulap",
+    "antonyms": "Maaraw",
+    "sentence": "Olanan lay kalangitan ya sumikansikan ya umuran."
+  },
+  "olat": {
+    "id": 521,
+    "pangasinense": "Olat",
+    "definition": "Likidong ginagamit sa pang-araw-araw na buhay.",
+    "tagalog": "Tubig",
+    "synonyms": "Agua",
+    "antonyms": "Lupa",
+    "sentence": "Olat lay mainom ed bawat araw."
+  },
+  "olay": {
+    "id": 522,
+    "pangasinense": "Olay",
+    "definition": "Isang tao na malapit sa iyong puso at kadalasang kasama.",
+    "tagalog": "Kaibigan",
+    "synonyms": "Kasama",
+    "antonyms": "Kaaway",
+    "sentence": "Olay ko lay naksang ya tinpan tulungan na sakey na problema."
+  },
+  "olay-lay": {
+    "id": 523,
+    "pangasinense": "Olay-lay",
+    "definition": "Isang araw ng kasiyahan at kagalakan.",
+    "tagalog": "Masayang araw",
+    "synonyms": "Kaligayahan",
+    "antonyms": "Kalungkutan",
+    "sentence": "Olay-lay lay ekspeperyensya ya tinatanda na araw na kasal na."
+  },
+  "olong": {
+    "id": 524,
+    "pangasinense": "Olong",
+    "definition": "Isang mahabang pananalita o pagsasalita sa publiko.",
+    "tagalog": "Mahabang salita o talumpati",
+    "synonyms": "Talumpati",
+    "antonyms": "Katahimikan",
+    "sentence": "Olong lay sinabi na mayor ed arig kayarian na bayambang."
+  },
+  "olin": {
+    "id": 525,
+    "pangasinense": "Olin",
+    "definition": "Pakiramdam ng paghinayang o pagdadalawang-isip sa isang nagawa.",
+    "tagalog": "Pagsisisi",
+    "synonyms": "Hinayang",
+    "antonyms": "Kaligayahan",
+    "sentence": "Olin lay edpanan na tan sana inkon na ya agwayed so kakantawan."
+  },
+  "olanon": {
+    "id": 526,
+    "pangasinense": "Olanon",
+    "definition": "Ito ay ginagamit upang makalipad.",
+    "tagalog": "Pakpak",
+    "synonyms": "N/A",
+    "antonyms": "N/A",
+    "sentence": "Olanon na so ibon ed agang na makalipad."
+  },
+  "omyang": {
+    "id": 527,
+    "pangasinense": "Omyang",
+    "definition": "Pagiging masaya o maligaya.",
+    "tagalog": "Maligaya",
+    "synonyms": "Masaya",
+    "antonyms": "Malungkot",
+    "sentence": "Omyang lay mukha na ed tanap koen nan kebi a kasanun."
+  },
+  "ongkoy": {
+    "id": 528,
+    "pangasinense": "ongkoy",
+    "definition": "Pagiging maingay o magulo sa paligid.",
+    "tagalog": "maingay o magulo",
+    "synonyms": "magulo",
+    "antonyms": "tahimik",
+    "sentence": "Ongkoy lay kanaraki ya anak so adto ed plaza."
+  },
+  "opa": {
+    "id": 529,
+    "pangasinense": "opa",
+    "definition": "Ama ng iyong ama o ina; nakatatandang lalaki.",
+    "tagalog": "apong lalaki",
+    "synonyms": "apong lalaki",
+    "antonyms": "apo (babae o lalaki)",
+    "sentence": "Opa ko lay masanta tan napon duon ed gawi na."
+  },
+  "opus": {
+    "id": 530,
+    "pangasinense": "opus",
+    "definition": "Isang bagay na nagawa o nilikha ng isang tao.",
+    "tagalog": "gawa o likha",
+    "synonyms": "likha",
+    "antonyms": "wala pang gawa",
+    "sentence": "Opus na lay napanor nganta nen Nanay ya masan so ed baley."
+  },
+  "oro": {
+    "id": 531,
+    "pangasinense": "oro",
+    "definition": "Isang mahalagang metal na kulay dilaw at mataas ang halaga.",
+    "tagalog": "ginto",
+    "synonyms": "ginto",
+    "antonyms": "barya",
+    "sentence": "Oro lay kinita ya nabulas ed siyudad ya sumakatlay koen nganta."
+  },
+  "orok": {
+    "id": 532,
+    "pangasinense": "orok",
+    "definition": "Ang landas o kalsadang tinatahak ng tao o sasakyan.",
+    "tagalog": "daan",
+    "synonyms": "kalsada",
+    "antonyms": "pader",
+    "sentence": "Orok lay ginalay ed sakey na baryo ya napnot ed dagat."
+  },
+  "otal": {
+    "id": 533,
+    "pangasinense": "otal",
+    "definition": "Pakiramdam ng kirot o sakit sa katawan o damdamin.",
+    "tagalog": "sakit o masakit",
+    "synonyms": "hapdi",
+    "antonyms": "ginhawa",
+    "sentence": "Otal lay narnasan na after diad operayson na ti."
+  },
+  "oten": {
+    "id": 534,
+    "pangasinense": "oten",
+    "definition": "Isang bagay na ginagamit araw-araw o madalas makita.",
+    "tagalog": "pangkaraniwang bagay o gamit",
+    "synonyms": "bagay",
+    "antonyms": "bihirang gamit",
+    "sentence": "Oten lay inbenenta na nen Manang ya ed plasa."
+  },
+  "oton": {
+    "id": 535,
+    "pangasinense": "oton",
+    "definition": "Isang uri ng prutas na dilaw kapag hinog at kinakain.",
+    "tagalog": "saging",
+    "synonyms": "prutas",
+    "antonyms": "gulay",
+    "sentence": "Oton lay binenta nen Nana diad market ed dalem na barangay."
+  },
+  "pambatong": {
+    "id": 536,
+    "pangasinense": "pambatong",
+    "definition": "Kandidato o pinakamagaling.",
+    "tagalog": "pambato",
+    "synonyms": "kinatawan, pagpipilian",
+    "antonyms": "kawawa, mahina",
+    "sentence": "Pambatong ng grupo siya."
+  },
+  "pamilatan": {
+    "id": 537,
+    "pangasinense": "pamilatan",
+    "definition": "Sumpa o kasunduan.",
+    "tagalog": "kasunduan",
+    "synonyms": "kasunduan, kontrata",
+    "antonyms": "pagkakagulo, pagtatalo",
+    "sentence": "Nagsurat da’y pamilatan para agtrabaho ed proyekto."
+  },
+  "panabas": {
+    "id": 538,
+    "pangasinense": "panabas",
+    "definition": "A large cutting tool, similar to a machete, originating from the Philippines.",
+    "tagalog": "itak",
+    "synonyms": "machete, bolo",
+    "antonyms": "gunting, palakol",
+    "sentence": "Isang malaking kagamitan para sa pagputol na nagmula sa Pilipinas at katulad ng itak."
+  },
+  "panabay": {
+    "id": 539,
+    "pangasinense": "panabay",
+    "definition": "Katuwang o kapiling.",
+    "tagalog": "kasama",
+    "synonyms": "kaagapay, kapanalig",
+    "antonyms": "kalaban, kahiwalay",
+    "sentence": "Say nanang ko so panabay ko ed paglalakbay."
+  },
+  "panag-ayi": {
+    "id": 540,
+    "pangasinense": "panag-ayi",
+    "definition": "Pagtanggap muli.",
+    "tagalog": "pagbabalik",
+    "synonyms": "pagbabalik, reunion",
+    "antonyms": "paghihiwalay, pagkakahiwalay",
+    "sentence": "Maganda so panag-ayi na’y agkakabayan."
+  },
+  "panagbakasyon": {
+    "id": 541,
+    "pangasinense": "panagbakasyon",
+    "definition": "Ang panahon ng pansamantalang pag-iwan sa pang-araw-araw na gawain para magpahinga, maglibang, o maglakbay sa ibang lugar.",
+    "tagalog": "pagbabakasyon",
+    "synonyms": "paglibang, pagtakas",
+    "antonyms": "pagtatrabaho",
+    "sentence": "Napintas ya lugar para ed panagbakasyon."
+  },
+  "panagdayew": {
+    "id": 542,
+    "pangasinense": "panagdayew",
+    "definition": "Pagtataas ng puri.",
+    "tagalog": "pagpupuri",
+    "synonyms": "papuri, pagdiriwang",
+    "antonyms": "pag-alipusta, pang-iinsulto",
+    "sentence": "Dayewan ko so trabaho na."
+  },
+  "panaghap": {
+    "id": 543,
+    "pangasinense": "panaghap",
+    "definition": "Sensasyon o damdamin.",
+    "tagalog": "pakiramdam",
+    "synonyms": "pang-amoy, paghihirap",
+    "antonyms": "kagalakan, kalayaan",
+    "sentence": "Panaghap na’y sagot ed tanong."
+  },
+  "panagkendi": {
+    "id": 544,
+    "pangasinense": "panagkendi",
+    "definition": "Paggawa ng matamis na pagkain.",
+    "tagalog": "paggawa ng kendi",
+    "synonyms": "pagkain, matamis",
+    "antonyms": "maasim, mapait",
+    "sentence": "Panagkendi so baley ni nanang."
+  },
+  "panagkit": {
+    "id": 545,
+    "pangasinense": "panagkit",
+    "definition": "Pag-akyat o pag-akyat sa mataas na lugar.",
+    "tagalog": "pag-akyat",
+    "synonyms": "pagsaka, pag-akyat",
+    "antonyms": "pagsisid, pagtanggap",
+    "sentence": "Panagkit so sakey ya bundok."
+  },
+  "panagkita": {
+    "id": 546,
+    "pangasinense": "panagkita",
+    "definition": "Ang bayad o natatanggap ng isang mangagawa matapos ang isang trabaho o gawain.",
+    "tagalog": "kita",
+    "synonyms": "sahod, sweldo",
+    "antonyms": "pagkagasta, paggugol",
+    "sentence": "Dakila’y panagkita na ed negosyo."
+  },
+  "panagkitkit": {
+    "id": 547,
+    "pangasinense": "panagkitkit",
+    "definition": "Proseso ng pagnguya o pagdurog ng pagkain gamit ang ngipin at panga.",
+    "tagalog": "pagnguya",
+    "synonyms": "pagngata, paggiling",
+    "antonyms": "paglunok, pagkabitaw",
+    "sentence": "Panagkitkit na’y dalan ya napintas."
+  },
+  "panaglinis": {
+    "id": 548,
+    "pangasinense": "panaglinis",
+    "definition": "Pagtanggal ng dumi.",
+    "tagalog": "paglilinis",
+    "synonyms": "pagsasaayos, pag-aayos",
+    "antonyms": "pagpaparumi",
+    "sentence": "Siak so agpanaglinis ed kwarto."
+  },
+  "panagobra": {
+    "id": 549,
+    "pangasinense": "panagobra",
+    "definition": "Paggawa o paghahanapbuhay.",
+    "tagalog": "pagtatrabaho",
+    "synonyms": "paggawa, trabaho",
+    "antonyms": "paghinto, pagtigil",
+    "sentence": "Agobra ya tatang ed panday."
+  },
+  "panagpalimos": {
+    "id": 550,
+    "pangasinense": "panagpalimos",
+    "definition": "Pagsusumamo o pagmamakaawa.",
+    "tagalog": "paghingi ng limos",
+    "synonyms": "paglilimos, paghingi",
+    "antonyms": "pagbibigay, pagkakaloob",
+    "sentence": "Napan so agpanagpalimos ed kalye."
+  },
+  "panagsakit": {
+    "id": 551,
+    "pangasinense": "panagsakit",
+    "definition": "Sakit o karamdaman.",
+    "tagalog": "pagkakasakit",
+    "synonyms": "karamdaman, kapansanan",
+    "antonyms": "kalusugan, kasiglahan",
+    "sentence": "Say panagsakit na agawa ya nakagaray."
+  },
+  "panagtambay": {
+    "id": 552,
+    "pangasinense": "panagtambay",
+    "definition": "Tumutukoy sa taong walang magawa, walang trabaho o tamad.",
+    "tagalog": "pagtambay",
+    "synonyms": "pagpirmi, paglakwatsa",
+    "antonyms": "paggala, pag-alis",
+    "sentence": "Siak so agpanagtambay ed tindaan."
+  },
+  "panagtanom": {
+    "id": 553,
+    "pangasinense": "Panagtanom",
+    "definition": "Pag-aalaga ng halaman",
+    "tagalog": "Pagtatanim",
+    "synonyms": "Pagbabalik, Pag-aani",
+    "antonyms": "Pagkamatay ng halaman, Pagsira",
+    "sentence": "Panagtanom so trabaho na. (Pagtatanim ang kanyang trabaho.)"
+  },
+  "panagtatanong": {
+    "id": 554,
+    "pangasinense": "Panagtatanong",
+    "definition": "Paghingi ng impormasyon",
+    "tagalog": "Pagtatanong",
+    "synonyms": "Pagtatanong, Interogasyon",
+    "antonyms": "Pagkakaunawaan, Tahimik",
+    "sentence": "Siak so agpanagtatanong ed eskwela."
+  },
+  "panagtuon": {
+    "id": 555,
+    "pangasinense": "Panagtuon",
+    "definition": "Edukasyon o pagsasanay",
+    "tagalog": "Pagtuturo",
+    "synonyms": "Pagsasanay, Pag-aaral",
+    "antonyms": "Pagwawalang-bahala, Kakulangan",
+    "sentence": "Panagtuon so mangapilipino ya katulong."
+  },
+  "panangaro": {
+    "id": 556,
+    "pangasinense": "Panangaro",
+    "definition": "Pag-ibig",
+    "tagalog": "Pagmamahal",
+    "synonyms": "Pagsinta, Pag-ibig",
+    "antonyms": "Pagkamuhi, Galit",
+    "sentence": "Maitarayon so panangaro na ed pamilya na."
+  },
+  "panangbang": {
+    "id": 557,
+    "pangasinense": "Panangbang",
+    "definition": "Pagsisigaw o pagtawag ng pansin",
+    "tagalog": "Pagtawag",
+    "synonyms": "Pagtawag, Pag-imbita",
+    "antonyms": "Katahimikan, Pagkakahiwalay",
+    "sentence": "Panangbang na so matatanda."
+  },
+  "panangilin": {
+    "id": 558,
+    "pangasinense": "Panangilin",
+    "definition": "Pag-iwas o proteksyon",
+    "tagalog": "Pag-iingat",
+    "synonyms": "Pag-iingat, Pagprotekta",
+    "antonyms": "Pagsasawalang-bahala, Pagkakagulo",
+    "sentence": "Kailangan so panangilin ed paglalakbay."
+  },
+  "panangga": {
+    "id": 559,
+    "pangasinense": "Panangga",
+    "definition": "Pangangalaga, pagprotekta o pag-iingat ng isang bagay",
+    "tagalog": "Pagtanggol",
+    "synonyms": "Pagprotekta, Pag-alaga",
+    "antonyms": "Pagsalakay, Pag-atake",
+    "sentence": "Pananggay mga sundalo so bayan."
+  },
+  "pananglabi": {
+    "id": 560,
+    "pangasinense": "Pananglabi",
+    "definition": "Isang emosyonal na estado, sakit o pisikal na pangangati ng mata",
+    "tagalog": "Pag-iyak",
+    "synonyms": "Pagtangis, Pagluha",
+    "antonyms": "Pagtawa, Pagngiti",
+    "sentence": "Nangisay so pananglabi da ed luto."
+  },
+  "panangna": {
+    "id": 561,
+    "pangasinense": "Panangna",
+    "definition": "Pagtanggal ng bunga",
+    "tagalog": "Pag-aani",
+    "synonyms": "Pag-aani, Pagbubungkal",
+    "antonyms": "Pagtatanim, Pagpapalago",
+    "sentence": "Agpanangna so mga nagtanom."
+  },
+  "panaon": {
+    "id": 562,
+    "pangasinense": "Panaon",
+    "definition": "Oras o panahon",
+    "tagalog": "Panahon",
+    "synonyms": "Oras, Yugto",
+    "antonyms": "Walang Hanggan, Eternidad",
+    "sentence": "Awan akoy panaon ya agtrabaho ed Lunes."
+  },
+  "panghi": {
+    "id": 563,
+    "pangasinense": "Panghi",
+    "definition": "Sensasyon ng pang-amoy",
+    "tagalog": "Amoy",
+    "synonyms": "Scent, Lasa",
+    "antonyms": "Walang amoy, Kalinisan",
+    "sentence": "Napintas so panghi na ed kanen."
+  },
+  "pangida": {
+    "id": 564,
+    "pangasinense": "Pangida",
+    "definition": "Pamumuno",
+    "tagalog": "Pangunguna",
+    "synonyms": "Pamamahala, Liderato",
+    "antonyms": "Pagsunod, Paghuli",
+    "sentence": "Say pangida na’y mayor ya napintas para ed bayan."
+  },
+  "pangilin": {
+    "id": 565,
+    "pangasinense": "Pangilin",
+    "definition": "Pagpipigil o abstinensya",
+    "tagalog": "Pag-iwas",
+    "synonyms": "Pagpigil, Pagkontrol",
+    "antonyms": "Pagkunsinti",
+    "sentence": "So pangilin ed sibut importante ed bilay."
+  },
+  "panginain": {
+    "id": 566,
+    "pangasinense": "Panginain",
+    "definition": "Pagsusumikap na makamit ang isang bagay",
+    "tagalog": "Pagsusumikap",
+    "synonyms": "Pagsisikap, Pagsusunod",
+    "antonyms": "Pagsuko, Pagsisisi",
+    "sentence": "Say panginain na’y kaakbay na agpatuloy."
+  },
+  "panyalita": {
+    "id": 567,
+    "pangasinense": "Panyalita",
+    "definition": "Pagsasalita",
+    "tagalog": "Pananalita",
+    "synonyms": "Pahayag, Wika",
+    "antonyms": "Katahimikan",
+    "sentence": "Magaling so panyalita na ed entablado."
+  },
+  "rami": {
+    "id": 568,
+    "pangasinense": "Rami",
+    "definition": "Isang bagay na maraming gamit na tipikal na ginawa sa pamamagitan ng proseso ng paghabi, pagpiyeltro, o paggagantsilyo gamit ang likas o sintetikong materyal",
+    "tagalog": "Uri ng Tela",
+    "synonyms": "Tela",
+    "antonyms": "Balat",
+    "sentence": "Ang rami na ya ginamit sa kanyang damit ay gawa sa likas na hibla."
+  },
+  "raray": {
+    "id": 569,
+    "pangasinense": "Raray",
+    "definition": "Ang pagbibigay ng pagkilala sa kahalagahan o kapakinabangan ng isang tao o bagay",
+    "tagalog": "Pagsamba",
+    "synonyms": "Pagpuri",
+    "antonyms": "Pagpuna",
+    "sentence": "Ang mga tao ay nagtipon sa simbahan para sa ralay."
+  },
+  "rantsero": {
+    "id": 570,
+    "pangasinense": "Rantsero",
+    "definition": "Isang lupain",
+    "tagalog": "Rantsero",
+    "synonyms": "Lupa",
+    "antonyms": "Water",
+    "sentence": "Ang rantsero na ya nabili niya ay may malawak na taniman."
+  },
+  "rayuma": {
+    "id": 571,
+    "pangasinense": "Rayuma",
+    "definition": "Uri ng karamdaman",
+    "tagalog": "Rayuma",
+    "synonyms": "Sakit",
+    "antonyms": "Magaling",
+    "sentence": "Siya ay may rayuma at nahihirapang maglakad."
+  },
+  "rebelde": {
+    "id": 572,
+    "pangasinense": "Rebelde",
+    "definition": "Isang tao o pag-uugali na nagpapakita ng hindi pagsunod at pagtutol sa mga patakaran",
+    "tagalog": "Rebelde",
+    "synonyms": "Matigas ang ulo",
+    "antonyms": "Suportado",
+    "sentence": "Ang mga kabataan ay madalas na nagiging rebelde sa mga patakaran ng paaralan."
+  },
+  "rebolusyon": {
+    "id": 573,
+    "pangasinense": "Rebolusyon",
+    "definition": "Pag-aalsa o pagrerebelde ng taumbayan laban sa pamahalaan",
+    "tagalog": "Rebolusyon",
+    "synonyms": "Paghihimagsik",
+    "antonyms": "Kapayapaan",
+    "sentence": "Ang rebolusyon ay nagbukas ng bagong kabanata para sa bansa."
+  },
+  "rebolusyonaryo": {
+    "id": 574,
+    "pangasinense": "Rebolusyonaryo",
+    "definition": "Isang indibidwal na aktibong nangunguna sa radikal na pagbabago sa lipunan",
+    "tagalog": "Rebolusyonaryo",
+    "synonyms": "Himagsikan",
+    "antonyms": "Kapayapaan",
+    "sentence": "Siya ay kilalang rebolusyonaryo sa kanilang lugar."
+  },
+  "rekorder": {
+    "id": 575,
+    "pangasinense": "rekorder",
+    "definition": "Isang indibidwal na responsable sa pagtatala at pagpapanatili ng mga talaan, dokumento, o impormasyon ng mahahalagang pangyayari.",
+    "tagalog": "rekorder",
+    "synonyms": "taga-tala",
+    "antonyms": "n/a",
+    "sentence": "Ang rekorder ay may mahalagang papel sa pagpapanatili ng mga dokumento ng paaralan."
+  },
+  "regalo": {
+    "id": 576,
+    "pangasinense": "regalo",
+    "definition": "Isang bagay na kusang ibinibigay nang walang hinihintay na kapalit upang magpakita ng pagmamahal, pasasalamat, o parangal, at magbigay kasiyahan sa tatanggap.",
+    "tagalog": "regalo",
+    "synonyms": "N/A",
+    "antonyms": "N/A",
+    "sentence": "Binigyan ako ng mga bata ng regalo."
+  },
+  "regla": {
+    "id": 577,
+    "pangasinense": "regla",
+    "definition": "Normal na pagdurugo ng vaginal na nangyayari bilang bahagi ng buwanang cycle ng babae.",
+    "tagalog": "regla",
+    "synonyms": "dugo",
+    "antonyms": "water",
+    "sentence": "Siya ay nagkaroon na ng regla sa edad na labing-anim."
+  },
+  "reglamento": {
+    "id": 578,
+    "pangasinense": "reglamento",
+    "definition": "Mga regulasyon na dapat sundin.",
+    "tagalog": "reglamento",
+    "synonyms": "patakaran",
+    "antonyms": "wala",
+    "sentence": "Ang mga mag-aaral ay kailangang sumunod sa mga regulasyon ng paaralan."
+  },
+  "rehas": {
+    "id": 579,
+    "pangasinense": "rehas",
+    "definition": "Matibay na panghadlang na karaniwang ginagamit para sa seguridad o proteksyon.",
+    "tagalog": "",
+    "synonyms": "bakod",
+    "antonyms": "malaya",
+    "sentence": "Ipinatong ang mga rehas sa bintana para sa seguridad ng tahanan."
+  },
+  "rehistrado": {
+    "id": 580,
+    "pangasinense": "rehistrado",
+    "definition": "Opisyal na kinikilala at nakatala sa listahan ng kinauukulang awtoridad matapos sumailalim sa proseso ng pagpapatala.",
+    "tagalog": "rehistrado",
+    "synonyms": "nakatala",
+    "antonyms": "walang rehistro",
+    "sentence": "Siya ay rehistrado bilang botante sa susunod na eleksyon."
+  },
+  "relihion": {
+    "id": 581,
+    "pangasinense": "relihion",
+    "definition": "Isang kalipunan ng mga sistemang paniniwala.",
+    "tagalog": "relihion",
+    "synonyms": "pananampalataya",
+    "antonyms": "pagtataksil",
+    "sentence": "Ang relihion na ya ay mahalaga sa kanyang buhay."
+  },
+  "relos": {
+    "id": 582,
+    "pangasinense": "relos",
+    "definition": "Mga aparatong sumusukat, nagtatala, at nagsasabi ng oras.",
+    "tagalog": "relos",
+    "synonyms": "orasan",
+    "antonyms": "N/A",
+    "sentence": "Ang relos ko ay laging nasa tamang oras."
+  },
+  "relyeno": {
+    "id": 583,
+    "pangasinense": "relyeno",
+    "definition": "Isang uri ng pinalamanang nilutong manok, pabo, isda at iba pa.",
+    "tagalog": "relyeno",
+    "synonyms": "pinalamanan",
+    "antonyms": "N/A",
+    "sentence": "Ang relyeno ay paborito sa kanilang mga handaan."
+  },
+  "renda": {
+    "id": 584,
+    "pangasinense": "renda",
+    "definition": "Hinabing tela o disenyo na may masalimuot at artistikong mga butas, karaniwang ginagamit bilang palamuti sa damit, kurtina, at iba pang gamit sa bahay.",
+    "tagalog": "renda",
+    "synonyms": "palamuti",
+    "antonyms": "kalat",
+    "sentence": ""
+  },
+  "repiki": {
+    "id": 585,
+    "pangasinense": "repiki",
+    "definition": "Isang kakayahan ng entidad, katauhan, o nilalang upang matabanan.",
+    "tagalog": "kapangyarihan",
+    "synonyms": "kakayahan",
+    "antonyms": "kahinaan",
+    "sentence": "May repiki siya sa larangan ng sining."
+  },
+  "representante": {
+    "id": 586,
+    "pangasinense": "representante",
+    "definition": "Isang tao na inihalal.",
+    "tagalog": "representante",
+    "synonyms": "kinatawan",
+    "antonyms": "walang ambag",
+    "sentence": "Siya ang naging representante ng kanilang barangay sa bayan."
+  },
+  "reserbado": {
+    "id": 587,
+    "pangasinense": "reserbado",
+    "definition": "Nakalaan para sa isang partikular na tao o layunin.",
+    "tagalog": "reserbado",
+    "synonyms": "naka-iskedyul",
+    "antonyms": "walang nakalaan",
+    "sentence": "Ang mga upuan ay reserbado para sa mga bisita."
+  },
+  "residensiya": {
+    "id": 588,
+    "pangasinense": "residensiya",
+    "definition": "",
+    "tagalog": "residensiya",
+    "synonyms": "tahanan",
+    "antonyms": "walang bahay",
+    "sentence": "Ang kanyang residensiya ay matatagpuan sa gitnang bayan."
+  },
+  "resguardo": {
+    "id": 589,
+    "pangasinense": "resguardo",
+    "definition": "Proteksyon o seguridad na ibinibigay sa isang tao o bagay.",
+    "tagalog": "resguardo",
+    "synonyms": "pangangalaga",
+    "antonyms": "panganib",
+    "sentence": "Ang resguardo na ibinibigay ng pamilya ay mahalaga sa kanyang kaligtasan."
+  },
+  "resistensya": {
+    "id": 590,
+    "pangasinense": "resistensya",
+    "definition": "Kakayahan ng isang tao o bagay na labanan ang sakit o panganib.",
+    "tagalog": "resistensya",
+    "synonyms": "katatagan",
+    "antonyms": "kahinaan",
+    "sentence": "Ang resistensya ng kanyang katawan ay nakatulong sa mabilis na paggaling."
+  },
+  "resolbi": {
+    "id": 591,
+    "pangasinense": "resolbi",
+    "definition": "Tira o piraso ng materyal na tela o ibang bagay.",
+    "tagalog": "resolbi",
+    "synonyms": "desisyon",
+    "antonyms": "walang katiyakan",
+    "sentence": "Ginamit niya ang mga retaso upang gumawa ng bagong proyekto."
+  },
+  "retaso": {
+    "id": 592,
+    "pangasinense": "retaso",
+    "definition": "Tira o piraso ng materyal na tela o ibang bagay.",
+    "tagalog": "retaso",
+    "synonyms": "piraso",
+    "antonyms": "buo",
+    "sentence": "Ginamit niya ang mga retaso upang gumawa ng bagong proyekto."
+  },
+  "retira": {
+    "id": 593,
+    "pangasinense": "retira",
+    "definition": "Ang pagtigil sa trabaho o serbisyo, madalas na dahil sa pag-abot ng takdang edad o pagnanais na magpahinga.",
+    "tagalog": "retira",
+    "synonyms": "paghinto",
+    "antonyms": "pagpasok",
+    "sentence": "Nais niyang mag-retira sa kanyang trabaho matapos ang tatlong dekada."
+  },
+  "reyna": {
+    "id": 594,
+    "pangasinense": "reyna",
+    "definition": "Ang babaeng pinuno ng isang kaharian.",
+    "tagalog": "reyna",
+    "synonyms": "monarka",
+    "antonyms": "hari",
+    "sentence": "Siya ang reyna ng kanilang bayan at mahal na mahal ng mga tao."
+  },
+  "rebolber": {
+    "id": 595,
+    "pangasinense": "rebolber",
+    "definition": "Isang uri ng baril na may umiikot na silid para sa mga bala.",
+    "tagalog": "rebolber",
+    "synonyms": "baril",
+    "antonyms": "kutsilyo",
+    "sentence": "Ipinakita ng pulis ang rebolber bilang bahagi ng kanilang operasyon."
+  },
+  "ribal": {
+    "id": 596,
+    "pangasinense": "ribal",
+    "definition": "Kahalintulad o katunggali.",
+    "tagalog": "ribal",
+    "synonyms": "katunggali",
+    "antonyms": "kaibigan",
+    "sentence": "Siya ay may matinding laban sa kanyang rival sa paligsahan."
+  },
+  "rikado": {
+    "id": 597,
+    "pangasinense": "rikado",
+    "definition": "Mayaman sa lasa o sangkap.",
+    "tagalog": "rikado",
+    "synonyms": "malasa",
+    "antonyms": "walang lasa",
+    "sentence": "Ang lutong isda ay may rikado na sarsa."
+  },
+  "rikisa": {
+    "id": 598,
+    "pangasinense": "rikisa",
+    "definition": "Ang proseso o aktibidad ng pagtingin, pag-usisa.",
+    "tagalog": "paghahanap",
+    "synonyms": "magtuklas",
+    "antonyms": "magpabaya",
+    "sentence": "Kailangan kong rikisang bagong libro para sa aking proyekto sa eskwela."
+  },
+  "riklamo": {
+    "id": 599,
+    "pangasinense": "riklamo",
+    "definition": "Pagpapahayag ng hindi kasiyahan o pagsalungat sa isang bagay.",
+    "tagalog": "reklamo",
+    "synonyms": "pagsasalungat",
+    "antonyms": "pagsang-ayon",
+    "sentence": "Maraming riklamo ang natanggap ng kumpanya tungkol sa kanilang serbisyo."
+  },
+  "riles": {
+    "id": 600,
+    "pangasinense": "riles",
+    "definition": "Mga track na ginagamit para sa mga tren.",
+    "tagalog": "riles",
+    "synonyms": "daungan ng tren",
+    "antonyms": "gusali",
+    "sentence": "Ang mga riles ay kailangan para sa maayos na pagbiyahe ng tren."
+  },
+  "rimol": {
+    "id": 601,
+    "pangasinense": "rimol",
+    "definition": "Isang sistema o proseso ng pag-iisip o pag-aaral.",
+    "tagalog": "rimol",
+    "synonyms": "diskurso",
+    "antonyms": "walang isip",
+    "sentence": "Ang rimol ng kanilang talakayan ay tumatalakay sa mga isyu ng lipunan."
+  },
+  "rindi": {
+    "id": 602,
+    "pangasinense": "rindi",
+    "definition": "Ginagamit upang ipahayag ang damdamin ng isang taong asar.",
+    "tagalog": "rindi",
+    "synonyms": "mabilis mainis",
+    "antonyms": "mapagpasensya",
+    "sentence": "Rinding-rindi na ako sayo paulit-ulit ka nalang palagi."
+  },
+  "ripolyo": {
+    "id": 603,
+    "pangasinense": "ripolyo",
+    "definition": "Isang uri ng gulay.",
+    "tagalog": "ripolyo",
+    "synonyms": "gulay",
+    "antonyms": "chichirya",
+    "sentence": "Ang ripolyo ay paborito sa kanilang hapunan."
+  },
+  "riporter": {
+    "id": 604,
+    "pangasinense": "riporter",
+    "definition": "Isang tao na nag-uulat ng mga balita o impormasyon.",
+    "tagalog": "riporter",
+    "synonyms": "mamamahayag",
+    "antonyms": "tagakinig",
+    "sentence": "Ang riporter ay naghatid ng mahahalagang balita sa telebisyon."
+  },
+  "riserba": {
+    "id": 605,
+    "pangasinense": "riserba",
+    "definition": "Nakalaan para sa isang tiyak na layunin o tao.",
+    "tagalog": "riserba",
+    "synonyms": "nakalaan",
+    "antonyms": "N/A",
+    "sentence": "Ang riserba na silid ay ginagamit para sa mga VIP na bisita."
+  },
+  "risibo": {
+    "id": 606,
+    "pangasinense": "risibo",
+    "definition": "Dokumento na nagpapatunay ng isang transaksyon o pagbabayad.",
+    "tagalog": "risibo",
+    "synonyms": "tanda",
+    "antonyms": "N/A",
+    "sentence": "Huwag kalimutang kunin ang risibo pagkatapos ng iyong pagbili."
   }
-  
 }
