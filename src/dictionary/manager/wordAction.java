@@ -1,6 +1,8 @@
 package dictionary.manager;
 
 import javax.swing.table.DefaultTableModel;
+import javax.swing.JTable;
+import javax.swing.JTextField;
 
 public abstract class wordAction {
 
@@ -9,9 +11,11 @@ public abstract class wordAction {
     protected javax.swing.JTextField pangasinenseField, definitionField,
             tagalogField, synonymField, antonymField, sentenceField;
 
-    public wordAction(DefaultTableModel model, javax.swing.JTable wordListTable, javax.swing.JTextField pangasinenseField,
-            javax.swing.JTextField definitionField, javax.swing.JTextField tagalogField, javax.swing.JTextField synonymField,
-            javax.swing.JTextField antonymField, javax.swing.JTextField sentenceField) {
+    public wordAction(DefaultTableModel model, JTable wordListTable, 
+            JTextField pangasinenseField, JTextField definitionField, 
+            JTextField tagalogField, JTextField synonymField,
+            JTextField antonymField, JTextField sentenceField) {
+        
         this.model = model;
         this.wordListTable = wordListTable;
         this.pangasinenseField = pangasinenseField;

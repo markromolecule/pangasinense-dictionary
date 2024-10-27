@@ -2,10 +2,10 @@ package dictionary.manager;
 
 import dictionary.entities.word;
 import java.io.*;
+import java.util.TreeMap;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
-import java.util.TreeMap;
 
 public class wordManager {
 
@@ -17,14 +17,18 @@ public class wordManager {
         loadData();
     }
 
+    /*
+    Functionality
+     */
+    // To add
     public void addWord(word newWord) {
         String pangasinenseWord = newWord.getPangasinense();
-        
+
         if (wordMap.containsKey(pangasinenseWord)) {
             System.out.println("Duplicate word found: " + pangasinenseWord);
-            return; 
+            return;
         }
-        
+
         int newId = wordMap.size() + 1;
         newWord.setId(newId);
         wordMap.put(pangasinenseWord, newWord);
@@ -34,6 +38,7 @@ public class wordManager {
         return wordMap.get(pangasinense);
     }
 
+    // To remove
     public void removeWord(String pangasinense) {
         word removedWord = wordMap.remove(pangasinense);
         if (removedWord != null) {
@@ -44,11 +49,8 @@ public class wordManager {
         }
     }
 
-    private void reassignIds() {
-        int id = 1;
-        for (word w : wordMap.values()) {
-            w.setId(id++);
-        }
+    public TreeMap<String, word> getWordMap() {
+        return wordMap;
     }
 
     public void saveData() {
@@ -66,14 +68,17 @@ public class wordManager {
             wordMap = gson.fromJson(reader, new TypeToken<TreeMap<String, word>>() {
             }.getType());
             if (wordMap != null && !wordMap.isEmpty()) {
-                reassignIds();  
+                reassignIds();
             }
         } catch (IOException e) {
             System.out.println("No previous data found, starting fresh.");
         }
     }
 
-    public TreeMap<String, word> getWordMap() {
-        return wordMap;
+    private void reassignIds() {
+        int id = 1;
+        for (word w : wordMap.values()) {
+            w.setId(id++);
+        }
     }
 }
