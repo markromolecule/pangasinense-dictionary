@@ -16,7 +16,7 @@
     <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
     <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
-    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-48,0,0,4,56"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-48,0,0,2,-63"/>
   </AuxValues>
 
   <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
@@ -36,131 +36,43 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="sentenceText" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="sentenceField" min="-2" pref="397" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <Component id="antonymText" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="antonymsField" min="-2" pref="397" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <Component id="synonymText" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="synonymsField" min="-2" pref="397" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <Component id="tagalogText" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="130" max="32767" attributes="0"/>
-                          <Component id="tagalogField" min="-2" pref="397" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="definitionText" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="definitionField" min="-2" pref="397" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="pangasinenseText" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="pangasinenseField" min="-2" pref="397" max="-2" attributes="0"/>
+                      <Component id="definitionField" min="-2" pref="397" max="-2" attributes="0"/>
+                      <Component id="pangasinenseField" min="-2" pref="397" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                          <Component id="sentenceField" alignment="1" min="-2" pref="397" max="-2" attributes="0"/>
+                          <Component id="antonymsField" alignment="1" min="-2" pref="397" max="-2" attributes="0"/>
+                          <Component id="synonymsField" alignment="1" min="-2" pref="397" max="-2" attributes="0"/>
+                          <Component id="tagalogField" alignment="1" min="-2" pref="397" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace min="-2" pref="133" max="-2" attributes="0"/>
+                  <EmptySpace pref="172" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
-                  <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="pangasinenseField" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="pangasinenseText" alignment="0" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="definitionText" min="-2" max="-2" attributes="0"/>
-                      <Component id="definitionField" min="-2" pref="117" max="-2" attributes="0"/>
-                  </Group>
+                  <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
+                  <Component id="pangasinenseField" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="tagalogText" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="tagalogField" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
+                  <Component id="definitionField" min="-2" pref="117" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="tagalogField" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="synonymText" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="synonymsField" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
+                  <Component id="synonymsField" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="33" pref="33" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="antonymText" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="antonymsField" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="sentenceText" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="sentenceField" alignment="3" min="-2" pref="130" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace pref="84" max="32767" attributes="0"/>
+                  <Component id="antonymsField" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="sentenceField" min="-2" pref="130" max="-2" attributes="0"/>
+                  <EmptySpace pref="103" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JLabel" name="pangasinenseText">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Helvetica Neue" size="24" style="1"/>
-            </Property>
-            <Property name="text" type="java.lang.String" value="PANGASINENSE WORD:"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JLabel" name="definitionText">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Helvetica Neue" size="24" style="1"/>
-            </Property>
-            <Property name="text" type="java.lang.String" value="DEFINITION: "/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JLabel" name="tagalogText">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Helvetica Neue" size="24" style="1"/>
-            </Property>
-            <Property name="text" type="java.lang.String" value="TAGALOG EQUIVALENT:"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JLabel" name="synonymText">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Helvetica Neue" size="24" style="1"/>
-            </Property>
-            <Property name="text" type="java.lang.String" value="SYNONYMS:"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JLabel" name="antonymText">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Helvetica Neue" size="24" style="1"/>
-            </Property>
-            <Property name="text" type="java.lang.String" value="ANTONYMS:"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JLabel" name="sentenceText">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Helvetica Neue" size="24" style="1"/>
-            </Property>
-            <Property name="text" type="java.lang.String" value="SENTENCE:"/>
-          </Properties>
-        </Component>
         <Component class="javax.swing.JTextArea" name="pangasinenseField">
           <Properties>
             <Property name="editable" type="boolean" value="false"/>

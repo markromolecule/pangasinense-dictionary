@@ -1,12 +1,15 @@
-package dictionary.layout;
+package dictionary.model;
 
 import dictionary.helper.navLetterHover;
 import dictionary.helper.navBarHover;
+import dictionary.helper.RoundedTextField;
+import dictionary.helper.SlidingPanel;
 import dictionary.manager.wordManager;
 import dictionary.entities.word;
 import java.awt.event.ActionEvent;
 import java.util.TreeMap;
 import javax.swing.JFrame;
+
 
 public class dictionaryUI extends javax.swing.JFrame {
 
@@ -42,7 +45,7 @@ public class dictionaryUI extends javax.swing.JFrame {
         navBarPanel = new javax.swing.JPanel();
         homeButton = new javax.swing.JButton();
         addButton = new javax.swing.JButton();
-        searchBar = new javax.swing.JTextField();
+        searchBar = new RoundedTextField(20);
         navWordsPanel = new javax.swing.JPanel();
         aButton = new javax.swing.JButton();
         bButton = new javax.swing.JButton();
@@ -132,7 +135,7 @@ public class dictionaryUI extends javax.swing.JFrame {
         });
 
         searchBar.setBackground(new java.awt.Color(246, 241, 234));
-        searchBar.setFont(new java.awt.Font("Helvetica Neue", 0, 24)); // NOI18N
+        searchBar.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
         searchBar.setForeground(new java.awt.Color(204, 204, 204));
         searchBar.setText("Search for a word");
         searchBar.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -559,7 +562,6 @@ public class dictionaryUI extends javax.swing.JFrame {
         wordsScrollPane.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         wordsScrollPane.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         wordsScrollPane.setViewportBorder(javax.swing.BorderFactory.createEtchedBorder(java.awt.Color.gray, java.awt.Color.white));
-        wordsScrollPane.setColumnHeader(null);
         wordsScrollPane.setColumnHeaderView(null);
         wordsScrollPane.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         wordsScrollPane.setDoubleBuffered(true);
@@ -597,7 +599,7 @@ public class dictionaryUI extends javax.swing.JFrame {
                 .addComponent(navWordsPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(wordsScrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, 492, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(28, Short.MAX_VALUE))
+                .addContainerGap(30, Short.MAX_VALUE))
         );
 
         getContentPane().add(mainPanel, java.awt.BorderLayout.CENTER);
@@ -625,12 +627,21 @@ public class dictionaryUI extends javax.swing.JFrame {
 
     private void showWordDetails(word wordObj) {
         JFrame frame = new JFrame("Word Details");
-        frame.add(new showWordDetails(wordObj)); 
+        
+        javax.swing.JPanel contentPanel = new showWordDetails(wordObj); 
+        SlidingPanel slidingPanel = new SlidingPanel(705, 720, SlidingPanel.Direction.RIGHT, 20);
+        slidingPanel.add(contentPanel); 
+        slidingPanel.setPreferredSize(new java.awt.Dimension(705, 720));
+        slidingPanel.add(contentPanel, java.awt.BorderLayout.CENTER); 
+        
+        frame.add(slidingPanel);
         frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
+        
+        slidingPanel.slideIn();
     }
-    
+
     // Method for navWordsPanel
     private void goToNearestLetter(char letter) {
         wordManager wordMgr = new wordManager();

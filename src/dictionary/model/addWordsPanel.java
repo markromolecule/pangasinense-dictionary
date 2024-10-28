@@ -1,4 +1,4 @@
-package dictionary.layout;
+package dictionary.model;
 
 import dictionary.helper.navBarHover;
 import dictionary.manager.createButton;
