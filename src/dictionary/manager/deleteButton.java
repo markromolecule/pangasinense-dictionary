@@ -4,15 +4,15 @@ import javax.swing.table.DefaultTableModel;
 import javax.swing.JTable;
 import javax.swing.JTextField;
 
-public class DeleteButton extends WordAction {
+public class deleteButton extends wordAction {
 
-    private WordManager wordManager;
+    private wordManager wordManager;
 
-    public DeleteButton(DefaultTableModel model, JTable wordListTable,
+    public deleteButton(DefaultTableModel model, JTable wordListTable,
             JTextField pangasinenseField, JTextField definitionField,
             JTextField tagalogField, JTextField synonymField,
             JTextField antonymField, JTextField sentenceField, 
-            WordManager wordManager) {
+            wordManager wordManager) {
         super(model, wordListTable, pangasinenseField, definitionField, 
                 tagalogField, synonymField, antonymField, sentenceField);
         this.wordManager = wordManager;  

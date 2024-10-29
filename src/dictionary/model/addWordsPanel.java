@@ -1,18 +1,18 @@
 package dictionary.model;
 
-import dictionary.helper.NavBarHover;
-import dictionary.manager.CreateButton;
-import dictionary.manager.UpdateButton;
-import dictionary.manager.DeleteButton;
-import dictionary.manager.WordManager;
-import dictionary.entities.Word;
+import dictionary.helper.navBarHover;
+import dictionary.manager.createButton;
+import dictionary.manager.updateButton;
+import dictionary.manager.deleteButton;
+import dictionary.manager.wordManager;
+import dictionary.entities.word;
 import javax.swing.table.DefaultTableModel;
 
-public class AddWordsPanel extends javax.swing.JPanel {
+public class addWordsPanel extends javax.swing.JPanel {
 
-    private WordManager wordManager;
+    private wordManager wordManager;
 
-    public AddWordsPanel() {
+    public addWordsPanel() {
         initComponents();
         applyHoverEffects();
         loadWordsFromFile();
@@ -33,7 +33,7 @@ public class AddWordsPanel extends javax.swing.JPanel {
     }
 
     private void loadWordsFromFile() {
-        wordManager = new WordManager();
+        wordManager = new wordManager();
         wordManager.loadData();
         updateTableFromManager();
         System.out.println("Words loaded successfully.");
@@ -44,7 +44,7 @@ public class AddWordsPanel extends javax.swing.JPanel {
         model.setRowCount(0);
 
         for (String key : wordManager.getWordMap().keySet()) {
-            Word word = wordManager.getWordMap().get(key);
+            word word = wordManager.getWordMap().get(key);
             model.addRow(new Object[]{
                 word.getId(),
                 word.getPangasinense(),
@@ -58,8 +58,8 @@ public class AddWordsPanel extends javax.swing.JPanel {
     }
 
     private void applyHoverEffects() {
-        NavBarHover.addHoverEffect(homeButton, false);
-        NavBarHover.addHoverEffect(addButton, true);
+        navBarHover.addHoverEffect(homeButton, false);
+        navBarHover.addHoverEffect(addButton, true);
     }
 
     @SuppressWarnings("unchecked")
@@ -405,7 +405,7 @@ public class AddWordsPanel extends javax.swing.JPanel {
 
     private void addButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addButtonActionPerformed
         javax.swing.JFrame frame = new javax.swing.JFrame();
-        frame.add(new AddWordsPanel());
+        frame.add(new addWordsPanel());
         frame.setUndecorated(true);
         frame.pack();
         frame.setLocationRelativeTo(null);
@@ -414,13 +414,13 @@ public class AddWordsPanel extends javax.swing.JPanel {
 
     private void homeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_homeButtonActionPerformed
         javax.swing.SwingUtilities.getWindowAncestor(this).dispose();
-        new DictionaryUI().setVisible(true);
+        new dictionaryUI().setVisible(true);
     }//GEN-LAST:event_homeButtonActionPerformed
 
     private void createButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_createButtonActionPerformed
         DefaultTableModel model = (DefaultTableModel) wordListTable.getModel();
 
-        CreateButton createAction = new CreateButton(model, wordListTable,
+        createButton createAction = new createButton(model, wordListTable,
                 pangasinenseField, definitionField, tagalogField,
                 synonymField, antonymField, sentenceField, wordManager);
         createAction.execute();
@@ -428,7 +428,7 @@ public class AddWordsPanel extends javax.swing.JPanel {
 
     private void updateButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_updateButtonActionPerformed
         DefaultTableModel model = (DefaultTableModel) wordListTable.getModel();
-        UpdateButton updateAction = new UpdateButton(model, wordListTable,
+        updateButton updateAction = new updateButton(model, wordListTable,
                 pangasinenseField, definitionField, tagalogField,
                 synonymField, antonymField, sentenceField, wordManager);
         updateAction.execute();
@@ -436,7 +436,7 @@ public class AddWordsPanel extends javax.swing.JPanel {
 
     private void deleteButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deleteButtonActionPerformed
         DefaultTableModel model = (DefaultTableModel) wordListTable.getModel();
-        DeleteButton deleteAction = new DeleteButton(model, wordListTable,
+        deleteButton deleteAction = new deleteButton(model, wordListTable,
                 pangasinenseField, definitionField, tagalogField,
                 synonymField, antonymField, sentenceField, wordManager);
         deleteAction.execute();

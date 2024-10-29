@@ -5,7 +5,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import javax.swing.JButton;
 
-public class NavLetterHover {
+public class navLetterHover {
 
     private static JButton currentlySelectedAlphabetButton; 
     private static final Color CUSTOM_GRAY = new Color(204, 204, 204);
