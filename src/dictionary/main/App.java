@@ -1,10 +1,10 @@
 package dictionary.main;
 
-import dictionary.model.DictionaryUI;
+import dictionary.model.dictionaryUI;
 
 public class App {
 
     public static void main(String[] args) {
-        new DictionaryUI().setVisible(true);
+        new dictionaryUI().setVisible(true);
     }
 }

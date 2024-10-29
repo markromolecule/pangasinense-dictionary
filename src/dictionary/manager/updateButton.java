@@ -1,19 +1,19 @@
 package dictionary.manager;
 
-import dictionary.entities.Word;
+import dictionary.entities.word;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.JTable;
 import javax.swing.JTextField;
 
-public class UpdateButton extends WordAction {
+public class updateButton extends wordAction {
 
-    private WordManager wordManager;
+    private wordManager wordManager;
     
-    public UpdateButton(DefaultTableModel model, JTable wordListTable, 
+    public updateButton(DefaultTableModel model, JTable wordListTable, 
             JTextField pangasinenseField, JTextField definitionField, 
             JTextField tagalogField, JTextField synonymField,
             JTextField antonymField, JTextField sentenceField, 
-            WordManager wordManager) {
+            wordManager wordManager) {
         super(model, wordListTable, pangasinenseField, definitionField, 
                 tagalogField, synonymField, antonymField, sentenceField);
         this.wordManager = wordManager;
@@ -41,7 +41,7 @@ public class UpdateButton extends WordAction {
             model.setValueAt(sentence, selectedRow, 6);
 
             // Check if the original word exists
-            Word existingWord = wordManager.getWord(originalPangasinense);
+            word existingWord = wordManager.getWord(originalPangasinense);
             if (existingWord != null) {
                 // Update the existing word instead of adding a new one
                 existingWord.setPangasinense(pangasinense);
@@ -52,7 +52,7 @@ public class UpdateButton extends WordAction {
                 existingWord.setSentence(sentence);
             } else {
                 // If the original word was removed or doesn't exist, create a new one
-                Word updatedWord = new Word(selectedRow + 1, pangasinense, 
+                word updatedWord = new word(selectedRow + 1, pangasinense, 
                         definition, tagalog, synonyms, antonyms, sentence);
                 wordManager.addWord(updatedWord);
             }

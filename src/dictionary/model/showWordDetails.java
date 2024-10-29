@@ -1,10 +1,10 @@
 package dictionary.model;
 
-import dictionary.entities.Word;
+import dictionary.entities.word;
 
-public class ShowWordDetails extends javax.swing.JPanel {
+public class showWordDetails extends javax.swing.JPanel {
 
-    public ShowWordDetails(Word wordObj) {
+    public showWordDetails(word wordObj) {
         initComponents();
         pangasinenseField.setText(wordObj.getPangasinense());
         definitionField.setText(wordObj.getDefinition());

@@ -2,7 +2,7 @@ package dictionary.entities;
 
 import java.io.Serializable;
 
-public class Word implements Serializable {
+public class word implements Serializable {
 
     private static final long serialVersionUID = 1L;
     private int id;
@@ -13,7 +13,7 @@ public class Word implements Serializable {
     private String antonyms;
     private String sentence;
 
-    public Word(int id, String pangasinense, String definition, String tagalog, String synonyms, String antonyms, String sentence) {
+    public word(int id, String pangasinense, String definition, String tagalog, String synonyms, String antonyms, String sentence) {
         this.id = id;
         this.pangasinense = pangasinense;
         this.definition = definition;
