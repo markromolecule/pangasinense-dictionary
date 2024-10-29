@@ -2,6 +2,7 @@ package dictionary.layout;
 
 import dictionary.helper.navLetterHover;
 import dictionary.helper.navBarHover;
+import dictionary.helper.roundedTextField;
 import dictionary.manager.wordManager;
 import dictionary.entities.word;
 import java.awt.event.ActionEvent;
@@ -42,7 +43,7 @@ public class dictionaryUI extends javax.swing.JFrame {
         navBarPanel = new javax.swing.JPanel();
         homeButton = new javax.swing.JButton();
         addButton = new javax.swing.JButton();
-        searchBar = new javax.swing.JTextField();
+        searchBar = searchBar = new roundedTextField(20);
         navWordsPanel = new javax.swing.JPanel();
         aButton = new javax.swing.JButton();
         bButton = new javax.swing.JButton();
@@ -132,7 +133,7 @@ public class dictionaryUI extends javax.swing.JFrame {
         });
 
         searchBar.setBackground(new java.awt.Color(246, 241, 234));
-        searchBar.setFont(new java.awt.Font("Helvetica Neue", 0, 24)); // NOI18N
+        searchBar.setFont(new java.awt.Font("Helvetica Neue", 0, 18)); // NOI18N
         searchBar.setForeground(new java.awt.Color(204, 204, 204));
         searchBar.setText("Search for a word");
         searchBar.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -559,7 +560,6 @@ public class dictionaryUI extends javax.swing.JFrame {
         wordsScrollPane.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         wordsScrollPane.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         wordsScrollPane.setViewportBorder(javax.swing.BorderFactory.createEtchedBorder(java.awt.Color.gray, java.awt.Color.white));
-        wordsScrollPane.setColumnHeader(null);
         wordsScrollPane.setColumnHeaderView(null);
         wordsScrollPane.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         wordsScrollPane.setDoubleBuffered(true);
@@ -597,7 +597,7 @@ public class dictionaryUI extends javax.swing.JFrame {
                 .addComponent(navWordsPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(wordsScrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, 492, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(28, Short.MAX_VALUE))
+                .addContainerGap(30, Short.MAX_VALUE))
         );
 
         getContentPane().add(mainPanel, java.awt.BorderLayout.CENTER);
@@ -613,10 +613,37 @@ public class dictionaryUI extends javax.swing.JFrame {
         for (String key : wordsMap.keySet()) {
             word wordObj = wordsMap.get(key);
             javax.swing.JButton wordButton = new javax.swing.JButton(wordObj.getPangasinense());
-            wordButton.setPreferredSize(new java.awt.Dimension(40, 80));
+
+            wordButton.setPreferredSize(new java.awt.Dimension(40, 70)); // Adjust size for better readability
+            wordButton.setFont(new java.awt.Font("Arial", java.awt.Font.PLAIN, 14));
+
+            // Customize colors and appearance
+            wordButton.setBackground(new java.awt.Color(255, 255, 255));
+            wordButton.setForeground(java.awt.Color.BLACK);
+            wordButton.setFocusPainted(false);
+            wordButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(246, 241, 234), 2, true)); // Rounded border
+            wordButton.setOpaque(true);
+            wordButton.setContentAreaFilled(false);
+
+            // Add hover effect
+            wordButton.addMouseListener(new java.awt.event.MouseAdapter() {
+                @Override
+                public void mouseEntered(java.awt.event.MouseEvent evt) {
+                    wordButton.setBackground(new java.awt.Color(246, 241, 234)); // Darker blue on hover
+                    wordButton.setOpaque(true);
+                }
+
+                @Override
+                public void mouseExited(java.awt.event.MouseEvent evt) {
+                    wordButton.setBackground(new java.awt.Color(255, 255, 255)); // Original color
+                    wordButton.setOpaque(true);
+                }
+            });
+
             wordButton.addActionListener((ActionEvent e) -> {
                 showWordDetails(wordObj);
             });
+
             wordsPanel.add(wordButton);
         }
         wordsPanel.revalidate();
@@ -625,12 +652,12 @@ public class dictionaryUI extends javax.swing.JFrame {
 
     private void showWordDetails(word wordObj) {
         JFrame frame = new JFrame("Word Details");
-        frame.add(new showWordDetails(wordObj)); 
+        frame.add(new showWordDetails(wordObj));
         frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
-    
+
     // Method for navWordsPanel
     private void goToNearestLetter(char letter) {
         wordManager wordMgr = new wordManager();
@@ -643,15 +670,41 @@ public class dictionaryUI extends javax.swing.JFrame {
             if (key.toUpperCase().charAt(0) == Character.toUpperCase(letter)) {
                 word wordObj = wordsMap.get(key);
                 javax.swing.JButton wordButton = new javax.swing.JButton(wordObj.getPangasinense());
-                wordButton.setPreferredSize(new java.awt.Dimension(40, 80));
+
+                // Set button size and appearance
+                wordButton.setPreferredSize(new java.awt.Dimension(40, 70));
+                wordButton.setFont(new java.awt.Font("Arial", java.awt.Font.PLAIN, 14));
+                wordButton.setBackground(new java.awt.Color(255, 255, 255));
+                wordButton.setForeground(java.awt.Color.BLACK);
+                wordButton.setFocusPainted(false);
+                wordButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(246, 241, 234), 2, true)); // Rounded border
+                wordButton.setOpaque(true);
+                wordButton.setContentAreaFilled(false);
+
+                // Add hover effect
+                wordButton.addMouseListener(new java.awt.event.MouseAdapter() {
+                    @Override
+                    public void mouseEntered(java.awt.event.MouseEvent evt) {
+                        wordButton.setBackground(new java.awt.Color(246, 241, 234)); // Hover color
+                        wordButton.setOpaque(true);
+                    }
+
+                    @Override
+                    public void mouseExited(java.awt.event.MouseEvent evt) {
+                        wordButton.setBackground(new java.awt.Color(255, 255, 255)); // Original color
+                        wordButton.setOpaque(true);
+                    }
+                });
 
                 wordButton.addActionListener((ActionEvent e) -> {
                     showWordDetails(wordObj);
                 });
+
                 wordsPanel.add(wordButton);
                 wordFound = true;
             }
         }
+
         if (!wordFound) {
             javax.swing.JLabel noWordsLabel = new javax.swing.JLabel("No words found for letter: " + letter);
             wordsPanel.add(noWordsLabel);
@@ -690,7 +743,7 @@ public class dictionaryUI extends javax.swing.JFrame {
 
         currentFrame = frame;
     }//GEN-LAST:event_addButtonActionPerformed
-   
+
     private void aButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aButtonActionPerformed
         goToNearestLetter('A');
     }//GEN-LAST:event_aButtonActionPerformed
@@ -798,29 +851,38 @@ public class dictionaryUI extends javax.swing.JFrame {
     private void focus(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_focus
         if (searchBar.getText().equals("Search for a word")) {
             searchBar.setText("");
+            searchBar.setForeground(java.awt.Color.BLACK);
         }
     }//GEN-LAST:event_focus
 
     private void searchBarFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_searchBarFocusLost
         if (searchBar.getText().trim().equals("")) {
             searchBar.setText("Search for a word");
+            searchBar.setForeground(java.awt.Color.GRAY);
         }
     }//GEN-LAST:event_searchBarFocusLost
 
     private void searchBarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_searchBarActionPerformed
         String query = searchBar.getText().trim();
-        searchForWord(query);
+        if (!query.equals("Search for a word") && !query.isEmpty()) {
+            searchForWord(query);
+            searchBar.setText(""); // Clear the search bar after performing the search
+            searchBar.setForeground(java.awt.Color.GRAY); // Reset text color for placeholder
+            searchBar.setText("Search for a word"); // Set placeholder text back
+        }
     }//GEN-LAST:event_searchBarActionPerformed
-    
+
     private void searchForWord(String query) {
         wordsPanel.removeAll();
-
         wordManager wordMgr = new wordManager();
         TreeMap<String, word> wordsMap = wordMgr.getWordMap();
 
+        boolean wordFound = false;
+
         for (String key : wordsMap.keySet()) {
             word wordObj = wordsMap.get(key);
-            // pang check sa data
+
+            // Check if query matches the word or its properties
             if (key.toLowerCase().contains(query.toLowerCase())
                     || wordObj.getDefinition().toLowerCase().contains(query.toLowerCase())
                     || wordObj.getSynonyms().toLowerCase().contains(query.toLowerCase())
@@ -828,7 +890,32 @@ public class dictionaryUI extends javax.swing.JFrame {
 
                 javax.swing.JButton wordButton = new javax.swing.JButton(wordObj.getPangasinense());
 
-                wordButton.setBackground(new java.awt.Color(246, 241, 234));
+                // Apply button style and hover effect
+                wordButton.setPreferredSize(new java.awt.Dimension(40, 70));
+                wordButton.setFont(new java.awt.Font("Arial", java.awt.Font.PLAIN, 14));
+                wordButton.setBackground(new java.awt.Color(255, 255, 255));
+                wordButton.setForeground(java.awt.Color.BLACK);
+                wordButton.setFocusPainted(false);
+                wordButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(246, 241, 234), 2, true));
+                wordButton.setOpaque(true);
+                wordButton.setContentAreaFilled(false);
+
+                wordButton.addMouseListener(new java.awt.event.MouseAdapter() {
+                    @Override
+                    public void mouseEntered(java.awt.event.MouseEvent evt) {
+                        wordButton.setBackground(new java.awt.Color(246, 241, 234)); // Hover color
+                        wordButton.repaint();
+                        wordButton.setOpaque(true);
+                    }
+
+                    @Override
+                    public void mouseExited(java.awt.event.MouseEvent evt) {
+                        wordButton.setBackground(new java.awt.Color(255, 255, 255)); // Original color
+                        wordButton.repaint();
+                        wordButton.setOpaque(true);
+                    }
+                });
+
                 wordButton.addActionListener((ActionEvent e) -> {
                     showWordDetails wordDetailsPanel = new showWordDetails(wordObj);
                     javax.swing.JFrame frame = new javax.swing.JFrame();
@@ -837,20 +924,24 @@ public class dictionaryUI extends javax.swing.JFrame {
                     frame.pack();
                     frame.setLocationRelativeTo(null);
                     frame.setVisible(true);
-
                 });
+
                 wordsPanel.add(wordButton);
+                wordFound = true;
             }
         }
+
+        if (!wordFound) {
+            javax.swing.JLabel noResultsLabel = new javax.swing.JLabel("No results found for: " + query);
+            noResultsLabel.setFont(new java.awt.Font("Arial", java.awt.Font.PLAIN, 14));
+            noResultsLabel.setForeground(java.awt.Color.BLACK);
+            wordsPanel.add(noResultsLabel);
+        }
+
         wordsPanel.revalidate();
         wordsPanel.repaint();
     }
 
-    public static void main(String args[]) {
-        java.awt.EventQueue.invokeLater(() -> {
-            new dictionaryUI().setVisible(true);
-        });
-    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton aButton;
