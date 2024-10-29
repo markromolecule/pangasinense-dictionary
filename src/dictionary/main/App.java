@@ -1,6 +1,6 @@
 package dictionary.main;
 
-import dictionary.model.dictionaryUI;
+import dictionary.layout.dictionaryUI;
 
 public class App {
 
