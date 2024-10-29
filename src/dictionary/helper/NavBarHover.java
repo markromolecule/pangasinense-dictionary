@@ -5,7 +5,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import javax.swing.JButton;
 
-public class navBarHover {
+public class NavBarHover {
 
     private static JButton currentlySelectedNavButton;
     private static final Color CUSTOM_GRAY = new Color(204, 204, 204);

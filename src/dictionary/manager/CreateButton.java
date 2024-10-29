@@ -3,17 +3,17 @@ package dictionary.manager;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.JTextField;
 import javax.swing.JTable;
-import dictionary.entities.word;
+import dictionary.entities.Word;
 
-public class createButton extends wordAction {
+public class CreateButton extends WordAction {
     
-    private wordManager wordManager;
+    private WordManager wordManager;
     
-    public createButton(DefaultTableModel model, JTable wordListTable, 
+    public CreateButton(DefaultTableModel model, JTable wordListTable, 
             JTextField pangasinenseField, JTextField definitionField, 
             JTextField tagalogField, JTextField synonymField,
             JTextField antonymField, JTextField sentenceField, 
-            wordManager wordManager) {
+            WordManager wordManager) {
         
         super(model, wordListTable, pangasinenseField, definitionField, 
                 tagalogField, synonymField, antonymField, sentenceField);
@@ -29,7 +29,7 @@ public class createButton extends wordAction {
         String antonyms = antonymField.getText();
         String sentence = sentenceField.getText();
         
-        word newWord = new word(model.getRowCount() + 1, pangasinense, 
+        Word newWord = new Word(model.getRowCount() + 1, pangasinense, 
                 definition, tagalog, synonyms, antonyms, sentence);
         model.addRow(new Object[]{model.getRowCount() + 1, pangasinense, 
             definition, tagalog, synonyms, antonyms, sentence});

@@ -4,14 +4,14 @@ import javax.swing.table.DefaultTableModel;
 import javax.swing.JTable;
 import javax.swing.JTextField;
 
-public abstract class wordAction {
+public abstract class WordAction {
 
     protected DefaultTableModel model;
     protected javax.swing.JTable wordListTable;
     protected javax.swing.JTextField pangasinenseField, definitionField,
             tagalogField, synonymField, antonymField, sentenceField;
 
-    public wordAction(DefaultTableModel model, JTable wordListTable, 
+    public WordAction(DefaultTableModel model, JTable wordListTable, 
             JTextField pangasinenseField, JTextField definitionField, 
             JTextField tagalogField, JTextField synonymField,
             JTextField antonymField, JTextField sentenceField) {

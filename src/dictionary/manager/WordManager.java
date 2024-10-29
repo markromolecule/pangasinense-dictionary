@@ -1,18 +1,18 @@
 package dictionary.manager;
 
-import dictionary.entities.word;
+import dictionary.entities.Word;
 import java.io.*;
 import java.util.TreeMap;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 
-public class wordManager {
+public class WordManager {
 
-    private TreeMap<String, word> wordMap;
+    private TreeMap<String, Word> wordMap;
     private final String fileName = "dictionary_data.json";
 
-    public wordManager() {
+    public WordManager() {
         wordMap = new TreeMap<>();
         loadData();
     }
@@ -21,7 +21,7 @@ public class wordManager {
     Functionality
      */
     // To add
-    public void addWord(word newWord) {
+    public void addWord(Word newWord) {
         String pangasinenseWord = newWord.getPangasinense();
 
         if (wordMap.containsKey(pangasinenseWord)) {
@@ -34,13 +34,13 @@ public class wordManager {
         wordMap.put(pangasinenseWord, newWord);
     }
 
-    public word getWord(String pangasinense) {
+    public Word getWord(String pangasinense) {
         return wordMap.get(pangasinense);
     }
 
     // To remove
     public void removeWord(String pangasinense) {
-        word removedWord = wordMap.remove(pangasinense);
+        Word removedWord = wordMap.remove(pangasinense);
         if (removedWord != null) {
             System.out.println("Word removed: " + pangasinense);
             reassignIds();
@@ -49,7 +49,7 @@ public class wordManager {
         }
     }
 
-    public TreeMap<String, word> getWordMap() {
+    public TreeMap<String, Word> getWordMap() {
         return wordMap;
     }
 
@@ -65,7 +65,7 @@ public class wordManager {
     public void loadData() {
         Gson gson = new Gson();
         try (FileReader reader = new FileReader(fileName)) {
-            wordMap = gson.fromJson(reader, new TypeToken<TreeMap<String, word>>() {
+            wordMap = gson.fromJson(reader, new TypeToken<TreeMap<String, Word>>() {
             }.getType());
             if (wordMap != null && !wordMap.isEmpty()) {
                 reassignIds();
@@ -77,7 +77,7 @@ public class wordManager {
 
     private void reassignIds() {
         int id = 1;
-        for (word w : wordMap.values()) {
+        for (Word w : wordMap.values()) {
             w.setId(id++);
         }
     }
