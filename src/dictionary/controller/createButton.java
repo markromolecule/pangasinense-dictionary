@@ -1,9 +1,11 @@
-package dictionary.manager;
+package dictionary.controller;
 
 import javax.swing.table.DefaultTableModel;
 import javax.swing.JTextField;
 import javax.swing.JTable;
 import dictionary.entities.word;
+import dictionary.manager.wordAction;
+import dictionary.manager.wordManager;
 
 public class createButton extends wordAction {
     

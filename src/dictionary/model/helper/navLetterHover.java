@@ -1,4 +1,4 @@
-package dictionary.helper;
+package dictionary.model.helper;
 
 import java.awt.Color;
 import java.awt.event.MouseAdapter;

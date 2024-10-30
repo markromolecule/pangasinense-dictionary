@@ -1,6 +1,8 @@
-package dictionary.manager;
+package dictionary.controller;
 
 import dictionary.entities.word;
+import dictionary.manager.wordAction;
+import dictionary.manager.wordManager;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.JTable;
 import javax.swing.JTextField;
@@ -43,13 +45,31 @@ public class updateButton extends wordAction {
             // Check if the original word exists
             word existingWord = wordManager.getWord(originalPangasinense);
             if (existingWord != null) {
-                // Update the existing word instead of adding a new one
+                // If the key (pangasinense word) is changing
+                if (!originalPangasinense.equals(pangasinense)) {
+                    // Check for a duplicate with the new key
+                    if (wordManager.getWordMap().containsKey(pangasinense)) {
+                        System.out.println("Duplicate word found: " + pangasinense);
+                        return; // Stop the update to prevent a duplicate
+                    }
+
+                    // Remove the old key before adding the updated entry
+                    wordManager.getWordMap().remove(originalPangasinense);
+                }
+
+                // Update the fields in the existing word object
                 existingWord.setPangasinense(pangasinense);
                 existingWord.setDefinition(definition);
                 existingWord.setTagalog(tagalog);
                 existingWord.setSynonyms(synonyms);
                 existingWord.setAntonyms(antonyms);
                 existingWord.setSentence(sentence);
+
+                // Add the updated word with the new key (or reinsert with the same key if unchanged)
+                wordManager.getWordMap().put(pangasinense, existingWord);
+
+                // Optionally, save data to persist the changes
+                wordManager.saveData();
             } else {
                 // If the original word was removed or doesn't exist, create a new one
                 word updatedWord = new word(selectedRow + 1, pangasinense, 

@@ -1,9 +1,9 @@
-package dictionary.layout;
+package dictionary.model;
 
-import dictionary.helper.navBarHover;
-import dictionary.manager.createButton;
-import dictionary.manager.updateButton;
-import dictionary.manager.deleteButton;
+import dictionary.model.helper.navBarHover;
+import dictionary.controller.createButton;
+import dictionary.controller.updateButton;
+import dictionary.controller.deleteButton;
 import dictionary.manager.wordManager;
 import dictionary.entities.word;
 import javax.swing.table.DefaultTableModel;
@@ -129,30 +129,23 @@ public class addWordsPanel extends javax.swing.JPanel {
         navBarPanelLayout.setHorizontalGroup(
             navBarPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, navBarPanelLayout.createSequentialGroup()
-                .addContainerGap(579, Short.MAX_VALUE)
+                .addContainerGap(60, Short.MAX_VALUE)
+                .addComponent(jLabel3)
+                .addGap(44, 44, 44)
                 .addComponent(homeButton)
                 .addGap(63, 63, 63)
                 .addComponent(addButton)
                 .addGap(411, 411, 411))
-            .addGroup(navBarPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(navBarPanelLayout.createSequentialGroup()
-                    .addGap(83, 83, 83)
-                    .addComponent(jLabel3)
-                    .addContainerGap(748, Short.MAX_VALUE)))
         );
         navBarPanelLayout.setVerticalGroup(
             navBarPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, navBarPanelLayout.createSequentialGroup()
-                .addContainerGap(69, Short.MAX_VALUE)
+            .addGroup(navBarPanelLayout.createSequentialGroup()
+                .addContainerGap(42, Short.MAX_VALUE)
                 .addGroup(navBarPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel3)
                     .addComponent(homeButton)
                     .addComponent(addButton))
-                .addGap(20, 20, 20))
-            .addGroup(navBarPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, navBarPanelLayout.createSequentialGroup()
-                    .addContainerGap(50, Short.MAX_VALUE)
-                    .addComponent(jLabel3)
-                    .addGap(19, 19, 19)))
+                .addGap(27, 27, 27))
         );
 
         add(navBarPanel, java.awt.BorderLayout.PAGE_START);
@@ -201,6 +194,8 @@ public class addWordsPanel extends javax.swing.JPanel {
         sentenceField.setFont(new java.awt.Font("Helvetica Neue", 0, 24)); // NOI18N
         sentenceField.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
+        wordListTable.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        wordListTable.setFont(new java.awt.Font("Helvetica Neue", 0, 14)); // NOI18N
         wordListTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -224,6 +219,7 @@ public class addWordsPanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
+        wordListTable.getTableHeader().setResizingAllowed(false);
         wordListTable.getTableHeader().setReorderingAllowed(false);
         wordListPane.setViewportView(wordListTable);
         wordListTable.getColumnModel().getColumn(0).setMinWidth(0);  // ID
@@ -313,7 +309,7 @@ public class addWordsPanel extends javax.swing.JPanel {
         mainPanelLayout.setHorizontalGroup(
             mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(mainPanelLayout.createSequentialGroup()
-                .addContainerGap(86, Short.MAX_VALUE)
+                .addContainerGap(60, Short.MAX_VALUE)
                 .addGroup(mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(mainPanelLayout.createSequentialGroup()
                         .addGroup(mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -353,12 +349,10 @@ public class addWordsPanel extends javax.swing.JPanel {
         );
         mainPanelLayout.setVerticalGroup(
             mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(mainPanelLayout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, mainPanelLayout.createSequentialGroup()
                 .addGap(14, 14, 14)
-                .addGroup(mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(mainPanelLayout.createSequentialGroup()
-                        .addComponent(wordListPane, javax.swing.GroupLayout.PREFERRED_SIZE, 522, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(wordListPane)
                     .addGroup(mainPanelLayout.createSequentialGroup()
                         .addGroup(mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(mainPanelLayout.createSequentialGroup()
@@ -385,7 +379,7 @@ public class addWordsPanel extends javax.swing.JPanel {
                                 .addComponent(synonymText)
                                 .addGap(18, 18, 18)
                                 .addComponent(antonymText)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(sentenceText)
                             .addComponent(sentenceField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -396,8 +390,8 @@ public class addWordsPanel extends javax.swing.JPanel {
                             .addComponent(deleteButton)
                             .addComponent(loadButton)
                             .addComponent(saveButton)
-                            .addComponent(freeText))
-                        .addGap(84, 84, 84))))
+                            .addComponent(freeText))))
+                .addGap(84, 84, 84))
         );
 
         add(mainPanel, java.awt.BorderLayout.CENTER);

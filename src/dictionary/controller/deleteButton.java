@@ -1,5 +1,7 @@
-package dictionary.manager;
+package dictionary.controller;
 
+import dictionary.manager.wordAction;
+import dictionary.manager.wordManager;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.JTable;
 import javax.swing.JTextField;

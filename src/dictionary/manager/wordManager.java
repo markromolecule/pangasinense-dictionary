@@ -17,9 +17,6 @@ public class wordManager {
         loadData();
     }
 
-    /*
-    Functionality
-     */
     // To add
     public void addWord(word newWord) {
         String pangasinenseWord = newWord.getPangasinense();

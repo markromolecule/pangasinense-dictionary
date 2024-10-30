@@ -1,8 +1,8 @@
-package dictionary.layout;
+package dictionary.model;
 
-import dictionary.helper.navLetterHover;
-import dictionary.helper.navBarHover;
-import dictionary.helper.roundedTextField;
+import dictionary.model.helper.navLetterHover;
+import dictionary.model.helper.navBarHover;
+import dictionary.model.helper.roundedTextField;
 import dictionary.manager.wordManager;
 import dictionary.entities.word;
 import java.awt.event.ActionEvent;
@@ -941,7 +941,6 @@ public class dictionaryUI extends javax.swing.JFrame {
         wordsPanel.revalidate();
         wordsPanel.repaint();
     }
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton aButton;

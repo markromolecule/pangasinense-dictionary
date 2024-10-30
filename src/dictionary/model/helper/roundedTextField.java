@@ -1,4 +1,4 @@
-package dictionary.helper;
+package dictionary.model.helper;
 
 import javax.swing.*;
 import java.awt.*;
@@ -6,8 +6,8 @@ import java.awt.geom.RoundRectangle2D;
 
 public class roundedTextField extends JTextField {
 
-    private int arcWidth = 15;
-    private int arcHeight = 15;
+    private int arcWidth = 25;
+    private int arcHeight = 25;
 
     public roundedTextField(int columns) {
         super(columns);

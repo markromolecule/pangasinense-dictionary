@@ -1,10 +1,10 @@
 package dictionary.main;
 
-import dictionary.layout.dictionaryUI;
+import dictionary.model.startScreen;
 
 public class App {
 
     public static void main(String[] args) {
-        new dictionaryUI().setVisible(true);
+        new startScreen().setVisible(true);
     }
 }
