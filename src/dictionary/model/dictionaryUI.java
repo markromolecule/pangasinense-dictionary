@@ -8,16 +8,22 @@ import dictionary.entities.word;
 import java.awt.event.ActionEvent;
 import java.util.TreeMap;
 import javax.swing.JFrame;
+import javax.swing.SwingWorker;
 
 public class dictionaryUI extends javax.swing.JFrame {
 
     private javax.swing.JFrame currentFrame;
+    private boolean isInitialized = false;
 
     public dictionaryUI() {
         initComponents();
         loadWords();
+        loadWordsAsync();
         applyHoverEffects();
+        setupAlphabetButtonListeners();
         setLocationRelativeTo(null);
+        isInitialized = true;
+        mainPanel.requestFocusInWindow();
         currentFrame = this;
     }
 
@@ -31,6 +37,27 @@ public class dictionaryUI extends javax.swing.JFrame {
         navLetterHover.addHoverEffectToButtons(alphabetButtons, aButton);
         navBarHover.addHoverEffect(homeButton, true);
         navBarHover.addHoverEffect(addButton, false);
+    }
+    
+    // Array of charaterButtons
+    private void setupAlphabetButtonListeners() {
+        javax.swing.JButton[] alphabetButtons = {
+            aButton, bButton, cButton, dButton, eButton, fButton, gButton, 
+            hButton, iButton, jButton, kButton, lButton, mButton, nButton, 
+            oButton, pButton, qButton, rButton, sButton, tButton, uButton, 
+            vButton, wButton, xButton, yButton, zButton
+        };
+
+        char letter = 'A';
+        for (javax.swing.JButton button : alphabetButtons) {
+            char finalLetter = letter;
+            button.addActionListener(evt -> alphabetButtonActionPerformed(finalLetter));
+            letter++;
+        }
+    }
+
+    private void alphabetButtonActionPerformed(char letter) {
+        goToNearestLetter(letter);
     }
 
     @SuppressWarnings("unchecked")
@@ -123,7 +150,7 @@ public class dictionaryUI extends javax.swing.JFrame {
         addButton.setBackground(new java.awt.Color(246, 241, 234));
         addButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         addButton.setForeground(new java.awt.Color(204, 204, 204));
-        addButton.setText("ADD WORDS");
+        addButton.setText("MANAGE WORDS");
         addButton.setBorder(null);
         addButton.setBorderPainted(false);
         addButton.addActionListener(new java.awt.event.ActionListener() {
@@ -158,9 +185,9 @@ public class dictionaryUI extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, navBarPanelLayout.createSequentialGroup()
                 .addGap(116, 116, 116)
                 .addComponent(searchBar, javax.swing.GroupLayout.PREFERRED_SIZE, 360, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(100, 100, 100)
                 .addComponent(homeButton)
-                .addGap(117, 117, 117)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(addButton)
                 .addGap(115, 115, 115))
         );
@@ -182,286 +209,156 @@ public class dictionaryUI extends javax.swing.JFrame {
         aButton.setForeground(new java.awt.Color(204, 204, 204));
         aButton.setText("A");
         aButton.setBorder(null);
-        aButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                aButtonActionPerformed(evt);
-            }
-        });
 
         bButton.setBackground(new java.awt.Color(246, 241, 234));
         bButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         bButton.setForeground(new java.awt.Color(204, 204, 204));
         bButton.setText("B");
         bButton.setBorder(null);
-        bButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                bButtonActionPerformed(evt);
-            }
-        });
 
         cButton.setBackground(new java.awt.Color(246, 241, 234));
         cButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         cButton.setForeground(new java.awt.Color(204, 204, 204));
         cButton.setText("C");
         cButton.setBorder(null);
-        cButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cButtonActionPerformed(evt);
-            }
-        });
 
         dButton.setBackground(new java.awt.Color(246, 241, 234));
         dButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         dButton.setForeground(new java.awt.Color(204, 204, 204));
         dButton.setText("D");
         dButton.setBorder(null);
-        dButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                dButtonActionPerformed(evt);
-            }
-        });
 
         eButton.setBackground(new java.awt.Color(246, 241, 234));
         eButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         eButton.setForeground(new java.awt.Color(204, 204, 204));
         eButton.setText("E");
         eButton.setBorder(null);
-        eButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                eButtonActionPerformed(evt);
-            }
-        });
 
         fButton.setBackground(new java.awt.Color(246, 241, 234));
         fButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         fButton.setForeground(new java.awt.Color(204, 204, 204));
         fButton.setText("F");
         fButton.setBorder(null);
-        fButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                fButtonActionPerformed(evt);
-            }
-        });
 
         gButton.setBackground(new java.awt.Color(246, 241, 234));
         gButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         gButton.setForeground(new java.awt.Color(204, 204, 204));
         gButton.setText("G");
         gButton.setBorder(null);
-        gButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                gButtonActionPerformed(evt);
-            }
-        });
 
         hButton.setBackground(new java.awt.Color(246, 241, 234));
         hButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         hButton.setForeground(new java.awt.Color(204, 204, 204));
         hButton.setText("H");
         hButton.setBorder(null);
-        hButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                hButtonActionPerformed(evt);
-            }
-        });
 
         iButton.setBackground(new java.awt.Color(246, 241, 234));
         iButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         iButton.setForeground(new java.awt.Color(204, 204, 204));
         iButton.setText("I");
         iButton.setBorder(null);
-        iButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                iButtonActionPerformed(evt);
-            }
-        });
 
         jButton.setBackground(new java.awt.Color(246, 241, 234));
         jButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         jButton.setForeground(new java.awt.Color(204, 204, 204));
         jButton.setText("J");
         jButton.setBorder(null);
-        jButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonActionPerformed(evt);
-            }
-        });
 
         kButton.setBackground(new java.awt.Color(246, 241, 234));
         kButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         kButton.setForeground(new java.awt.Color(204, 204, 204));
         kButton.setText("K");
         kButton.setBorder(null);
-        kButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                kButtonActionPerformed(evt);
-            }
-        });
 
         lButton.setBackground(new java.awt.Color(246, 241, 234));
         lButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         lButton.setForeground(new java.awt.Color(204, 204, 204));
         lButton.setText("L");
         lButton.setBorder(null);
-        lButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                lButtonActionPerformed(evt);
-            }
-        });
 
         mButton.setBackground(new java.awt.Color(246, 241, 234));
         mButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         mButton.setForeground(new java.awt.Color(204, 204, 204));
         mButton.setText("M");
         mButton.setBorder(null);
-        mButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                mButtonActionPerformed(evt);
-            }
-        });
 
         nButton.setBackground(new java.awt.Color(246, 241, 234));
         nButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         nButton.setForeground(new java.awt.Color(204, 204, 204));
         nButton.setText("N");
         nButton.setBorder(null);
-        nButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                nButtonActionPerformed(evt);
-            }
-        });
 
         oButton.setBackground(new java.awt.Color(246, 241, 234));
         oButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         oButton.setForeground(new java.awt.Color(204, 204, 204));
         oButton.setText("O");
         oButton.setBorder(null);
-        oButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                oButtonActionPerformed(evt);
-            }
-        });
 
         pButton.setBackground(new java.awt.Color(246, 241, 234));
         pButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         pButton.setForeground(new java.awt.Color(204, 204, 204));
         pButton.setText("P");
         pButton.setBorder(null);
-        pButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                pButtonActionPerformed(evt);
-            }
-        });
 
         qButton.setBackground(new java.awt.Color(246, 241, 234));
         qButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         qButton.setForeground(new java.awt.Color(204, 204, 204));
         qButton.setText("Q");
         qButton.setBorder(null);
-        qButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                qButtonActionPerformed(evt);
-            }
-        });
 
         rButton.setBackground(new java.awt.Color(246, 241, 234));
         rButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         rButton.setForeground(new java.awt.Color(204, 204, 204));
         rButton.setText("R");
         rButton.setBorder(null);
-        rButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                rButtonActionPerformed(evt);
-            }
-        });
 
         sButton.setBackground(new java.awt.Color(246, 241, 234));
         sButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         sButton.setForeground(new java.awt.Color(204, 204, 204));
         sButton.setText("S");
         sButton.setBorder(null);
-        sButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                sButtonActionPerformed(evt);
-            }
-        });
 
         tButton.setBackground(new java.awt.Color(246, 241, 234));
         tButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         tButton.setForeground(new java.awt.Color(204, 204, 204));
         tButton.setText("T");
         tButton.setBorder(null);
-        tButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tButtonActionPerformed(evt);
-            }
-        });
 
         uButton.setBackground(new java.awt.Color(246, 241, 234));
         uButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         uButton.setForeground(new java.awt.Color(204, 204, 204));
         uButton.setText("U");
         uButton.setBorder(null);
-        uButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                uButtonActionPerformed(evt);
-            }
-        });
 
         vButton.setBackground(new java.awt.Color(246, 241, 234));
         vButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         vButton.setForeground(new java.awt.Color(204, 204, 204));
         vButton.setText("V");
         vButton.setBorder(null);
-        vButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                vButtonActionPerformed(evt);
-            }
-        });
 
         wButton.setBackground(new java.awt.Color(246, 241, 234));
         wButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         wButton.setForeground(new java.awt.Color(204, 204, 204));
         wButton.setText("W");
         wButton.setBorder(null);
-        wButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                wButtonActionPerformed(evt);
-            }
-        });
 
         xButton.setBackground(new java.awt.Color(246, 241, 234));
         xButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         xButton.setForeground(new java.awt.Color(204, 204, 204));
         xButton.setText("X");
         xButton.setBorder(null);
-        xButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                xButtonActionPerformed(evt);
-            }
-        });
 
         yButton.setBackground(new java.awt.Color(246, 241, 234));
         yButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         yButton.setForeground(new java.awt.Color(204, 204, 204));
         yButton.setText("Y");
         yButton.setBorder(null);
-        yButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                yButtonActionPerformed(evt);
-            }
-        });
 
         zButton.setBackground(new java.awt.Color(246, 241, 234));
         zButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         zButton.setForeground(new java.awt.Color(204, 204, 204));
         zButton.setText("Z");
         zButton.setBorder(null);
-        zButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                zButtonActionPerformed(evt);
-            }
-        });
 
         javax.swing.GroupLayout navWordsPanelLayout = new javax.swing.GroupLayout(navWordsPanel);
         navWordsPanel.setLayout(navWordsPanelLayout);
@@ -564,11 +461,16 @@ public class dictionaryUI extends javax.swing.JFrame {
         wordsScrollPane.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         wordsScrollPane.setDoubleBuffered(true);
         wordsScrollPane.setFont(new java.awt.Font("Helvetica Neue", 1, 13)); // NOI18N
+        wordsScrollPane.getVerticalScrollBar().setUnitIncrement(5);
         wordsScrollPane.setRowHeaderView(null);
 
         wordsPanel.setBackground(new java.awt.Color(255, 255, 255));
         wordsPanel.setFont(new java.awt.Font("Helvetica Neue", 1, 12)); // NOI18N
         wordsPanel.setLayout(new java.awt.GridLayout(0, 5, 2, 2));
+        wordsPanel.setDoubleBuffered(true);
+
+        wordsPanel.requestFocusInWindow();
+
         wordsScrollPane.setViewportView(wordsPanel);
 
         javax.swing.GroupLayout mainPanelLayout = new javax.swing.GroupLayout(mainPanel);
@@ -612,40 +514,37 @@ public class dictionaryUI extends javax.swing.JFrame {
 
         for (String key : wordsMap.keySet()) {
             word wordObj = wordsMap.get(key);
-            javax.swing.JButton wordButton = new javax.swing.JButton(wordObj.getPangasinense());
-
-            wordButton.setPreferredSize(new java.awt.Dimension(40, 70)); // Adjust size for better readability
-            wordButton.setFont(new java.awt.Font("Arial", java.awt.Font.PLAIN, 14));
-
-            // Customize colors and appearance
-            wordButton.setBackground(new java.awt.Color(255, 255, 255));
-            wordButton.setForeground(java.awt.Color.BLACK);
-            wordButton.setFocusPainted(false);
-            wordButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(246, 241, 234), 2, true)); // Rounded border
-            wordButton.setOpaque(true);
-            wordButton.setContentAreaFilled(false);
-
-            // Add hover effect
-            wordButton.addMouseListener(new java.awt.event.MouseAdapter() {
-                @Override
-                public void mouseEntered(java.awt.event.MouseEvent evt) {
-                    wordButton.setBackground(new java.awt.Color(246, 241, 234)); // Darker blue on hover
-                    wordButton.setOpaque(true);
-                }
-
-                @Override
-                public void mouseExited(java.awt.event.MouseEvent evt) {
-                    wordButton.setBackground(new java.awt.Color(255, 255, 255)); // Original color
-                    wordButton.setOpaque(true);
-                }
-            });
-
-            wordButton.addActionListener((ActionEvent e) -> {
-                showWordDetails(wordObj);
-            });
+            javax.swing.JButton wordButton = createWordButton(wordObj);
 
             wordsPanel.add(wordButton);
         }
+
+        wordsPanel.revalidate();
+        wordsPanel.repaint();
+    }
+
+    private void goToNearestLetter(char letter) {
+        wordManager wordMgr = new wordManager();
+        TreeMap<String, word> wordsMap = wordMgr.getWordMap();
+        wordsPanel.removeAll();
+
+        boolean wordFound = false;
+
+        for (String key : wordsMap.keySet()) {
+            if (key.toUpperCase().charAt(0) == Character.toUpperCase(letter)) {
+                word wordObj = wordsMap.get(key);
+                javax.swing.JButton wordButton = createWordButton(wordObj);
+
+                wordsPanel.add(wordButton);
+                wordFound = true;
+            }
+        }
+
+        if (!wordFound) {
+            javax.swing.JLabel noWordsLabel = new javax.swing.JLabel("Awan na salitang nahanap para sa letra: " + letter);
+            wordsPanel.add(noWordsLabel);
+        }
+
         wordsPanel.revalidate();
         wordsPanel.repaint();
     }
@@ -658,64 +557,9 @@ public class dictionaryUI extends javax.swing.JFrame {
         frame.setVisible(true);
     }
 
-    // Method for navWordsPanel
-    private void goToNearestLetter(char letter) {
-        wordManager wordMgr = new wordManager();
-        TreeMap<String, word> wordsMap = wordMgr.getWordMap();
-        wordsPanel.removeAll();
-
-        boolean wordFound = false;
-
-        for (String key : wordsMap.keySet()) {
-            if (key.toUpperCase().charAt(0) == Character.toUpperCase(letter)) {
-                word wordObj = wordsMap.get(key);
-                javax.swing.JButton wordButton = new javax.swing.JButton(wordObj.getPangasinense());
-
-                // Set button size and appearance
-                wordButton.setPreferredSize(new java.awt.Dimension(40, 70));
-                wordButton.setFont(new java.awt.Font("Arial", java.awt.Font.PLAIN, 14));
-                wordButton.setBackground(new java.awt.Color(255, 255, 255));
-                wordButton.setForeground(java.awt.Color.BLACK);
-                wordButton.setFocusPainted(false);
-                wordButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(246, 241, 234), 2, true)); // Rounded border
-                wordButton.setOpaque(true);
-                wordButton.setContentAreaFilled(false);
-
-                // Add hover effect
-                wordButton.addMouseListener(new java.awt.event.MouseAdapter() {
-                    @Override
-                    public void mouseEntered(java.awt.event.MouseEvent evt) {
-                        wordButton.setBackground(new java.awt.Color(246, 241, 234)); // Hover color
-                        wordButton.setOpaque(true);
-                    }
-
-                    @Override
-                    public void mouseExited(java.awt.event.MouseEvent evt) {
-                        wordButton.setBackground(new java.awt.Color(255, 255, 255)); // Original color
-                        wordButton.setOpaque(true);
-                    }
-                });
-
-                wordButton.addActionListener((ActionEvent e) -> {
-                    showWordDetails(wordObj);
-                });
-
-                wordsPanel.add(wordButton);
-                wordFound = true;
-            }
-        }
-
-        if (!wordFound) {
-            javax.swing.JLabel noWordsLabel = new javax.swing.JLabel("No words found for letter: " + letter);
-            wordsPanel.add(noWordsLabel);
-        }
-
-        wordsPanel.revalidate();
-        wordsPanel.repaint();
-    }
-
     private void homeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_homeButtonActionPerformed
         loadWords();
+        loadWordsAsync();
         javax.swing.JButton[] alphabetButtons = {
             aButton, bButton, cButton, dButton, eButton, fButton, gButton,
             hButton, iButton, jButton, kButton, lButton, mButton, nButton,
@@ -744,112 +588,8 @@ public class dictionaryUI extends javax.swing.JFrame {
         currentFrame = frame;
     }//GEN-LAST:event_addButtonActionPerformed
 
-    private void aButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_aButtonActionPerformed
-        goToNearestLetter('A');
-    }//GEN-LAST:event_aButtonActionPerformed
-
-    private void bButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bButtonActionPerformed
-        goToNearestLetter('B');
-    }//GEN-LAST:event_bButtonActionPerformed
-
-    private void cButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cButtonActionPerformed
-        goToNearestLetter('C');
-    }//GEN-LAST:event_cButtonActionPerformed
-
-    private void dButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dButtonActionPerformed
-        goToNearestLetter('D');
-    }//GEN-LAST:event_dButtonActionPerformed
-
-    private void eButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_eButtonActionPerformed
-        goToNearestLetter('E');
-    }//GEN-LAST:event_eButtonActionPerformed
-
-    private void fButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fButtonActionPerformed
-        goToNearestLetter('F');
-    }//GEN-LAST:event_fButtonActionPerformed
-
-    private void gButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gButtonActionPerformed
-        goToNearestLetter('G');
-    }//GEN-LAST:event_gButtonActionPerformed
-
-    private void hButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hButtonActionPerformed
-        goToNearestLetter('H');
-    }//GEN-LAST:event_hButtonActionPerformed
-
-    private void iButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_iButtonActionPerformed
-        goToNearestLetter('I');
-    }//GEN-LAST:event_iButtonActionPerformed
-
-    private void jButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonActionPerformed
-        goToNearestLetter('J');
-    }//GEN-LAST:event_jButtonActionPerformed
-
-    private void kButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_kButtonActionPerformed
-        goToNearestLetter('K');
-    }//GEN-LAST:event_kButtonActionPerformed
-
-    private void lButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lButtonActionPerformed
-        goToNearestLetter('L');
-    }//GEN-LAST:event_lButtonActionPerformed
-
-    private void mButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mButtonActionPerformed
-        goToNearestLetter('M');
-    }//GEN-LAST:event_mButtonActionPerformed
-
-    private void nButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nButtonActionPerformed
-        goToNearestLetter('N');
-    }//GEN-LAST:event_nButtonActionPerformed
-
-    private void oButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_oButtonActionPerformed
-        goToNearestLetter('O');
-    }//GEN-LAST:event_oButtonActionPerformed
-
-    private void pButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pButtonActionPerformed
-        goToNearestLetter('P');
-    }//GEN-LAST:event_pButtonActionPerformed
-
-    private void qButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_qButtonActionPerformed
-        goToNearestLetter('Q');
-    }//GEN-LAST:event_qButtonActionPerformed
-
-    private void rButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rButtonActionPerformed
-        goToNearestLetter('R');
-    }//GEN-LAST:event_rButtonActionPerformed
-
-    private void sButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sButtonActionPerformed
-        goToNearestLetter('S');
-    }//GEN-LAST:event_sButtonActionPerformed
-
-    private void tButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tButtonActionPerformed
-        goToNearestLetter('T');
-    }//GEN-LAST:event_tButtonActionPerformed
-
-    private void uButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_uButtonActionPerformed
-        goToNearestLetter('U');
-    }//GEN-LAST:event_uButtonActionPerformed
-
-    private void vButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_vButtonActionPerformed
-        goToNearestLetter('V');
-    }//GEN-LAST:event_vButtonActionPerformed
-
-    private void wButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_wButtonActionPerformed
-        goToNearestLetter('W');
-    }//GEN-LAST:event_wButtonActionPerformed
-
-    private void xButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_xButtonActionPerformed
-        goToNearestLetter('X');
-    }//GEN-LAST:event_xButtonActionPerformed
-
-    private void yButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_yButtonActionPerformed
-        goToNearestLetter('Y');
-    }//GEN-LAST:event_yButtonActionPerformed
-
-    private void zButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_zButtonActionPerformed
-        goToNearestLetter('Z');
-    }//GEN-LAST:event_zButtonActionPerformed
-
     private void focus(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_focus
-        if (searchBar.getText().equals("Search for a word")) {
+        if (isInitialized && searchBar.getText().equals("Search for a word")) {
             searchBar.setText("");
             searchBar.setForeground(java.awt.Color.BLACK);
         }
@@ -892,7 +632,7 @@ public class dictionaryUI extends javax.swing.JFrame {
 
                 // Apply button style and hover effect
                 wordButton.setPreferredSize(new java.awt.Dimension(40, 70));
-                wordButton.setFont(new java.awt.Font("Arial", java.awt.Font.PLAIN, 14));
+                wordButton.setFont(new java.awt.Font("Helvetica Neue", java.awt.Font.PLAIN, 14));
                 wordButton.setBackground(new java.awt.Color(255, 255, 255));
                 wordButton.setForeground(java.awt.Color.BLACK);
                 wordButton.setFocusPainted(false);
@@ -933,7 +673,7 @@ public class dictionaryUI extends javax.swing.JFrame {
 
         if (!wordFound) {
             javax.swing.JLabel noResultsLabel = new javax.swing.JLabel("No results found for: " + query);
-            noResultsLabel.setFont(new java.awt.Font("Arial", java.awt.Font.PLAIN, 14));
+            noResultsLabel.setFont(new java.awt.Font("Helvetica Neue", java.awt.Font.PLAIN, 14));
             noResultsLabel.setForeground(java.awt.Color.BLACK);
             wordsPanel.add(noResultsLabel);
         }
@@ -941,6 +681,68 @@ public class dictionaryUI extends javax.swing.JFrame {
         wordsPanel.revalidate();
         wordsPanel.repaint();
     }
+
+    private void loadWordsAsync() {
+        SwingWorker<Void, javax.swing.JButton> worker = new SwingWorker<>() {
+            @Override
+            protected Void doInBackground() {
+                TreeMap<String, word> wordsMap = new wordManager().getWordMap();
+                for (String key : wordsMap.keySet()) {
+                    word wordObj = wordsMap.get(key);
+                    javax.swing.JButton wordButton = createWordButton(wordObj);
+                    publish(wordButton);
+                }
+                return null;
+            }
+
+            @Override
+            protected void process(java.util.List<javax.swing.JButton> chunks) {
+                chunks.forEach(wordsPanel::add);
+            }
+
+            @Override
+            protected void done() {
+                wordsPanel.revalidate();
+                wordsPanel.repaint();
+            }
+        };
+        worker.execute();
+    }
+
+    private javax.swing.JButton createWordButton(word wordObj) {
+        javax.swing.JButton wordButton = new javax.swing.JButton(wordObj.getPangasinense());
+        wordButton.setPreferredSize(new java.awt.Dimension(40, 70)); // Adjust size for better readability
+        wordButton.setFont(new java.awt.Font("Helvetica Neue", java.awt.Font.PLAIN, 14));
+
+        // Customize colors and appearance
+        wordButton.setBackground(new java.awt.Color(255, 255, 255));
+        wordButton.setForeground(java.awt.Color.BLACK);
+        wordButton.setFocusPainted(false);
+        wordButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(246, 241, 234), 2, true));
+        wordButton.setOpaque(true);
+        wordButton.setContentAreaFilled(false);
+
+        // Add hover effect
+        wordButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            @Override
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                wordButton.setBackground(new java.awt.Color(246, 241, 234));
+                wordButton.setOpaque(true);
+            }
+
+            @Override
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                wordButton.setBackground(new java.awt.Color(255, 255, 255));
+                wordButton.setOpaque(true);
+            }
+        });
+
+        // Add action listener for showing word details
+        wordButton.addActionListener((ActionEvent e) -> showWordDetails(wordObj));
+
+        return wordButton;
+    }
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton aButton;

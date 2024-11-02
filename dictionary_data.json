@@ -5543,8 +5543,107 @@
     "antonyms": "kaunti kumain",
     "sentence": "Sabsab ya na ya paborito na pagkain sa hapunan."
   },
-  "sagwat": {
+  "sadsali": {
     "id": 617,
+    "pangasinense": "sadsali",
+    "definition": "aksyon o pagsisikap na makamit ang layunin o hangarin, kahit may panganib ng kabiguan.",
+    "tagalog": "pagtatangka",
+    "synonyms": "pagsisikap",
+    "antonyms": "pagsuko",
+    "sentence": "Ya sadsali na makuha ya pangarap na ya hinangaan ya marami."
+  },
+  "saew": {
+    "id": 618,
+    "pangasinense": "saew",
+    "definition": "nawalan",
+    "tagalog": "pagkawala",
+    "synonyms": "nawala",
+    "antonyms": "nakahanap",
+    "sentence": "Ya saew na ya mahalagang bagay ay nagdulot na ya pagkabahala."
+  },
+  "sagapsap": {
+    "id": 619,
+    "pangasinense": "sagapsap",
+    "definition": "hindi makinis o pantay ang ibabaw at maaaring hindi komportable sa balat.",
+    "tagalog": "magaspang",
+    "synonyms": "maligasgas",
+    "antonyms": "makinis",
+    "sentence": "Ya materyales na ya ginamit ay sagapsap at hindi angkop para ya upholstery."
+  },
+  "sagarasagar": {
+    "id": 620,
+    "pangasinense": "sagarasagar",
+    "definition": "hinahawakan mo ang isang bagay katulad ng paghawak sa lapag.",
+    "tagalog": "hinahawakan ang lapag",
+    "synonyms": "pagkakapit",
+    "antonyms": "pagsusuko",
+    "sentence": "Sagarasagar ya na mga pangarap para ya hindi ito mawala."
+  },
+  "sagaysay": {
+    "id": 621,
+    "pangasinense": "sagaysay",
+    "definition": "isang kasangkapan para sa pag-aayos, pagpapakinis, at pagtanggal ng gusot sa buhok, may hawakan at maayos na nakahanay na ngipin.",
+    "tagalog": "suklay",
+    "synonyms": "n/a",
+    "antonyms": "n/a",
+    "sentence": "Gumamit ya na sagaysay para maayos ya buhok ya bago umalis."
+  },
+  "saggap": {
+    "id": 622,
+    "pangasinense": "saggap",
+    "definition": "ito ay ang pagtipon o pag-ipon ng mga bagay o impormasyon mula sa iba\u0027t ibang pinagmulan bilang bahagi ng isang gawain o proyekto.",
+    "tagalog": "kolektahin",
+    "synonyms": "tipunin",
+    "antonyms": "pangalagaan",
+    "sentence": "Kailangan na ya saggap ya lahat na impormasyon bago mag-umpisa ya proyekto."
+  },
+  "sagiat": {
+    "id": 623,
+    "pangasinense": "sagiat",
+    "definition": "katangian o kapasidad ng isang bagay o tao na humikayat",
+    "tagalog": "pang-akit",
+    "synonyms": "kaakit-akit",
+    "antonyms": "pangit",
+    "sentence": "Ya sagiat na ya nakahihikayat ya mga tao sa paligid na ya."
+  },
+  "saginonor": {
+    "id": 624,
+    "pangasinense": "saginonor",
+    "definition": "tumutugon at sumusunod sa utos o kahilingan nang walang pagtutol at madaling gabayan",
+    "tagalog": "masunurin",
+    "synonyms": "susunod",
+    "antonyms": "tanggihan",
+    "sentence": "Siya ay saginonor na estudyante at madaling natututo."
+  },
+  "sagmak": {
+    "id": 625,
+    "pangasinense": "sagmak",
+    "definition": "isang kaganapan o insidente sa tiyak na lugar at panahon na maaaring magdulot ng pagbabago",
+    "tagalog": "pangyayari",
+    "synonyms": "kaganapan",
+    "antonyms": "pagwawalang-bahala",
+    "sentence": "Ya sagmak na ya nayon ay nagdala na ya maraming pagbabago."
+  },
+  "sagor": {
+    "id": 626,
+    "pangasinense": "sagor",
+    "definition": "direksyon ng nilulubugan o nilulunuran ng araw.",
+    "tagalog": "kanluran",
+    "synonyms": "kanluran",
+    "antonyms": "silangan",
+    "sentence": "Ya sagor ay makikita mula sa bahay ya tuwing dapit-hapon."
+  },
+  "sagpot": {
+    "id": 627,
+    "pangasinense": "sagpot",
+    "definition": "isang bagay, parangal, pabuya, o premyo na ibinibigay bilang pagkilala sa husay, tagumpay, pagsisikap, o kabutihang nagawa ng isang tao.",
+    "tagalog": "gatimpala",
+    "synonyms": "gantimpala",
+    "antonyms": "parusa",
+    "sentence": "Nakamit ya na sagpot sa mahusay na pagganap ya paligsahan."
+  },
+  "sagwat": {
+    "id": 628,
     "pangasinense": "sagwat",
     "definition": "Ang pagkakaroon o pag-abot sa isang bagay, layunin, estado, o kondisyon sa pamamagitan ng pagsisikap, pagpupunyagi, o pagkilos.",
     "tagalog": "makamit",
@@ -5552,8 +5651,17 @@
     "antonyms": "mawalan",
     "sentence": "Sagwat ya na mga pangarap ya sakey na mga pagsubok."
   },
+  "sagyan": {
+    "id": 629,
+    "pangasinense": "sagyan",
+    "definition": "nagsasabi ng kinaroroonan ng isang bagay o lugar.",
+    "tagalog": "direksyon",
+    "synonyms": "lokasyon",
+    "antonyms": "walang direksyon",
+    "sentence": "Magandang sakyan ya tamang sagyan para makapunta sa destinasyon na ya."
+  },
   "sakab": {
-    "id": 618,
+    "id": 630,
     "pangasinense": "sakab",
     "definition": "Mga uri ng panggamot o mabilis na pampagaling o panghilom.",
     "tagalog": "tapal",
@@ -5562,7 +5670,7 @@
     "sentence": "Ya sakab ay nakatulong na ya mabilis na paghilom ya sugat na ya."
   },
   "sakada": {
-    "id": 619,
+    "id": 631,
     "pangasinense": "sakada",
     "definition": "Ang pagkakaroon o pag-aari ng isang bagay sa pamamagitan ng pagkuha, pagtanggap, o kakayahang lutasin ang isang sitwasyon nang maayos.",
     "tagalog": "kumuha",
@@ -5571,7 +5679,7 @@
     "sentence": "Sakada ya na impormasyon mula sa iba’t ibang source para sa proyekto na ya."
   },
   "sakal": {
-    "id": 620,
+    "id": 632,
     "pangasinense": "sakal",
     "definition": "Gumawa o lumikha ng eksaktong bersyon ng isang orihinal na dokumento, larawan, file, o anumang bagay, kabilang ang anyo, teksto, at nilalaman.",
     "tagalog": "kopyahin",
@@ -5580,7 +5688,7 @@
     "sentence": "Sakal ya na dokumento para sa pagsusumite na ya."
   },
   "sakbat": {
-    "id": 621,
+    "id": 633,
     "pangasinense": "sakbat",
     "definition": "Pagbuhat pero nasa balikat o itaas na bahagi ng likuran.",
     "tagalog": "pasan gamit isang balikat",
@@ -5589,7 +5697,7 @@
     "sentence": "Sakbat ya na mga gamit ya naglalakad pa uwi."
   },
   "sakbay": {
-    "id": 622,
+    "id": 634,
     "pangasinense": "sakbay",
     "definition": "Dumatíng o nangyari bago ang inaasahan o karaniwang oras.",
     "tagalog": "maaga",
@@ -5598,7 +5706,7 @@
     "sentence": "Dumating ya sakbay ya takdang oras na ya pagpupulong."
   },
   "sakbit": {
-    "id": 623,
+    "id": 635,
     "pangasinense": "sakbit",
     "definition": "Lumitaw o sumulpot sa isang lugar.",
     "tagalog": "sumulpot",
@@ -5607,7 +5715,7 @@
     "sentence": "Sakbit ya na ya likod na ya mga puno sa parke."
   },
   "sakbong": {
-    "id": 624,
+    "id": 636,
     "pangasinense": "sakbong",
     "definition": "Isang piraso ng manipis o makapal na tela na ginagamit upang takpan at painitin ang katawan.",
     "tagalog": "kumot",
@@ -5616,7 +5724,7 @@
     "sentence": "Kinuha ya na sakbong para magpainit ya malamig na gabi."
   },
   "sakdal": {
-    "id": 625,
+    "id": 637,
     "pangasinense": "sakdal",
     "definition": "Pagbibigay ng tulong, lakas, o katatagan sa isang tao, bagay, o layunin upang hindi mawala sa tamang posisyon o direksyon.",
     "tagalog": "suporta",
@@ -5625,7 +5733,7 @@
     "sentence": "Ya pamilya ya naging sakdal na ya mga pagsusumikap sa buhay."
   },
   "sakem": {
-    "id": 626,
+    "id": 638,
     "pangasinense": "sakem",
     "definition": "Nagpapakita ng labis na pagpapahalaga sa sariling interes nang hindi iniisip ang kapakanan ng iba at hindi handang magbahagi o magbigay.",
     "tagalog": "makasarili",
@@ -5634,7 +5742,7 @@
     "sentence": "Minsan, ya sakem na ugali ay nagdudulot na ya hidwaan sa grupo."
   },
   "sakey": {
-    "id": 627,
+    "id": 639,
     "pangasinense": "sakey",
     "definition": "Unang bilang.",
     "tagalog": "isa",
@@ -5643,7 +5751,7 @@
     "sentence": "Sakey laang ya natirang piraso ya keyk sa mesa."
   },
   "sakit": {
-    "id": 628,
+    "id": 640,
     "pangasinense": "sakit",
     "definition": "Isang di-normal na kalagayan ng katawan o isipan na nagdudulot ng di-maayos na pakiramdam o kawalan ng kakayahan na makagawa ng normal.",
     "tagalog": "sakit",
@@ -5652,7 +5760,7 @@
     "sentence": "Ya sakit na ya nararamdaman ay nagdulot na ya pag-aalala ya pamilya na ya."
   },
   "saklang": {
-    "id": 629,
+    "id": 641,
     "pangasinense": "saklang",
     "definition": "Isang kusang ibinibigay o inihahandog na bagay.",
     "tagalog": "alay",
@@ -5661,12 +5769,1110 @@
     "sentence": "Ya saklang na ya tanda ya pagmamahal na ya komunidad."
   },
   "saklayat": {
-    "id": 630,
+    "id": 642,
     "pangasinense": "saklayat",
     "definition": "Umaksiyon o gumalaw mula sa loob patungo sa labas ng isang lugar o kalagayan.",
     "tagalog": "lumabas",
     "synonyms": "umalis",
     "antonyms": "manatili",
     "sentence": "Saklayat ya da ya bahay para ya magsimula na bagong buhay."
+  },
+  "saksak": {
+    "id": 643,
+    "pangasinense": "saksak",
+    "definition": "aksyon o resulta ng pagtusok ng matulis na bagay tulad ng kutsilyo sa katawan ng tao o hayop, na nagdudulot ng sugat.",
+    "tagalog": "saksak",
+    "synonyms": "tusok",
+    "antonyms": "iilag",
+    "sentence": "Ya aksidenteng saksak ay nagdulot ya pagdudugo."
+  },
+  "saksi": {
+    "id": 644,
+    "pangasinense": "saksi",
+    "definition": "isang tao na may direktang kaalaman o nakasaksi sa isang pangyayari, insidente, o krimen at maaaring magpatotoo hinggil sa katotohanan nito.",
+    "tagalog": "saksi",
+    "synonyms": "testigo",
+    "antonyms": "walang alam",
+    "sentence": "Ya saksi na ya krimen ay nagbigay na ya mahalagang impormasyon sa pulis."
+  },
+  "sakupit": {
+    "id": 645,
+    "pangasinense": "sakupit",
+    "definition": "mga dala-dalahan ng isang taong naglalakbay o bumibiyahe.",
+    "tagalog": "bagahe",
+    "synonyms": "kargamento",
+    "antonyms": "walang dala",
+    "sentence": "Nakalimutan ya na dalhin ya sakupit sa bus."
+  },
+  "taang": {
+    "id": 646,
+    "pangasinense": "taang",
+    "definition": "nangangahulugang itigil ang isang ginagawa o itigil ang paggalaw.",
+    "tagalog": "huminto",
+    "synonyms": "hinto",
+    "antonyms": "tuloy",
+    "sentence": "Kailangan taang mo ang pagtakbo para magpahinga."
+  },
+  "taba": {
+    "id": 647,
+    "pangasinense": "taba",
+    "definition": "bahagi ng pagkain na may mataas na taba",
+    "tagalog": "taba",
+    "synonyms": "obis",
+    "antonyms": "payat",
+    "sentence": ""
+  },
+  "tabako": {
+    "id": 648,
+    "pangasinense": "tabako",
+    "definition": "halamang ginagamit sa paggawa ng sigarilyo",
+    "tagalog": "tabako",
+    "synonyms": "sigarilyo",
+    "antonyms": "walang bisyo",
+    "sentence": ""
+  },
+  "tabal": {
+    "id": 649,
+    "pangasinense": "tabal",
+    "definition": "pagputol sa isang bagay",
+    "tagalog": "hati",
+    "synonyms": "kinalahati",
+    "antonyms": "buo",
+    "sentence": ""
+  },
+  "tabas": {
+    "id": 650,
+    "pangasinense": "tabas",
+    "definition": "estilo o hugis ng isang bagay",
+    "tagalog": "tabas",
+    "synonyms": "gupit",
+    "antonyms": "walang hugis",
+    "sentence": "Maganda ang tabas ng kanyang kasuotan."
+  },
+  "tabayaw": {
+    "id": 651,
+    "pangasinense": "tabayaw",
+    "definition": "pagsama ng iba’t ibang sangkap",
+    "tagalog": "pinaghalo",
+    "synonyms": "haluan",
+    "antonyms": "hiwalay",
+    "sentence": "Kailangan mong tabayaw ang mga rekado bago lutuin."
+  },
+  "tabayong": {
+    "id": 652,
+    "pangasinense": "tabayong",
+    "definition": "isang uri ng gulay na kulay dilaw o orange",
+    "tagalog": "kalabasa",
+    "synonyms": "kalabasa",
+    "antonyms": "chichirya",
+    "sentence": "Ang tabayong ay puno ng bitamina."
+  },
+  "tabernakulo": {
+    "id": 653,
+    "pangasinense": "tabernakulo",
+    "definition": "sagradong lugar sa simbahan",
+    "tagalog": "tabernakulo",
+    "synonyms": "altar",
+    "antonyms": "n/a",
+    "sentence": "Ang mga deboto ay tahimik sa harap ng tabernakulo."
+  },
+  "tabi-tabi": {
+    "id": 654,
+    "pangasinense": "tabi-tabi",
+    "definition": "pagbibigay galang sa paligid",
+    "tagalog": "tabi-tabi",
+    "synonyms": "paumanhin",
+    "antonyms": "walang pake",
+    "sentence": "Sinabi niyang tabi-tabi po bago dumaan."
+  },
+  "tabig": {
+    "id": 655,
+    "pangasinense": "tabig",
+    "definition": "pagpukol o pagtulak",
+    "tagalog": "tabig",
+    "synonyms": "tulak",
+    "antonyms": "hila",
+    "sentence": "Nagulat siya nang tabig siya ng malakas na alon."
+  },
+  "tabin": {
+    "id": 656,
+    "pangasinense": "tabin",
+    "definition": "nauuna sa iba",
+    "tagalog": "nangunguna",
+    "synonyms": "lider",
+    "antonyms": "nahuhuli",
+    "sentence": "Ang tabin sa laro ay may premyo."
+  },
+  "tabing": {
+    "id": 657,
+    "pangasinense": "tabing",
+    "definition": "isang palabas o pelikula",
+    "tagalog": "pelikula",
+    "synonyms": "sine",
+    "antonyms": "patalastas",
+    "sentence": "Masayang nanood ng tabing ang mga mag-aaral."
+  },
+  "taboney": {
+    "id": 658,
+    "pangasinense": "taboney",
+    "definition": "insekto na sumisira ng kahoy",
+    "tagalog": "anay",
+    "synonyms": "insekto",
+    "antonyms": "- hayop",
+    "sentence": "May taboney sa loob ng lumang bahay."
+  },
+  "taborete": {
+    "id": 659,
+    "pangasinense": "taborete",
+    "definition": "maliit na upuan",
+    "tagalog": "upuan",
+    "synonyms": "bangko",
+    "antonyms": "silya",
+    "sentence": "Umupo siya sa taborete habang nagluluto."
+  },
+  "tabtab": {
+    "id": 660,
+    "pangasinense": "tabtab",
+    "definition": "paghihiwa sa isang bagay",
+    "tagalog": "hinihiwa",
+    "synonyms": "hiwain",
+    "antonyms": "buo",
+    "sentence": "Kailangan niyang tabtab ang mga gulay."
+  },
+  "tadioko": {
+    "id": 661,
+    "pangasinense": "tadioko",
+    "definition": "Isang uri ng ahas na delikado",
+    "tagalog": "makamandag na ahas",
+    "synonyms": "ulong",
+    "antonyms": "wala",
+    "sentence": "Mag-ingat sa tadioko sa kagubatan."
+  },
+  "taen": {
+    "id": 662,
+    "pangasinense": "taen",
+    "definition": "Pagtaya ng isang bagay bilang laro o sugal",
+    "tagalog": "pusta",
+    "synonyms": "taya",
+    "antonyms": "wala",
+    "sentence": "Nag-taen siya ng pera sa laro ng sabong."
+  },
+  "taew": {
+    "id": 663,
+    "pangasinense": "taew",
+    "definition": "Malawak na anyong tubig",
+    "tagalog": "dagat",
+    "synonyms": "karagatan",
+    "antonyms": "lupa",
+    "sentence": "Maliwanag ang buwan sa ibabaw ng taew kagabi."
+  },
+  "tagabantay": {
+    "id": 664,
+    "pangasinense": "tagabantay",
+    "definition": "Taong nakatalaga upang magbantay",
+    "tagalog": "tagabantay",
+    "synonyms": "gwardya",
+    "antonyms": "bisita",
+    "sentence": "Siya ang tagabantay ng pinto sa gabi."
+  },
+  "tagos": {
+    "id": 665,
+    "pangasinense": "tagos",
+    "definition": "Pagdaan o pagpasok sa isang bagay",
+    "tagalog": "tagos",
+    "synonyms": "tago",
+    "antonyms": "bara",
+    "sentence": "Ang ulan ay tagos sa kanyang damit."
+  },
+  "tagtag": {
+    "id": 666,
+    "pangasinense": "tagtag",
+    "definition": "Malakas na pagpalo o pagpukpok",
+    "tagalog": "pukpukin",
+    "synonyms": "pukpok",
+    "antonyms": "hinay",
+    "sentence": "Kailangan niyang tagtag ang pako upang magamit ang kahoy."
+  },
+  "takal": {
+    "id": 667,
+    "pangasinense": "takal",
+    "definition": "sukatan ng dami o timbang",
+    "tagalog": "pangsukat",
+    "synonyms": "sukat",
+    "antonyms": "-",
+    "sentence": "Gumamit siya ng takal sa pagkuha ng bigas."
+  },
+  "takatak": {
+    "id": 668,
+    "pangasinense": "takatak",
+    "definition": "Magulo o nakakaabala",
+    "tagalog": "guluhin",
+    "synonyms": "gulo",
+    "antonyms": "tahimik",
+    "sentence": "Ang ingay ng takatak ng mga sasakyan."
+  },
+  "takayan": {
+    "id": 669,
+    "pangasinense": "takayan",
+    "definition": "Estruktura para sa pag-akyat o pagbaba",
+    "tagalog": "hagdan",
+    "synonyms": "hagdan",
+    "antonyms": "daanan",
+    "sentence": "Maingat siyang umakyat sa takayan."
+  },
+  "takba": {
+    "id": 670,
+    "pangasinense": "takba",
+    "definition": "Pagbagsak mula sa taas",
+    "tagalog": "bumagsak",
+    "synonyms": "laglag",
+    "antonyms": "tumayo",
+    "sentence": "Ingat sa pag-akyat at baka takba ka."
+  },
+  "takdang": {
+    "id": 671,
+    "pangasinense": "takdang",
+    "definition": "Tumataas ang antas o halaga",
+    "tagalog": "tumaas",
+    "synonyms": "tumaas",
+    "antonyms": "bumaba",
+    "sentence": "Mataas ang takdang halaga ng bigas ngayon."
+  },
+  "takel": {
+    "id": 672,
+    "pangasinense": "takel",
+    "definition": "Isang lugar na puno ng mga puno at halaman",
+    "tagalog": "gubat",
+    "synonyms": "kagubatan",
+    "antonyms": "disyerto",
+    "sentence": "Ang takel ay tirahan ng maraming hayop."
+  },
+  "takep": {
+    "id": 673,
+    "pangasinense": "takep",
+    "definition": "Isang bagay na ginagamit upang takpan ang iba",
+    "tagalog": "takep",
+    "synonyms": "pantakip",
+    "antonyms": "bukas",
+    "sentence": "Kinuha niya ang takep para hindi malamigan ang pagkain."
+  },
+  "takew": {
+    "id": 674,
+    "pangasinense": "takew",
+    "definition": "Pagkuha ng isang bagay",
+    "tagalog": "kunin",
+    "synonyms": "sunggaban",
+    "antonyms": "bitawan",
+    "sentence": "Huwag mo nang takew ang laruan ng iba."
+  },
+  "takiling": {
+    "id": 675,
+    "pangasinense": "takiling",
+    "definition": "Pagtingin nang palihim o mabilis",
+    "tagalog": "silip",
+    "synonyms": "sulyap",
+    "antonyms": "tingin",
+    "sentence": "Sumilip siya sa bintana para takiling ang paligid."
+  },
+  "taklob": {
+    "id": 676,
+    "pangasinense": "taklob",
+    "definition": "Pantakip sa isang bagay",
+    "tagalog": "taklob",
+    "synonyms": "takpan",
+    "antonyms": "buksan",
+    "sentence": "Ang taklob ng palayok ay mainit, kaya mag-ingat."
+  },
+  "takot": {
+    "id": 677,
+    "pangasinense": "takot",
+    "definition": "Pakiramdam ng kaba o pangamba",
+    "tagalog": "takot",
+    "synonyms": "pangamba",
+    "antonyms": "tapang",
+    "sentence": "Naramdaman niya ang takot sa dilim."
+  },
+  "talabay": {
+    "id": 678,
+    "pangasinense": "talabay",
+    "definition": "Tagapagsilbi sa isang kainan o lugar",
+    "tagalog": "serbidor",
+    "synonyms": "serbisyo",
+    "antonyms": "bisita",
+    "sentence": "Siya ang talabay na nagdadala ng pagkain."
+  },
+  "talabitab": {
+    "id": 679,
+    "pangasinense": "talabitab",
+    "definition": "Madalas magsalita o magkwento",
+    "tagalog": "madaldal",
+    "synonyms": "tsismosa",
+    "antonyms": "tahimik",
+    "sentence": "Ang batang talabitab ay walang tigil sa kakatanong."
+  },
+  "talabotob": {
+    "id": 680,
+    "pangasinense": "talabotob",
+    "definition": "mahinang pag-uusap",
+    "tagalog": "bulong",
+    "synonyms": "sabi-sabi",
+    "antonyms": "sigaw",
+    "sentence": "Nag-talabotob ang mga kaibigan sa likod ng klase."
+  },
+  "talagdanan": {
+    "id": 681,
+    "pangasinense": "talagdanan",
+    "definition": "lugar na pinagputulan o hiniwaan",
+    "tagalog": "hiwaan",
+    "synonyms": "gupitan",
+    "antonyms": "buo",
+    "sentence": "Ang talagdanan ng karne ay malinis."
+  },
+  "talak": {
+    "id": 682,
+    "pangasinense": "talak",
+    "definition": "pagkakandado o pagsara ng isang bagay",
+    "tagalog": "sarado",
+    "synonyms": "kandado",
+    "antonyms": "bukas",
+    "sentence": "Bago matulog, sinigurado niyang talak ang pinto."
+  },
+  "talaw": {
+    "id": 683,
+    "pangasinense": "talaw",
+    "definition": "pakiramdam ng kaba sa isang bagay",
+    "tagalog": "kabado",
+    "synonyms": "nerbyoso",
+    "antonyms": "kampante",
+    "sentence": "Siya ay talaw tuwing may presentasyon sa harap."
+  },
+  "talignaw": {
+    "id": 684,
+    "pangasinense": "talignaw",
+    "definition": "mapagkumbaba",
+    "tagalog": "mapagkumbaba",
+    "synonyms": "mababa ang loob",
+    "antonyms": "mayabang",
+    "sentence": ""
+  },
+  "ulcer": {
+    "id": 685,
+    "pangasinense": "ulcer",
+    "definition": "Sugat sa loob ng katawan, kadalasan sa tiyan",
+    "tagalog": "ulcer",
+    "synonyms": "sugat",
+    "antonyms": "malusog",
+    "sentence": "Kailangan niyang uminom ng gamot para sa ulcer."
+  },
+  "ulibayan": {
+    "id": 686,
+    "pangasinense": "ulibayan",
+    "definition": "Magkatulad ang katangian ng dalawang bagay",
+    "tagalog": "magkapareho",
+    "synonyms": "magkahawig",
+    "antonyms": "magkaiba",
+    "sentence": "Ang kanilang mga ugali ay ulibayan."
+  },
+  "ulila": {
+    "id": 687,
+    "pangasinense": "ulila",
+    "definition": "Walang magulang o nawalan ng magulang",
+    "tagalog": "ulila",
+    "synonyms": "nawalan",
+    "antonyms": "may magulang",
+    "sentence": "Bata pa lamang siya nang siya ay maging ulila."
+  },
+  "uliran": {
+    "id": 688,
+    "pangasinense": "uliran",
+    "definition": "Nakaugalian o kaugalian sa kultura",
+    "tagalog": "tradisyon",
+    "synonyms": "kaugalian",
+    "antonyms": "bago",
+    "sentence": "Ang mga uliran ng kanilang lahi ay patuloy na isinasabuhay."
+  },
+  "ulit": {
+    "id": 689,
+    "pangasinense": "ulit",
+    "definition": "Pag-uulit ng isang bagay",
+    "tagalog": "ulit",
+    "synonyms": "balik",
+    "antonyms": "isa lang",
+    "sentence": "Ang kanilang sayaw ay ulit-ulitin tuwing piyesta."
+  },
+  "ulituleten": {
+    "id": 690,
+    "pangasinense": "ulituleten",
+    "definition": "Nangyayari nang maraming beses",
+    "tagalog": "paulit-ulit",
+    "synonyms": "paulit-ulit",
+    "antonyms": "minsan lang",
+    "sentence": "Ang kanyang mga pagkakamali ay ulituleten."
+  },
+  "ulo": {
+    "id": 691,
+    "pangasinense": "ulo",
+    "definition": "Ang nangunguna sa isang grupo",
+    "tagalog": "nangunguna",
+    "synonyms": "pinuno",
+    "antonyms": "alalay",
+    "sentence": "Siya ang ulo ng kanilang organisasyon."
+  },
+  "ulpo": {
+    "id": 692,
+    "pangasinense": "ulpo",
+    "definition": "Bahagi ng katawan mula tuhod pababa",
+    "tagalog": "hita",
+    "synonyms": "paa",
+    "antonyms": "braso",
+    "sentence": "Nasugatan siya sa ulpo habang naglalakad."
+  },
+  "ulsa": {
+    "id": 693,
+    "pangasinense": "ulsa",
+    "definition": "Isang uri ng hayop na makikita sa kagubatan",
+    "tagalog": "usa",
+    "synonyms": "usa",
+    "antonyms": "tigre",
+    "sentence": "Nakakita kami ng ulsa sa kagubatan."
+  },
+  "ulyanin": {
+    "id": 694,
+    "pangasinense": "ulyanin",
+    "definition": "Madalas na nakakalimot ng mga bagay",
+    "tagalog": "makakalimutin",
+    "synonyms": "malilimutin",
+    "antonyms": "maalala",
+    "sentence": "Si lola ay ulyanin na kaya kailangan siyang bantayan."
+  },
+  "una": {
+    "id": 695,
+    "pangasinense": "una",
+    "definition": "Nauuna sa isang bagay o pangyayari",
+    "tagalog": "una",
+    "synonyms": "pinakauna",
+    "antonyms": "huli",
+    "sentence": "Siya ang una sa pila."
+  },
+  "unakseb": {
+    "id": 696,
+    "pangasinense": "unakseb",
+    "definition": "Pag-alis mula sa mataas na lugar",
+    "tagalog": "bumaba",
+    "synonyms": "lusong",
+    "antonyms": "umakyat",
+    "sentence": "Inutusan siya na unakseb sa hagdan."
+  },
+  "unandi": {
+    "id": 697,
+    "pangasinense": "unandi",
+    "definition": "Pagkawala ng isang bagay o tao",
+    "tagalog": "mawala",
+    "synonyms": "maglaho",
+    "antonyms": "lumitaw",
+    "sentence": "Ang bola ay biglang unandi sa damuhan."
+  },
+  "unat": {
+    "id": 698,
+    "pangasinense": "Unat",
+    "definition": "Pantay at walang kulubot",
+    "tagalog": "Unat",
+    "synonyms": "Kinis",
+    "antonyms": "Lukot",
+    "sentence": "Ang damit niya ay unat at maayos."
+  },
+  "usilen": {
+    "id": 699,
+    "pangasinense": "Usilen",
+    "definition": "Paligsahan kung sino ang mauuna",
+    "tagalog": "Paunahan",
+    "synonyms": "Karera",
+    "antonyms": "Huli",
+    "sentence": "Sila ay nag-usilen papunta sa dulo ng kalsada."
+  },
+  "usisa": {
+    "id": 700,
+    "pangasinense": "Usisa",
+    "definition": "Masusing pagtatanong o pagsisiyasat",
+    "tagalog": "Mag-imbestiga",
+    "synonyms": "Suriin",
+    "antonyms": "Pabayaan",
+    "sentence": "Inutusan siyang usisa ang mga nangyayari sa loob ng bahay."
+  },
+  "uso": {
+    "id": 701,
+    "pangasinense": "Uso",
+    "definition": "Makabagong estilo o moda",
+    "tagalog": "Uso",
+    "synonyms": "Trend",
+    "antonyms": "Lipas",
+    "sentence": "Laging uso ang kanyang kasuotan sa kanilang lugar."
+  },
+  "usto-usto": {
+    "id": 702,
+    "pangasinense": "Usto-usto",
+    "definition": "Eksakto o sakto sa oras",
+    "tagalog": "Mismo",
+    "synonyms": "Eksakto",
+    "antonyms": "Mali",
+    "sentence": "Dumating siya sa eksaktong oras, usto-usto sa itinakda."
+  },
+  "utang": {
+    "id": 703,
+    "pangasinense": "Utang",
+    "definition": "Halaga na kailangan pang bayaran sa ibang tao",
+    "tagalog": "Utang",
+    "synonyms": "Pautang",
+    "antonyms": "Bayad",
+    "sentence": "May utang pa siya sa tindahan."
+  },
+  "utin": {
+    "id": 704,
+    "pangasinense": "Utin",
+    "definition": "Bahagi ng katawan ng lalaki",
+    "tagalog": "Titi",
+    "synonyms": "Ari",
+    "antonyms": "Walang tiyak na antonym",
+    "sentence": "Ang salitang utin ay ginagamit sa usapan ng mga tao sa baryo."
+  },
+  "uto-uto": {
+    "id": 705,
+    "pangasinense": "Uto-uto",
+    "definition": "Madaling mauto o mapaniwala",
+    "tagalog": "Tanga",
+    "synonyms": "Mahina ang isip",
+    "antonyms": "Matalino",
+    "sentence": "Madalas siyang lokohin dahil siya ay uto-uto."
+  },
+  "uung": {
+    "id": 706,
+    "pangasinense": "Uung",
+    "definition": "Isang uri ng kabute o mushroom",
+    "tagalog": "Kabote",
+    "synonyms": "Kabute",
+    "antonyms": "Gulay",
+    "sentence": "Masarap ang ginisang uung sa hapunan."
+  },
+  "uyawen": {
+    "id": 707,
+    "pangasinense": "Uyawen",
+    "definition": "Salitang nakakasakit o nakaka-insulto",
+    "tagalog": "Insulto",
+    "synonyms": "Pagsita",
+    "antonyms": "Purihin",
+    "sentence": "Nagbigay siya ng uyawen na salita na ikinagalit ng iba."
+  },
+  "uyos": {
+    "id": 708,
+    "pangasinense": "Uyos",
+    "definition": "Pag-aalis ng isang bagay mula sa puwesto",
+    "tagalog": "Tanggalin",
+    "synonyms": "Alisin",
+    "antonyms": "Iwan",
+    "sentence": "Inutusan siya na uyos ang mga gamit sa mesa."
+  },
+  "wabwab": {
+    "id": 709,
+    "pangasinense": "wabwab",
+    "definition": "Paglabas ng luha dahil sa lungkot.",
+    "tagalog": "iyak",
+    "synonyms": "hagulgol",
+    "antonyms": "tawa",
+    "sentence": "Napasigaw siya sa wabwab nang siya ay masaktan."
+  },
+  "wadia": {
+    "id": 710,
+    "pangasinense": "wadia",
+    "definition": "Lokasyon o lugar ng isang bagay.",
+    "tagalog": "dito",
+    "synonyms": "narito",
+    "antonyms": "wala rito",
+    "sentence": "Wadia ang aming mga kagamitan sa tabi ng lamesa."
+  },
+  "waglit": {
+    "id": 711,
+    "pangasinense": "waglit",
+    "definition": "Pagkawala ng isang bagay.",
+    "tagalog": "nawala",
+    "synonyms": "mawala",
+    "antonyms": "mahanap",
+    "sentence": "Waglit ang kanyang cellphone habang naglalakad."
+  },
+  "wagwag": {
+    "id": 712,
+    "pangasinense": "wagwag",
+    "definition": "Uri ng bigas.",
+    "tagalog": "bigas",
+    "synonyms": "bigas",
+    "antonyms": "mais",
+    "sentence": "Masarap ang lutong wagwag kapag bagong ani."
+  },
+  "wakwak": {
+    "id": 713,
+    "pangasinense": "wakwak",
+    "definition": "Pagkasira o pagpunit ng isang bagay.",
+    "tagalog": "wasakin",
+    "synonyms": "gibain",
+    "antonyms": "ayusin",
+    "sentence": "Wakwak na ang kanyang lumang damit dahil sa paglipas ng panahon."
+  },
+  "wala": {
+    "id": 714,
+    "pangasinense": "wala",
+    "definition": "Kawalan ng isang bagay.",
+    "tagalog": "wala",
+    "synonyms": "kawalan",
+    "antonyms": "meron",
+    "sentence": "Wala nang natitirang pagkain sa mesa."
+  },
+  "walna": {
+    "id": 715,
+    "pangasinense": "walna",
+    "definition": "Kaugalian o katangian ng isang tao.",
+    "tagalog": "ugali",
+    "synonyms": "pag-uugali",
+    "antonyms": "pagkilos",
+    "sentence": "Mahiyain ang kanyang walna kaya hindi siya palakibo."
+  },
+  "walo": {
+    "id": 716,
+    "pangasinense": "walo",
+    "definition": "Bilang na walong piraso.",
+    "tagalog": "walo",
+    "synonyms": "8",
+    "antonyms": "isa",
+    "sentence": "Walo ang bilang ng kanilang anak sa pamilya."
+  },
+  "walsik": {
+    "id": 717,
+    "pangasinense": "walsik",
+    "definition": "Pagputok o pagtalsik ng tubig o likido.",
+    "tagalog": "talsik",
+    "synonyms": "talsik",
+    "antonyms": "dumapo",
+    "sentence": "Walsik ang mantika habang siya ay nagluluto."
+  },
+  "wanda": {
+    "id": 718,
+    "pangasinense": "wanda",
+    "definition": "Ang saklaw o laki ng isang lugar.",
+    "tagalog": "lawak",
+    "synonyms": "lapad",
+    "antonyms": "kipot",
+    "sentence": "Malaki ang wanda ng kanilang taniman ng palay."
+  },
+  "wangwang": {
+    "id": 719,
+    "pangasinense": "wangwang",
+    "definition": "Tunog ng sirena o alarm",
+    "tagalog": "wangwang",
+    "synonyms": "Sirena",
+    "antonyms": "Tahimik",
+    "sentence": "Rinig na rinig ang wangwang ng ambulansya sa kalsada."
+  },
+  "wasay": {
+    "id": 720,
+    "pangasinense": "wasay",
+    "definition": "Isang kagamitan na gamit sa pagputol ng kahoy",
+    "tagalog": "Palakol",
+    "synonyms": "Patalim",
+    "antonyms": "Pamalo",
+    "sentence": "Ginamit niya ang wasay sa pagputol ng mga sanga."
+  },
+  "wasayin": {
+    "id": 721,
+    "pangasinense": "wasayin",
+    "definition": "Pagkakahati ng isang bagay sa dalawang bahagi",
+    "tagalog": "Hati",
+    "synonyms": "Hiwain",
+    "antonyms": "Buo",
+    "sentence": "Kailangan wasayin ang kahoy para magkasya sa kalan."
+  },
+  "wasiwas": {
+    "id": 722,
+    "pangasinense": "wasiwas",
+    "definition": "Pag-alog o pag-galaw ng isang bagay",
+    "tagalog": "Wasiwas",
+    "synonyms": "Iwagayway",
+    "antonyms": "Ayusin",
+    "sentence": "Bago siya magsimula, wasiwas niya ang basahan sa sahig."
+  },
+  "wawak": {
+    "id": 723,
+    "pangasinense": "wawak",
+    "definition": "Isang uri ng ibon na kulay itim",
+    "tagalog": "Uwak",
+    "synonyms": "Ibon",
+    "antonyms": "Kalapati",
+    "sentence": "Maraming wawak ang nagliparan sa palayan."
+  },
+  "wawandagan": {
+    "id": 724,
+    "pangasinense": "wawandagan",
+    "definition": "Nagniningning o nagliliwanag",
+    "tagalog": "Kumikinang",
+    "synonyms": "Kumikislap",
+    "antonyms": "Mapusyaw",
+    "sentence": "Wawandagan ang mga bituin sa langit sa gabi."
+  },
+  "wayangan": {
+    "id": 725,
+    "pangasinense": "wayangan",
+    "definition": "Malayang paggalaw o pagsasalita",
+    "tagalog": "Kalayaan",
+    "synonyms": "Kasarinlan",
+    "antonyms": "Pagkakakulong",
+    "sentence": "Ipinaglaban ng mga ninuno ang wayangan ng bansa."
+  },
+  "wengweng": {
+    "id": 726,
+    "pangasinense": "wengweng",
+    "definition": "Kulang sa kakayahan o pang-unawa",
+    "tagalog": "Bobo",
+    "synonyms": "Mahina ang isip",
+    "antonyms": "Matalino",
+    "sentence": "Minsan ay tinatawag siyang wengweng dahil sa kanyang kalokohan."
+  },
+  "weswes": {
+    "id": 727,
+    "pangasinense": "weswes",
+    "definition": "Pagkaramdam ng pagkahilo",
+    "tagalog": "Nahihilo",
+    "synonyms": "Nahihibang",
+    "antonyms": "Malinaw ang isip",
+    "sentence": "Nahulog siya sa hagdan at naging weswes pagkatapos."
+  },
+  "weteng": {
+    "id": 728,
+    "pangasinense": "weteng",
+    "definition": "Pagsusugal o pagpupusta sa laro",
+    "tagalog": "Sugal",
+    "synonyms": "Pusta",
+    "antonyms": "Pagtitipid",
+    "sentence": "Mahilig siya sa weteng kahit ito ay bawal."
+  },
+  "wika": {
+    "id": 729,
+    "pangasinense": "wika",
+    "definition": "Pamamaraan ng komunikasyon ng isang grupo ng tao",
+    "tagalog": "Wika",
+    "synonyms": "Salita",
+    "antonyms": "Katahimikan",
+    "sentence": "Mahalaga ang wika sa bawat kultura at tradisyon."
+  },
+  "ya": {
+    "id": 730,
+    "pangasinense": "ya",
+    "definition": "Tanggapin o pagkilala sa isang bagay.",
+    "tagalog": "Oo",
+    "synonyms": "Oo",
+    "antonyms": "Hindi",
+    "sentence": "Ya, pupunta ako sa paaralan bukas."
+  },
+  "yabeng": {
+    "id": 731,
+    "pangasinense": "yabeng",
+    "definition": "Tunog na nalilikha ng hangin.",
+    "tagalog": "Tunog ng hangin",
+    "synonyms": "Huni",
+    "antonyms": "Katahimikan",
+    "sentence": "Narinig ko ang yabeng sa labas habang natutulog."
+  },
+  "yagel": {
+    "id": 732,
+    "pangasinense": "yagel",
+    "definition": "Hindi pinapayagan o ipinagbabawal.",
+    "tagalog": "Prohibado",
+    "synonyms": "Bawal",
+    "antonyms": "Pinapayagan",
+    "sentence": "Ang pagpasok dito ay yagel."
+  },
+  "yakap": {
+    "id": 733,
+    "pangasinense": "yakap",
+    "definition": "Pagkakalapit o paghawak sa isang tao.",
+    "tagalog": "Yakap",
+    "synonyms": "Yakap",
+    "antonyms": "Itaboy",
+    "sentence": "Yakapin mo ang iyong mga kaibigan kapag masaya ka."
+  },
+  "yakat": {
+    "id": 734,
+    "pangasinense": "yakat",
+    "definition": "Pagsasagawa ng pag-apak o pagyapak.",
+    "tagalog": "Apak",
+    "synonyms": "Hakbang",
+    "antonyms": "Tumalon",
+    "sentence": "Mahalaga ang yakat sa paglalakad sa bundok."
+  },
+  "yakba": {
+    "id": 735,
+    "pangasinense": "yakba",
+    "definition": "Paglukso o pagtalon.",
+    "tagalog": "Talon",
+    "synonyms": "Laktaw",
+    "antonyms": "Umupo",
+    "sentence": "Ang mga bata ay mahilig sa yakba sa parke."
+  },
+  "yaket": {
+    "id": 736,
+    "pangasinense": "yaket",
+    "definition": "Tunog na nakakabingi o hindi tahimik.",
+    "tagalog": "Maingay",
+    "synonyms": "Malalakas na tunog",
+    "antonyms": "Tahimik",
+    "sentence": "Ang mga tambol ay nakakapagbigay ng yaket sa konsiyerto."
+  },
+  "yakyak": {
+    "id": 737,
+    "pangasinense": "yakyak",
+    "definition": "Pagiging mapagmataas o mayabang.",
+    "tagalog": "Mayabang",
+    "synonyms": "Palalo",
+    "antonyms": "Mapagpakumbaba",
+    "sentence": "Hindi maganda ang maging yakyak sa mga tao."
+  },
+  "yalagey": {
+    "id": 738,
+    "pangasinense": "yalagey",
+    "definition": "Paglikha o pagbuo ng isang bagay.",
+    "tagalog": "Bumuo",
+    "synonyms": "Lumikha",
+    "antonyms": "Sirain",
+    "sentence": "Kailangan natin ng mga materyales para sa yalagey ng proyekto."
+  },
+  "yalay": {
+    "id": 739,
+    "pangasinense": "yalay",
+    "definition": "Isang handog o dedikasyon sa isang tao o bagay.",
+    "tagalog": "Alay",
+    "synonyms": "Handog",
+    "antonyms": "Tanggalin",
+    "sentence": "Ang mga tao ay may yalay para sa kanilang mga bayani."
+  },
+  "yaleg": {
+    "id": 740,
+    "pangasinense": "yaleg",
+    "definition": "Ipinagbabawal o hindi pinapayagan.",
+    "tagalog": "bawal",
+    "synonyms": "yagel",
+    "antonyms": "pinapayagan",
+    "sentence": "Bawal ang pagkain dito."
+  },
+  "yaliling": {
+    "id": 741,
+    "pangasinense": "yaliling",
+    "definition": "Pagkukumpara o pag-aangat ng mga katangian.",
+    "tagalog": "paghahalintulad",
+    "synonyms": "pagkakaiba",
+    "antonyms": "pagkakapareho",
+    "sentence": "Ang yaliling ay mahalaga sa pag-aaral ng mga kaalaman."
+  },
+  "yalis": {
+    "id": 742,
+    "pangasinense": "yalis",
+    "definition": "Pag-alis o pag-iwan.",
+    "tagalog": "alis",
+    "synonyms": "umalis",
+    "antonyms": "dumating",
+    "sentence": "Magandang yalis sa tamang oras."
+  },
+  "yaman": {
+    "id": 743,
+    "pangasinense": "yaman",
+    "definition": "May maraming yaman o ari-arian.",
+    "tagalog": "mayaman",
+    "synonyms": "bilyonaryo",
+    "antonyms": "mahirap",
+    "sentence": "Ang yaman ng tao ay nasusukat sa kanyang kabutihan."
+  },
+  "yamot": {
+    "id": 744,
+    "pangasinense": "yamot",
+    "definition": "Pagkaasiwa o pagka-asar.",
+    "tagalog": "inis",
+    "synonyms": "galit",
+    "antonyms": "kaligayahan",
+    "sentence": "Naramdaman ko ang yamot sa kanyang sinabi."
+  },
+  "yangyangan": {
+    "id": 745,
+    "pangasinense": "yangyangan",
+    "definition": "Nakababatang tao o mas nakatatanda.",
+    "tagalog": "matanda",
+    "synonyms": "nakatatanda",
+    "antonyms": "bata",
+    "sentence": "Ang yangyangan ay dapat igalang."
+  },
+  "yaong": {
+    "id": 746,
+    "pangasinense": "yaong",
+    "definition": "Isang lalagyan ng pagkain o likido.",
+    "tagalog": "mangkok",
+    "synonyms": "lalagyan",
+    "antonyms": "wala",
+    "sentence": "Ilagay mo ang pagkain sa yaong."
+  },
+  "yapak": {
+    "id": 747,
+    "pangasinense": "yapak",
+    "definition": "Palatandaan ng mga yapak o mga hakbang.",
+    "tagalog": "yapak",
+    "synonyms": "hakbang",
+    "antonyms": "tumalon",
+    "sentence": "Makikita ang yapak sa buhangin."
+  },
+  "yarangyarang": {
+    "id": 748,
+    "pangasinense": "yarangyarang",
+    "definition": "Pagsunod sa isang tuwid na direksyon.",
+    "tagalog": "maglakad ng diretso",
+    "synonyms": "diretsong lakad",
+    "antonyms": "umiwas",
+    "sentence": "Kailangan mong yarangyarang kung gusto mong makarating nang maaga."
+  },
+  "yarda": {
+    "id": 749,
+    "pangasinense": "yarda",
+    "definition": "Sukat na katumbas ng tatlong talampakan.",
+    "tagalog": "yarda",
+    "synonyms": "sukat",
+    "antonyms": "wala",
+    "sentence": "Ang yarda ay ginagamit sa mga konstruksiyon."
+  },
+  "yarum": {
+    "id": 750,
+    "pangasinense": "yarum",
+    "definition": "Pagsasama o pagdaragdag ng mga bagay.",
+    "tagalog": "magdagdag",
+    "synonyms": "dagdagan",
+    "antonyms": "bawasan",
+    "sentence": "Yarum ang mga gulay sa sabaw."
+  },
+  "yate": {
+    "id": 751,
+    "pangasinense": "Yate",
+    "definition": "Isang malaking bangka.",
+    "tagalog": "Yate",
+    "synonyms": "Barko",
+    "antonyms": "Wala",
+    "sentence": "Ang yate ay naglalayag sa karagatan."
+  },
+  "yatol": {
+    "id": 752,
+    "pangasinense": "Yatol",
+    "definition": "Pag-aalaga o pagprotekta sa isang tao o bagay.",
+    "tagalog": "Kupkupin",
+    "synonyms": "Alagaan",
+    "antonyms": "Pabayaan",
+    "sentence": "Dapat yatol ng mga magulang ang kanilang mga anak."
+  },
+  "yawat": {
+    "id": 753,
+    "pangasinense": "Yawat",
+    "definition": "Pagkakaloob o pagsasabi ng isang bagay sa iba.",
+    "tagalog": "Ibigay",
+    "synonyms": "Ihandog",
+    "antonyms": "Kunin",
+    "sentence": "Yawat ang tulong sa mga nangangailangan."
+  },
+  "yegyeg": {
+    "id": 754,
+    "pangasinense": "Yegyeg",
+    "definition": "Pagyanig ng lupa.",
+    "tagalog": "Lindol",
+    "synonyms": "Pagyanig",
+    "antonyms": "Katahimikan",
+    "sentence": "Ang yegyeg ay nagdudulot ng panganib sa mga tao."
+  },
+  "yengyeng": {
+    "id": 755,
+    "pangasinense": "Yengyeng",
+    "definition": "Pagkakaroon ng pakiramdam ng pagkasira o pagkaabal.",
+    "tagalog": "Nahihilo",
+    "synonyms": "Nahihilo",
+    "antonyms": "Malinaw",
+    "sentence": "Nahihilo ako kapag masyadong umiikot."
+  },
+  "yeso": {
+    "id": 756,
+    "pangasinense": "Yeso",
+    "definition": "Isang materyales na ginagamit sa paggawa ng mga bagay.",
+    "tagalog": "Yeso",
+    "synonyms": "Gesso",
+    "antonyms": "Wala",
+    "sentence": ""
+  },
+  "yesyes": {
+    "id": 757,
+    "pangasinense": "Yesyes",
+    "definition": "Pagpuputol o pagwasak ng isang bagay.",
+    "tagalog": "Baliin",
+    "synonyms": "Sira",
+    "antonyms": "Ayusin",
+    "sentence": "Maging maingat sa pag-yesyes ng mga gamit."
+  },
+  "yeyag": {
+    "id": 758,
+    "pangasinense": "Yeyag",
+    "definition": "Malakas na boses o tawag.",
+    "tagalog": "Sigaw",
+    "synonyms": "Hikbi",
+    "antonyms": "Bumulong",
+    "sentence": "Ang yeyag ng mga tao ay narinig mula sa malayo."
+  },
+  "yogayog": {
+    "id": 759,
+    "pangasinense": "Yogayog",
+    "definition": "Pagsasama ng mga sangkap.",
+    "tagalog": "Halo",
+    "synonyms": "Haluhin",
+    "antonyms": "Paghiwalayin",
+    "sentence": "Yogayog ang mga sangkap bago ilagay sa oven."
+  },
+  "yorong": {
+    "id": 760,
+    "pangasinense": "Yorong",
+    "definition": "Pagsasagawa ng pagkaupo.",
+    "tagalog": "Upo",
+    "synonyms": "Sit",
+    "antonyms": "Tumayo",
+    "sentence": "Yorong ka na at magsimula ng aralin."
+  },
+  "yosi": {
+    "id": 761,
+    "pangasinense": "Yosi",
+    "definition": "Sigarilyo.",
+    "tagalog": "Yosi",
+    "synonyms": "Sigarilyo",
+    "antonyms": "Wala",
+    "sentence": "Huwag masyadong magyosi, ito ay masama sa kalusugan."
+  },
+  "yot": {
+    "id": 762,
+    "pangasinense": "Yot",
+    "definition": "Pagsasama ng dalawang tao sa isang romantikong paraan.",
+    "tagalog": "Pagtatalik",
+    "synonyms": "Pagsasama",
+    "antonyms": "Wala",
+    "sentence": "Ang yot ay isang sagradong bahagi ng relasyon."
+  },
+  "yugtan": {
+    "id": 763,
+    "pangasinense": "Yugtan",
+    "definition": "Isang batang tao.",
+    "tagalog": "Bata",
+    "synonyms": "Sanggol",
+    "antonyms": "Matanda",
+    "sentence": "Ang yugtan ay dapat alagaan ng mabuti."
+  },
+  "yukyuk": {
+    "id": 764,
+    "pangasinense": "Yukyuk",
+    "definition": "Pagbaba sa mga tuhod.",
+    "tagalog": "Lumuhod",
+    "synonyms": "Luhod",
+    "antonyms": "Tumayo",
+    "sentence": "Yukyuk siya sa harap ng altar."
   }
 }

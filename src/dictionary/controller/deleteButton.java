@@ -26,7 +26,7 @@ public class deleteButton extends wordAction {
         if (selectedRow != -1) {
             
             /*
-            Get the pangasinense term from the selected row (this is the key in the HashMap)
+            Get the pangasinense term from the selected row (this is the key in the TreeMap)
             */
             
             String pangasinense = (String) model.getValueAt(selectedRow, 1);

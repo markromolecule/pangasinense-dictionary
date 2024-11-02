@@ -11,6 +11,8 @@ public class navBarHover {
     private static final Color CUSTOM_GRAY = new Color(204, 204, 204);
 
     public static void addHoverEffect(JButton button, boolean isSelected) {
+        button.setFocusPainted(false);
+        button.setContentAreaFilled(false);
 
         Color originalColor = button.getForeground();
 

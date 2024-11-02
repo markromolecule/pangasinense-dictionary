@@ -100,7 +100,7 @@ public class addWordsPanel extends javax.swing.JPanel {
         addButton.setBackground(new java.awt.Color(246, 241, 234));
         addButton.setFont(new java.awt.Font("Helvetica Neue", 1, 24)); // NOI18N
         addButton.setForeground(new java.awt.Color(204, 204, 204));
-        addButton.setText("ADD WORDS");
+        addButton.setText("MANAGE WORDS");
         addButton.setBorder(null);
         addButton.setBorderPainted(false);
         addButton.addActionListener(new java.awt.event.ActionListener() {
@@ -128,24 +128,24 @@ public class addWordsPanel extends javax.swing.JPanel {
         navBarPanel.setLayout(navBarPanelLayout);
         navBarPanelLayout.setHorizontalGroup(
             navBarPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, navBarPanelLayout.createSequentialGroup()
-                .addContainerGap(60, Short.MAX_VALUE)
+            .addGroup(navBarPanelLayout.createSequentialGroup()
+                .addGap(56, 56, 56)
                 .addComponent(jLabel3)
                 .addGap(44, 44, 44)
                 .addComponent(homeButton)
-                .addGap(63, 63, 63)
+                .addGap(68, 68, 68)
                 .addComponent(addButton)
-                .addGap(411, 411, 411))
+                .addContainerGap(356, Short.MAX_VALUE))
         );
         navBarPanelLayout.setVerticalGroup(
             navBarPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(navBarPanelLayout.createSequentialGroup()
-                .addContainerGap(42, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, navBarPanelLayout.createSequentialGroup()
+                .addContainerGap(41, Short.MAX_VALUE)
                 .addGroup(navBarPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
                     .addComponent(homeButton)
                     .addComponent(addButton))
-                .addGap(27, 27, 27))
+                .addGap(28, 28, 28))
         );
 
         add(navBarPanel, java.awt.BorderLayout.PAGE_START);
