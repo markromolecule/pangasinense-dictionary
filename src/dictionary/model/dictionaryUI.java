@@ -8,7 +8,6 @@ import dictionary.entities.word;
 import java.awt.event.ActionEvent;
 import java.util.TreeMap;
 import javax.swing.JFrame;
-import javax.swing.SwingWorker;
 
 public class dictionaryUI extends javax.swing.JFrame {
 
@@ -18,7 +17,6 @@ public class dictionaryUI extends javax.swing.JFrame {
     public dictionaryUI() {
         initComponents();
         loadWords();
-        loadWordsAsync();
         applyHoverEffects();
         setupAlphabetButtonListeners();
         setLocationRelativeTo(null);
@@ -559,15 +557,12 @@ public class dictionaryUI extends javax.swing.JFrame {
 
     private void homeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_homeButtonActionPerformed
         loadWords();
-        loadWordsAsync();
         javax.swing.JButton[] alphabetButtons = {
             aButton, bButton, cButton, dButton, eButton, fButton, gButton,
             hButton, iButton, jButton, kButton, lButton, mButton, nButton,
             oButton, pButton, qButton, rButton, sButton, tButton, uButton,
             vButton, wButton, xButton, yButton, zButton
         };
-
-        // Call the resetAlphabetButtons method from the navLetterHover class
         navLetterHover.resetAlphabetButtons(alphabetButtons, addButton);
         navLetterHover.addHoverEffect(aButton, true);
     }//GEN-LAST:event_homeButtonActionPerformed
@@ -575,6 +570,7 @@ public class dictionaryUI extends javax.swing.JFrame {
     private void addButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addButtonActionPerformed
         addWordsPanel panel = new addWordsPanel();
         javax.swing.JFrame frame = new javax.swing.JFrame();
+        // Properties 
         frame.add(panel);
         frame.setUndecorated(true);
         frame.pack();
@@ -622,40 +618,16 @@ public class dictionaryUI extends javax.swing.JFrame {
         for (String key : wordsMap.keySet()) {
             word wordObj = wordsMap.get(key);
 
-            // Check if query matches the word or its properties
+            // Check if the query matches the word or any of its properties
             if (key.toLowerCase().contains(query.toLowerCase())
                     || wordObj.getDefinition().toLowerCase().contains(query.toLowerCase())
                     || wordObj.getSynonyms().toLowerCase().contains(query.toLowerCase())
                     || wordObj.getAntonyms().toLowerCase().contains(query.toLowerCase())) {
 
-                javax.swing.JButton wordButton = new javax.swing.JButton(wordObj.getPangasinense());
+                // Use createWordButton method to create and style the button
+                javax.swing.JButton wordButton = createWordButton(wordObj);
 
-                // Apply button style and hover effect
-                wordButton.setPreferredSize(new java.awt.Dimension(40, 70));
-                wordButton.setFont(new java.awt.Font("Helvetica Neue", java.awt.Font.PLAIN, 14));
-                wordButton.setBackground(new java.awt.Color(255, 255, 255));
-                wordButton.setForeground(java.awt.Color.BLACK);
-                wordButton.setFocusPainted(false);
-                wordButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(246, 241, 234), 2, true));
-                wordButton.setOpaque(true);
-                wordButton.setContentAreaFilled(false);
-
-                wordButton.addMouseListener(new java.awt.event.MouseAdapter() {
-                    @Override
-                    public void mouseEntered(java.awt.event.MouseEvent evt) {
-                        wordButton.setBackground(new java.awt.Color(246, 241, 234)); // Hover color
-                        wordButton.repaint();
-                        wordButton.setOpaque(true);
-                    }
-
-                    @Override
-                    public void mouseExited(java.awt.event.MouseEvent evt) {
-                        wordButton.setBackground(new java.awt.Color(255, 255, 255)); // Original color
-                        wordButton.repaint();
-                        wordButton.setOpaque(true);
-                    }
-                });
-
+                // Add action listener to display word details
                 wordButton.addActionListener((ActionEvent e) -> {
                     showWordDetails wordDetailsPanel = new showWordDetails(wordObj);
                     javax.swing.JFrame frame = new javax.swing.JFrame();
@@ -680,33 +652,6 @@ public class dictionaryUI extends javax.swing.JFrame {
 
         wordsPanel.revalidate();
         wordsPanel.repaint();
-    }
-
-    private void loadWordsAsync() {
-        SwingWorker<Void, javax.swing.JButton> worker = new SwingWorker<>() {
-            @Override
-            protected Void doInBackground() {
-                TreeMap<String, word> wordsMap = new wordManager().getWordMap();
-                for (String key : wordsMap.keySet()) {
-                    word wordObj = wordsMap.get(key);
-                    javax.swing.JButton wordButton = createWordButton(wordObj);
-                    publish(wordButton);
-                }
-                return null;
-            }
-
-            @Override
-            protected void process(java.util.List<javax.swing.JButton> chunks) {
-                chunks.forEach(wordsPanel::add);
-            }
-
-            @Override
-            protected void done() {
-                wordsPanel.revalidate();
-                wordsPanel.repaint();
-            }
-        };
-        worker.execute();
     }
 
     private javax.swing.JButton createWordButton(word wordObj) {

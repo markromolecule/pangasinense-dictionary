@@ -1,6 +1,7 @@
 package dictionary.model;
 
 import dictionary.model.helper.navBarHover;
+import dictionary.model.helper.autoComplete;
 import dictionary.controller.createButton;
 import dictionary.controller.updateButton;
 import dictionary.controller.deleteButton;
@@ -16,7 +17,12 @@ public class addWordsPanel extends javax.swing.JPanel {
         initComponents();
         applyHoverEffects();
         loadWordsFromFile();
-
+        
+        autoComplete pangasinenseAutoComplete = new autoComplete(
+            pangasinenseField, pangasinenseField, definitionField, tagalogField,
+            synonymField, antonymField, sentenceField, wordManager
+        );
+        
         DefaultTableModel model = (DefaultTableModel) wordListTable.getModel();
         wordListTable.getSelectionModel().addListSelectionListener(event -> {
             int selectedRow = wordListTable.getSelectedRow();

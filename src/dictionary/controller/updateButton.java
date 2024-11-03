@@ -9,75 +9,84 @@ import javax.swing.JTextField;
 
 public class updateButton extends wordAction {
 
-    private wordManager wordManager;
+    private final wordManager wordManager;
     
     public updateButton(DefaultTableModel model, JTable wordListTable, 
-            JTextField pangasinenseField, JTextField definitionField, 
-            JTextField tagalogField, JTextField synonymField,
-            JTextField antonymField, JTextField sentenceField, 
-            wordManager wordManager) {
-        super(model, wordListTable, pangasinenseField, definitionField, 
-                tagalogField, synonymField, antonymField, sentenceField);
+                        JTextField pangasinanField, JTextField definitionField, 
+                        JTextField tagalogField, JTextField synonymField,
+                        JTextField antonymField, JTextField sentenceField, 
+                        wordManager wordManager) {
+        super(model, wordListTable, pangasinanField, definitionField, 
+              tagalogField, synonymField, antonymField, sentenceField);
         this.wordManager = wordManager;
     }
 
     @Override
     public void execute() {
         int selectedRow = wordListTable.getSelectedRow();
-        if (selectedRow != -1) {
-            String originalPangasinense = (String) model.getValueAt(selectedRow, 1);
-
-            String pangasinense = pangasinenseField.getText();
-            String definition = definitionField.getText();
-            String tagalog = tagalogField.getText();
-            String synonyms = synonymField.getText();
-            String antonyms = antonymField.getText();
-            String sentence = sentenceField.getText();
-            
-            // Update the values in the model
-            model.setValueAt(pangasinense, selectedRow, 1);
-            model.setValueAt(definition, selectedRow, 2);
-            model.setValueAt(tagalog, selectedRow, 3);
-            model.setValueAt(synonyms, selectedRow, 4);
-            model.setValueAt(antonyms, selectedRow, 5);
-            model.setValueAt(sentence, selectedRow, 6);
-
-            // Check if the original word exists
-            word existingWord = wordManager.getWord(originalPangasinense);
-            if (existingWord != null) {
-                // If the key (pangasinense word) is changing
-                if (!originalPangasinense.equals(pangasinense)) {
-                    // Check for a duplicate with the new key
-                    if (wordManager.getWordMap().containsKey(pangasinense)) {
-                        System.out.println("Duplicate word found: " + pangasinense);
-                        return; // Stop the update to prevent a duplicate
-                    }
-
-                    // Remove the old key before adding the updated entry
-                    wordManager.getWordMap().remove(originalPangasinense);
-                }
-
-                // Update the fields in the existing word object
-                existingWord.setPangasinense(pangasinense);
-                existingWord.setDefinition(definition);
-                existingWord.setTagalog(tagalog);
-                existingWord.setSynonyms(synonyms);
-                existingWord.setAntonyms(antonyms);
-                existingWord.setSentence(sentence);
-
-                // Add the updated word with the new key (or reinsert with the same key if unchanged)
-                wordManager.getWordMap().put(pangasinense, existingWord);
-
-                // Optionally, save data to persist the changes
-                wordManager.saveData();
-            } else {
-                // If the original word was removed or doesn't exist, create a new one
-                word updatedWord = new word(selectedRow + 1, pangasinense, 
-                        definition, tagalog, synonyms, antonyms, sentence);
-                wordManager.addWord(updatedWord);
-            }
-            clearFields();
+        if (selectedRow == -1) {
+            System.out.println("No word selected for update.");
+            return;
         }
+
+        String originalPangasinan = (String) model.getValueAt(selectedRow, 1);
+        String pangasinan = pangasinenseField.getText().trim();
+        String definition = definitionField.getText().trim();
+        String tagalog = tagalogField.getText().trim();
+        String synonyms = synonymField.getText().trim();
+        String antonyms = antonymField.getText().trim();
+        String sentence = sentenceField.getText().trim();
+
+        updateTableModel(selectedRow, pangasinan, definition, tagalog, synonyms, antonyms, sentence);
+
+        word existingWord = wordManager.getWord(originalPangasinan);
+        if (existingWord != null) {
+            if (handleWordKeyChange(originalPangasinan, pangasinan)) {
+                updateExistingWord(existingWord, pangasinan, definition, tagalog, synonyms, antonyms, sentence);
+            }
+        } else {
+            addNewWord(selectedRow, pangasinan, definition, tagalog, synonyms, antonyms, sentence);
+        }
+        clearFields();
+    }
+
+    private void updateTableModel(int selectedRow, String pangasinan, String definition, String tagalog, 
+                                  String synonyms, String antonyms, String sentence) {
+        model.setValueAt(pangasinan, selectedRow, 1);
+        model.setValueAt(definition, selectedRow, 2);
+        model.setValueAt(tagalog, selectedRow, 3);
+        model.setValueAt(synonyms, selectedRow, 4);
+        model.setValueAt(antonyms, selectedRow, 5);
+        model.setValueAt(sentence, selectedRow, 6);
+    }
+
+    private boolean handleWordKeyChange(String originalPangasinan, String newPangasinan) {
+        if (!originalPangasinan.equals(newPangasinan)) {
+            if (wordManager.getWordMap().containsKey(newPangasinan)) {
+                System.out.println("Duplicate word found: " + newPangasinan);
+                return false;
+            }
+            wordManager.getWordMap().remove(originalPangasinan);
+        }
+        return true;
+    }
+
+    private void updateExistingWord(word word, String pangasinan, String definition, String tagalog, 
+                                    String synonyms, String antonyms, String sentence) {
+        word.setPangasinense(pangasinan);
+        word.setDefinition(definition);
+        word.setTagalog(tagalog);
+        word.setSynonyms(synonyms);
+        word.setAntonyms(antonyms);
+        word.setSentence(sentence);
+        wordManager.getWordMap().put(pangasinan, word);
+        wordManager.saveData();
+    }
+
+    private void addNewWord(int rowId, String pangasinan, String definition, String tagalog, 
+                            String synonyms, String antonyms, String sentence) {
+        word newWord = new word(rowId + 1, pangasinan, definition, tagalog, synonyms, antonyms, sentence);
+        wordManager.addWord(newWord);
     }
 
     private void clearFields() {

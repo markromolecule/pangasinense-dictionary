@@ -85,19 +85,15 @@
                   <Component id="definitionText" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="definitionField" min="-2" pref="90" max="-2" attributes="0"/>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
-                      <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
-                          <Component id="synonymText" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="37" pref="37" max="-2" attributes="0"/>
-                          <Component id="antonymText" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <Component id="synonymsField" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="33" pref="33" max="-2" attributes="0"/>
-                          <Component id="antonymsField" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                      <Component id="synonymText" min="-2" max="-2" attributes="0"/>
+                      <Component id="synonymsField" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="antonymText" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="antonymsField" alignment="1" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
                   <Component id="sentenceText" min="-2" max="-2" attributes="0"/>
