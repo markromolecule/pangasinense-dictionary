@@ -6874,5 +6874,104 @@
     "synonyms": "Luhod",
     "antonyms": "Tumayo",
     "sentence": "Yukyuk siya sa harap ng altar."
+  },
+  "nanám": {
+    "id": 765,
+    "pangasinense": "nanám",
+    "definition": "savor, taste appreciatively.",
+    "tagalog": "lasa, malasahan",
+    "synonyms": "tikman, namnamin",
+    "antonyms": "wala (N/A)",
+    "sentence": "Ninanam niya ang pagkain habang ito ay mainit pa."
+  },
+  "mananám": {
+    "id": 766,
+    "pangasinense": "mananám",
+    "definition": "savory, tasty.",
+    "tagalog": "malasa, masarap",
+    "synonyms": "malinamnam, masarap",
+    "antonyms": "walang lasa",
+    "sentence": "Ang ulam ay sobrang mananám at gustong-gusto ng mga bisita."
+  },
+  "nánay": {
+    "id": 767,
+    "pangasinense": "nánay",
+    "definition": "term of address for one’s own mother.",
+    "tagalog": "nanay, ina",
+    "synonyms": "inay, mama",
+    "antonyms": "wala (N/A)",
+    "sentence": "Tuwang-tuwa ang kanyang nánay sa kanyang tagumpay."
+  },
+  "naynáy": {
+    "id": 768,
+    "pangasinense": "naynáy",
+    "definition": "often, habitually, always.",
+    "tagalog": "madalas, palagi",
+    "synonyms": "parati, lagi",
+    "antonyms": "bihira",
+    "sentence": "Siya ay naynáy na tumutulong sa kanyang mga kapitbahay."
+  },
+  "nónot": {
+    "id": 769,
+    "pangasinense": "nónot",
+    "definition": "intend, think, remember, recall; intention.",
+    "tagalog": "isipin, alalahanin, balak",
+    "synonyms": "balakin, tandaan",
+    "antonyms": "kalimutan",
+    "sentence": "Nónotin niya ang kanyang plano upang magtagumpay sa buhay."
+  },
+  "ngalñgalí": {
+    "id": 770,
+    "pangasinense": "ngalñgalí",
+    "definition": "almost, nearly.",
+    "tagalog": "halos, malapit na",
+    "synonyms": "muntik na, kaunti na lang",
+    "antonyms": "totoo, sigurado",
+    "sentence": "Ñgalñgalí na siyang mahulog mula sa hagdan."
+  },
+  "ngóyñgoy": {
+    "id": 771,
+    "pangasinense": "ngóyñgoy",
+    "definition": "running mucus or saliva.",
+    "tagalog": "sipon, laway",
+    "synonyms": "tulo, agos",
+    "antonyms": "wala (N/A)",
+    "sentence": "May ñgóyñgoy na ang batang naglalaro sa labas."
+  },
+  "ngosñgós": {
+    "id": 772,
+    "pangasinense": "ngosñgós",
+    "definition": "the jumping up and squealing of dogs greeting their master; noises made by young children wanting food or attention.",
+    "tagalog": "pagtatalon at pagtahol",
+    "synonyms": "sigaw, ingay",
+    "antonyms": "katahimikan",
+    "sentence": "Ang mga aso ay ñgosñgós na sinalubong ang kanilang amo pagdating."
+  },
+  "ngoró": {
+    "id": 773,
+    "pangasinense": "ngoró",
+    "definition": "top portion of a plant or other object.",
+    "tagalog": "dulo, tuktok",
+    "synonyms": "ibabaw, itaas",
+    "antonyms": "ibaba, ilalim",
+    "sentence": "Ang ñgoró ng puno ay puno ng mga bulaklak."
+  },
+  "ngiréyet": {
+    "id": 774,
+    "pangasinense": "ngiréyet",
+    "definition": "to show the teeth (e.g., when smiling).",
+    "tagalog": "ipakita ang ngipin",
+    "synonyms": "ngumiti, ibukas ang bibig",
+    "antonyms": "magtago, ibaba ang ulo",
+    "sentence": "Ñgiréyet siya habang siya ay bumabati sa mga bisita."
+  },
+  "ngalóñgalóan": {
+    "id": 775,
+    "pangasinense": "ngalóñgalóan",
+    "definition": "wrist.",
+    "tagalog": "galang-galangan",
+    "synonyms": "pulsuhan",
+    "antonyms": "wala (N/A)",
+    "sentence": "Sinusukat ng doktor ang pulso sa kanyang ñgalóñgalóan."
   }
 }
