@@ -1,10 +1,7 @@
 package dictionary.model;
 
 import dictionary.model.helper.navBarHover;
-import dictionary.model.helper.autoComplete;
-import dictionary.controller.createButton;
-import dictionary.controller.updateButton;
-import dictionary.controller.deleteButton;
+import dictionary.controller.wordController;
 import dictionary.manager.wordManager;
 import dictionary.entities.word;
 import javax.swing.table.DefaultTableModel;
@@ -17,12 +14,7 @@ public class addWordsPanel extends javax.swing.JPanel {
         initComponents();
         applyHoverEffects();
         loadWordsFromFile();
-        
-        autoComplete pangasinenseAutoComplete = new autoComplete(
-            pangasinenseField, pangasinenseField, definitionField, tagalogField,
-            synonymField, antonymField, sentenceField, wordManager
-        );
-        
+
         DefaultTableModel model = (DefaultTableModel) wordListTable.getModel();
         wordListTable.getSelectionModel().addListSelectionListener(event -> {
             int selectedRow = wordListTable.getSelectedRow();
@@ -418,29 +410,60 @@ public class addWordsPanel extends javax.swing.JPanel {
     }//GEN-LAST:event_homeButtonActionPerformed
 
     private void createButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_createButtonActionPerformed
-        DefaultTableModel model = (DefaultTableModel) wordListTable.getModel();
+            DefaultTableModel model = (DefaultTableModel) wordListTable.getModel();
 
-        createButton createAction = new createButton(model, wordListTable,
-                pangasinenseField, definitionField, tagalogField,
-                synonymField, antonymField, sentenceField, wordManager);
-        createAction.execute();
+            wordController createAction = new wordController(
+                wordController.ActionType.CREATE,
+                model, 
+                wordListTable,
+                pangasinenseField, 
+                definitionField, 
+                tagalogField,
+                synonymField, 
+                antonymField, 
+                sentenceField, 
+                wordManager
+            );
+
+            createAction.execute();
     }//GEN-LAST:event_createButtonActionPerformed
 
     private void updateButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_updateButtonActionPerformed
         DefaultTableModel model = (DefaultTableModel) wordListTable.getModel();
-        updateButton updateAction = new updateButton(model, wordListTable,
-                pangasinenseField, definitionField, tagalogField,
-                synonymField, antonymField, sentenceField, wordManager);
+
+        wordController updateAction = new wordController(
+            wordController.ActionType.UPDATE,
+            model, 
+            wordListTable,
+            pangasinenseField, 
+            definitionField, 
+            tagalogField,
+            synonymField, 
+            antonymField, 
+            sentenceField, 
+            wordManager
+        );
+
         updateAction.execute();
     }//GEN-LAST:event_updateButtonActionPerformed
 
     private void deleteButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deleteButtonActionPerformed
         DefaultTableModel model = (DefaultTableModel) wordListTable.getModel();
-        deleteButton deleteAction = new deleteButton(model, wordListTable,
-                pangasinenseField, definitionField, tagalogField,
-                synonymField, antonymField, sentenceField, wordManager);
-        deleteAction.execute();
 
+        wordController deleteAction = new wordController(
+            wordController.ActionType.DELETE,
+            model, 
+            wordListTable,
+            pangasinenseField, 
+            definitionField, 
+            tagalogField,
+            synonymField, 
+            antonymField, 
+            sentenceField, 
+            wordManager
+        );
+
+        deleteAction.execute();
     }//GEN-LAST:event_deleteButtonActionPerformed
 
     private void saveButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveButtonActionPerformed
