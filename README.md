@@ -1,3 +1,3 @@
-#a-java-based-dictionary
+**#a-java-based-dictionary
 
-Final PROJECT for Data Structure & Algorithms using Treemap
+Final Project for Data Structure & Algorithms using Treemap
