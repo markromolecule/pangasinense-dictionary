@@ -1,3 +1,3 @@
-**#a-java-based-dictionary
+# java-based-dictionary
 
-Final Project for Data Structure & Algorithms using Treemap
+A simple java based dictionary using a treemap to store data
